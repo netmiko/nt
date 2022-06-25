@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How to Install SRA Toolkit in Ubuntu 20.04	</title>
+	<atom:link href="https://netmiko.com/install-sra-toolkit-in-ubuntu/feed/" rel="self" type="application/rss+xml" />
+	<link>https://netmiko.com/install-sra-toolkit-in-ubuntu/</link>
+	<description></description>
+	<lastBuildDate>Mon, 09 May 2022 05:26:26 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+	<item>
+		<title>
+		By: AOMIE		</title>
+		<link>https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-762</link>
+
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Mon, 09 May 2022 05:26:26 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=457#comment-762</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-759&quot;&gt;Santi&lt;/a&gt;.
+
+This video might help. - https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;url=https://m.youtube.com/watch%3Fv%3Dzf31BJ4v92E&amp;ved=2ahUKEwiI6bOI19H3AhWoUGwGHSYXDzcQjjh6BAgFEAI&amp;usg=AOvVaw3AjPPbAj1GNj7M2T6nwdAM]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-759">Santi</a>.</p>
+<p>This video might help. &#8211; <a href="https://www.google.com/url?sa=t&#038;source=web&#038;rct=j&#038;url=https://m.youtube.com/watch%3Fv%3Dzf31BJ4v92E&#038;ved=2ahUKEwiI6bOI19H3AhWoUGwGHSYXDzcQjjh6BAgFEAI&#038;usg=AOvVaw3AjPPbAj1GNj7M2T6nwdAM" rel="nofollow ugc">https://www.google.com/url?sa=t&#038;source=web&#038;rct=j&#038;url=https://m.youtube.com/watch%3Fv%3Dzf31BJ4v92E&#038;ved=2ahUKEwiI6bOI19H3AhWoUGwGHSYXDzcQjjh6BAgFEAI&#038;usg=AOvVaw3AjPPbAj1GNj7M2T6nwdAM</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Santi		</title>
+		<link>https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-759</link>
+
+		<dc:creator><![CDATA[Santi]]></dc:creator>
+		<pubDate>Sun, 08 May 2022 03:56:59 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=457#comment-759</guid>
+
+					<description><![CDATA[Hi, I really like the way you explain the steps, I am really grateful for it. 
+Nonetheless, when I used this &quot;command tar -vxzf sratoolkit.tar.gz&quot; I got an error that says: &quot;tar: Error is not recoverable: exiting now&quot;. How can I solve this?
+Thanks again for your help.]]></description>
+			<content:encoded><![CDATA[<p>Hi, I really like the way you explain the steps, I am really grateful for it.<br />
+Nonetheless, when I used this &#8220;command tar -vxzf sratoolkit.tar.gz&#8221; I got an error that says: &#8220;tar: Error is not recoverable: exiting now&#8221;. How can I solve this?<br />
+Thanks again for your help.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: AOMIE		</title>
+		<link>https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-678</link>
+
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Sun, 17 Apr 2022 07:33:09 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=457#comment-678</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-672&quot;&gt;Firdaus&lt;/a&gt;.
+
+Try to install sra again, you might have missed a step or miss typed something.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-672">Firdaus</a>.</p>
+<p>Try to install sra again, you might have missed a step or miss typed something.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Victor		</title>
+		<link>https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-677</link>
+
+		<dc:creator><![CDATA[Victor]]></dc:creator>
+		<pubDate>Sat, 16 Apr 2022 22:14:47 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=457#comment-677</guid>
+
+					<description><![CDATA[Thank you, you helped me a lot.]]></description>
+			<content:encoded><![CDATA[<p>Thank you, you helped me a lot.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Firdaus		</title>
+		<link>https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-672</link>
+
+		<dc:creator><![CDATA[Firdaus]]></dc:creator>
+		<pubDate>Sat, 16 Apr 2022 12:01:36 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=457#comment-672</guid>
+
+					<description><![CDATA[I followed all steps as you mentioned but I wanted to check that sratoolkit is functional or not ,I entered sra number given by you and it gave error that it couldn&#039;t find.why is this so?]]></description>
+			<content:encoded><![CDATA[<p>I followed all steps as you mentioned but I wanted to check that sratoolkit is functional or not ,I entered sra number given by you and it gave error that it couldn&#8217;t find.why is this so?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

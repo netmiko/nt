@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How to Install KOHA on Ubuntu 20.04	</title>
+	<atom:link href="https://netmiko.com/install-koha-on-ubuntu-linux/feed/" rel="self" type="application/rss+xml" />
+	<link>https://netmiko.com/install-koha-on-ubuntu-linux/</link>
+	<description></description>
+	<lastBuildDate>Sat, 07 May 2022 10:46:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+	<item>
+		<title>
+		By: AOMIE		</title>
+		<link>https://netmiko.com/install-koha-on-ubuntu-linux/#comment-612</link>
+
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Mon, 04 Apr 2022 08:51:33 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=146#comment-612</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://netmiko.com/install-koha-on-ubuntu-linux/#comment-606&quot;&gt;Paul&lt;/a&gt;.
+
+Hi, yes you can share koha via lan or webhost. You can host koha on cloud if you want anyone from anywhere to use it. Or if you want local users that are connected to the same network to be able to use it then you can also do that.
+
+The articles given below will help you - 
+
+https://stackoverflow.com/questions/11820777/access-koha-staff-opac-client-over-lan-network
+https://wiki.koha-community.org/wiki/How_to_set_up_a_domain_name_for_Koha
+https://www.youtube.com/watch?v=aaLHrX1fdL8]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://netmiko.com/install-koha-on-ubuntu-linux/#comment-606">Paul</a>.</p>
+<p>Hi, yes you can share koha via lan or webhost. You can host koha on cloud if you want anyone from anywhere to use it. Or if you want local users that are connected to the same network to be able to use it then you can also do that.</p>
+<p>The articles given below will help you &#8211; </p>
+<p><a href="https://stackoverflow.com/questions/11820777/access-koha-staff-opac-client-over-lan-network" rel="nofollow ugc">https://stackoverflow.com/questions/11820777/access-koha-staff-opac-client-over-lan-network</a><br />
+<a href="https://wiki.koha-community.org/wiki/How_to_set_up_a_domain_name_for_Koha" rel="nofollow ugc">https://wiki.koha-community.org/wiki/How_to_set_up_a_domain_name_for_Koha</a><br />
+<a href="https://www.youtube.com/watch?v=aaLHrX1fdL8" rel="nofollow ugc">https://www.youtube.com/watch?v=aaLHrX1fdL8</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Paul		</title>
+		<link>https://netmiko.com/install-koha-on-ubuntu-linux/#comment-606</link>
+
+		<dc:creator><![CDATA[Paul]]></dc:creator>
+		<pubDate>Sun, 03 Apr 2022 09:39:56 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=146#comment-606</guid>
+
+					<description><![CDATA[Dear Sir,
+
+Can we share koha via lan base or webhost? if yes how can we share or what is the configuration to be access by anyone on the clien
+
+thank you and god bless for your help]]></description>
+			<content:encoded><![CDATA[<p>Dear Sir,</p>
+<p>Can we share koha via lan base or webhost? if yes how can we share or what is the configuration to be access by anyone on the clien</p>
+<p>thank you and god bless for your help</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

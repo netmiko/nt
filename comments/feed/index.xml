@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments for NETMIKO.COM	</title>
+	<atom:link href="https://netmiko.com/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://netmiko.com</link>
+	<description></description>
+	<lastBuildDate>Sun, 12 Jun 2022 15:40:11 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+	<item>
+		<title>
+		Comment on How to Install and Setup Anaconda on Ubuntu 20.04 by AOMIE		</title>
+		<link>https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-792</link>
+
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Sun, 12 Jun 2022 15:40:11 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=1253#comment-792</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-791&quot;&gt;PANAMALA HEPSIBHA&lt;/a&gt;.
+
+Means conda is installed properly, try running it.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-791">PANAMALA HEPSIBHA</a>.</p>
+<p>Means conda is installed properly, try running it.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to Install and Setup Anaconda on Ubuntu 20.04 by PANAMALA HEPSIBHA		</title>
+		<link>https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-791</link>
+
+		<dc:creator><![CDATA[PANAMALA HEPSIBHA]]></dc:creator>
+		<pubDate>Sun, 12 Jun 2022 13:59:28 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=1253#comment-791</guid>
+
+					<description><![CDATA[Hii...
+i didn&#039;t getting conda verson when &quot;conda --version&quot;...
+
+
+i am also checked where i missed but it gives already exists...]]></description>
+			<content:encoded><![CDATA[<p>Hii&#8230;<br />
+i didn&#8217;t getting conda verson when &#8220;conda &#8211;version&#8221;&#8230;</p>
+<p>i am also checked where i missed but it gives already exists&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to Install and Setup Anaconda on Ubuntu 20.04 by PANAMALA HEPSIBHA		</title>
+		<link>https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-790</link>
+
+		<dc:creator><![CDATA[PANAMALA HEPSIBHA]]></dc:creator>
+		<pubDate>Sun, 12 Jun 2022 13:57:11 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=1253#comment-790</guid>
+
+					<description><![CDATA[Hii...
+i didn&#039;t getting conda verson when &quot;conda --version&quot;...
+please give me reply]]></description>
+			<content:encoded><![CDATA[<p>Hii&#8230;<br />
+i didn&#8217;t getting conda verson when &#8220;conda &#8211;version&#8221;&#8230;<br />
+please give me reply</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to Install AutoDock Vina on Ubuntu 20.04 by Russell Cox		</title>
+		<link>https://netmiko.com/install-autodock-vina-ubuntu/#comment-768</link>
+
+		<dc:creator><![CDATA[Russell Cox]]></dc:creator>
+		<pubDate>Wed, 11 May 2022 06:54:57 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=1098#comment-768</guid>
+
+					<description><![CDATA[sudo gedit ~/.bashrc
+
+does not work - generates an error. But
+
+gedit ~/.bashrc
+
+works OK]]></description>
+			<content:encoded><![CDATA[<p>sudo gedit ~/.bashrc</p>
+<p>does not work &#8211; generates an error. But</p>
+<p>gedit ~/.bashrc</p>
+<p>works OK</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to Install SRA Toolkit in Ubuntu 20.04 by AOMIE		</title>
+		<link>https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-762</link>
+
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Mon, 09 May 2022 05:26:26 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=457#comment-762</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-759&quot;&gt;Santi&lt;/a&gt;.
+
+This video might help. - https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;url=https://m.youtube.com/watch%3Fv%3Dzf31BJ4v92E&amp;ved=2ahUKEwiI6bOI19H3AhWoUGwGHSYXDzcQjjh6BAgFEAI&amp;usg=AOvVaw3AjPPbAj1GNj7M2T6nwdAM]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-759">Santi</a>.</p>
+<p>This video might help. &#8211; <a href="https://www.google.com/url?sa=t&#038;source=web&#038;rct=j&#038;url=https://m.youtube.com/watch%3Fv%3Dzf31BJ4v92E&#038;ved=2ahUKEwiI6bOI19H3AhWoUGwGHSYXDzcQjjh6BAgFEAI&#038;usg=AOvVaw3AjPPbAj1GNj7M2T6nwdAM" rel="nofollow ugc">https://www.google.com/url?sa=t&#038;source=web&#038;rct=j&#038;url=https://m.youtube.com/watch%3Fv%3Dzf31BJ4v92E&#038;ved=2ahUKEwiI6bOI19H3AhWoUGwGHSYXDzcQjjh6BAgFEAI&#038;usg=AOvVaw3AjPPbAj1GNj7M2T6nwdAM</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to Install SRA Toolkit in Ubuntu 20.04 by Santi		</title>
+		<link>https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-759</link>
+
+		<dc:creator><![CDATA[Santi]]></dc:creator>
+		<pubDate>Sun, 08 May 2022 03:56:59 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=457#comment-759</guid>
+
+					<description><![CDATA[Hi, I really like the way you explain the steps, I am really grateful for it. 
+Nonetheless, when I used this &quot;command tar -vxzf sratoolkit.tar.gz&quot; I got an error that says: &quot;tar: Error is not recoverable: exiting now&quot;. How can I solve this?
+Thanks again for your help.]]></description>
+			<content:encoded><![CDATA[<p>Hi, I really like the way you explain the steps, I am really grateful for it.<br />
+Nonetheless, when I used this &#8220;command tar -vxzf sratoolkit.tar.gz&#8221; I got an error that says: &#8220;tar: Error is not recoverable: exiting now&#8221;. How can I solve this?<br />
+Thanks again for your help.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to Upload Profile Video on Facebook [ 2022 Working Method ] by AOMIE		</title>
+		<link>https://netmiko.com/upload-profile-video-facebook-working-latest/#comment-755</link>
+
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Wed, 04 May 2022 16:32:27 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=1480#comment-755</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://netmiko.com/upload-profile-video-facebook-working-latest/#comment-753&quot;&gt;Law&lt;/a&gt;.
+
+This method is now not working for everyone. You should look for alternative methods.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://netmiko.com/upload-profile-video-facebook-working-latest/#comment-753">Law</a>.</p>
+<p>This method is now not working for everyone. You should look for alternative methods.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to Upload Profile Video on Facebook [ 2022 Working Method ] by Law		</title>
+		<link>https://netmiko.com/upload-profile-video-facebook-working-latest/#comment-753</link>
+
+		<dc:creator><![CDATA[Law]]></dc:creator>
+		<pubDate>Wed, 04 May 2022 11:52:13 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=1480#comment-753</guid>
+
+					<description><![CDATA[the profile video uploaded but didn&#039;t shows out in my profile]]></description>
+			<content:encoded><![CDATA[<p>the profile video uploaded but didn&#8217;t shows out in my profile</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to Install SRA Toolkit in Ubuntu 20.04 by AOMIE		</title>
+		<link>https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-678</link>
+
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Sun, 17 Apr 2022 07:33:09 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=457#comment-678</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-672&quot;&gt;Firdaus&lt;/a&gt;.
+
+Try to install sra again, you might have missed a step or miss typed something.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-672">Firdaus</a>.</p>
+<p>Try to install sra again, you might have missed a step or miss typed something.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How to Install SRA Toolkit in Ubuntu 20.04 by Victor		</title>
+		<link>https://netmiko.com/install-sra-toolkit-in-ubuntu/#comment-677</link>
+
+		<dc:creator><![CDATA[Victor]]></dc:creator>
+		<pubDate>Sat, 16 Apr 2022 22:14:47 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=457#comment-677</guid>
+
+					<description><![CDATA[Thank you, you helped me a lot.]]></description>
+			<content:encoded><![CDATA[<p>Thank you, you helped me a lot.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

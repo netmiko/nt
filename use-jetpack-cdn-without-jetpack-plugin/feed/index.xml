@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How to use Jetpack Image CDN without Jetpack plugin	</title>
+	<atom:link href="https://netmiko.com/use-jetpack-cdn-without-jetpack-plugin/feed/" rel="self" type="application/rss+xml" />
+	<link>https://netmiko.com/use-jetpack-cdn-without-jetpack-plugin/</link>
+	<description></description>
+	<lastBuildDate>Sat, 07 May 2022 10:45:24 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+	<item>
+		<title>
+		By: AOMIE		</title>
+		<link>https://netmiko.com/use-jetpack-cdn-without-jetpack-plugin/#comment-72</link>
+
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Fri, 05 Nov 2021 07:46:05 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=619#comment-72</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://netmiko.com/use-jetpack-cdn-without-jetpack-plugin/#comment-69&quot;&gt;Supertrooper&lt;/a&gt;.
+
+By contacting jetpack plugin support at &lt;a href=&quot;https://wordpress.org/support/plugin/jetpack/&quot; rel=&quot;nofollow ugc&quot;&gt;https://wordpress.org/support/plugin/jetpack/&lt;/a&gt;.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://netmiko.com/use-jetpack-cdn-without-jetpack-plugin/#comment-69">Supertrooper</a>.</p>
+<p>By contacting jetpack plugin support at <a href="https://wordpress.org/support/plugin/jetpack/" rel="nofollow ugc">https://wordpress.org/support/plugin/jetpack/</a>.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Supertrooper		</title>
+		<link>https://netmiko.com/use-jetpack-cdn-without-jetpack-plugin/#comment-69</link>
+
+		<dc:creator><![CDATA[Supertrooper]]></dc:creator>
+		<pubDate>Thu, 04 Nov 2021 19:54:27 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=619#comment-69</guid>
+
+					<description><![CDATA[Thanks for this great tutorial introducing CDN Enabler with custom PHP code. After uploading images they are immediately cached in the CDN, and we don&#039;t see any way to purge them from the cache after compressing using ShortPixel. How can we purge the larger images from the CDN cache?]]></description>
+			<content:encoded><![CDATA[<p>Thanks for this great tutorial introducing CDN Enabler with custom PHP code. After uploading images they are immediately cached in the CDN, and we don&#8217;t see any way to purge them from the cache after compressing using ShortPixel. How can we purge the larger images from the CDN cache?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: AOMIE		</title>
+		<link>https://netmiko.com/use-jetpack-cdn-without-jetpack-plugin/#comment-43</link>
+
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Sun, 17 Oct 2021 04:16:14 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=619#comment-43</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://netmiko.com/use-jetpack-cdn-without-jetpack-plugin/#comment-41&quot;&gt;Ganesh Debnath&lt;/a&gt;.
+
+hi, I saw your site. the images are loading through the cdn. Jetpack cdn only works with png and jpg file types and not with svg and other file types. You should use statically cdn instead if you want all image file types to load through cdn. &lt;a href=&quot;https://netmiko.com/tutorials/use-statically-cdn-on-a-wordpress-blog/&quot;&gt;http://https://netmiko.com/tutorials/use-statically-cdn-on-a-wordpress-blog/&lt;/a&gt;]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://netmiko.com/use-jetpack-cdn-without-jetpack-plugin/#comment-41">Ganesh Debnath</a>.</p>
+<p>hi, I saw your site. the images are loading through the cdn. Jetpack cdn only works with png and jpg file types and not with svg and other file types. You should use statically cdn instead if you want all image file types to load through cdn. <a href="https://netmiko.com/tutorials/use-statically-cdn-on-a-wordpress-blog/">https://netmiko.com/tutorials/use-statically-cdn-on-a-wordpress-blog/</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ganesh Debnath		</title>
+		<link>https://netmiko.com/use-jetpack-cdn-without-jetpack-plugin/#comment-41</link>
+
+		<dc:creator><![CDATA[Ganesh Debnath]]></dc:creator>
+		<pubDate>Sun, 17 Oct 2021 03:38:14 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=619#comment-41</guid>
+
+					<description><![CDATA[https://globalteahouse.in/ 
+Its My site i use this mathod working fine but all image not use cdn url (i0.wp.cpm) plz chak and help me plz]]></description>
+			<content:encoded><![CDATA[<p><a href="https://globalteahouse.in/" rel="nofollow ugc">https://globalteahouse.in/</a><br />
+Its My site i use this mathod working fine but all image not use cdn url (i0.wp.cpm) plz chak and help me plz</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

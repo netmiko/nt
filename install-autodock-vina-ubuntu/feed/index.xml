@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How to Install AutoDock Vina on Ubuntu 20.04	</title>
+	<atom:link href="https://netmiko.com/install-autodock-vina-ubuntu/feed/" rel="self" type="application/rss+xml" />
+	<link>https://netmiko.com/install-autodock-vina-ubuntu/</link>
+	<description></description>
+	<lastBuildDate>Wed, 11 May 2022 06:54:57 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+	<item>
+		<title>
+		By: Russell Cox		</title>
+		<link>https://netmiko.com/install-autodock-vina-ubuntu/#comment-768</link>
+
+		<dc:creator><![CDATA[Russell Cox]]></dc:creator>
+		<pubDate>Wed, 11 May 2022 06:54:57 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=1098#comment-768</guid>
+
+					<description><![CDATA[sudo gedit ~/.bashrc
+
+does not work - generates an error. But
+
+gedit ~/.bashrc
+
+works OK]]></description>
+			<content:encoded><![CDATA[<p>sudo gedit ~/.bashrc</p>
+<p>does not work &#8211; generates an error. But</p>
+<p>gedit ~/.bashrc</p>
+<p>works OK</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

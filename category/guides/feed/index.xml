@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Guides - NETMIKO.COM</title>
+	<atom:link href="https://netmiko.com/category/guides/feed/" rel="self" type="application/rss+xml" />
+	<link>https://netmiko.com</link>
+	<description></description>
+	<lastBuildDate>Sat, 25 Jun 2022 12:11:58 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+
+<image>
+	<url>https://netmiko.com/wp-content/uploads/2021/09/favicon-150x150.png</url>
+	<title>Guides - NETMIKO.COM</title>
+	<link>https://netmiko.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>[ Beginners Guide for Bitlife &#8211; Life Simulator ] Playing and Installation Guide</title>
+		<link>https://netmiko.com/beginners-guide-for-bitlife-life-simulator-playing-and-installation-guide/</link>
+		
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Sat, 25 Jun 2022 11:29:35 +0000</pubDate>
+				<category><![CDATA[Guides]]></category>
+		<guid isPermaLink="false">https://netmiko.com/?p=6115</guid>
+
+					<description><![CDATA[<p>This is a simple guide for Bitlife &#8211; Life Simulator. This guide will cover the basics of the game and will also show you the steps to install Bitlife on your own phone. What is Bitlife? Bitlife is a text-based life simulation game where you make different choices for different outcomes. It is developed by &#8230;</p>
+<p class="read-more"> <a class="" href="https://netmiko.com/beginners-guide-for-bitlife-life-simulator-playing-and-installation-guide/"> <span class="screen-reader-text">[ Beginners Guide for Bitlife &#8211; Life Simulator ] Playing and Installation Guide</span> Read More &#187;</a></p>
+The post <a href="https://netmiko.com/beginners-guide-for-bitlife-life-simulator-playing-and-installation-guide/">[ Beginners Guide for Bitlife – Life Simulator ] Playing and Installation Guide</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></description>
+										<content:encoded><![CDATA[<p>This is a simple guide for <a href="https://play.google.com/store/apps/details?id=com.candywriter.bitlife&amp;hl=en_IN&amp;gl=US">Bitlife &#8211; Life Simulator</a>. This guide will cover the basics of the game and will also show you the steps to install Bitlife on your own phone.</p>
+
+
+
+<h2>What is Bitlife?</h2>
+
+
+
+<p>Bitlife is a text-based life simulation game where you make different choices for different outcomes. It is developed by Candywriter, LLC who makes casual and fun applications for mobile devices and tablets, Candywriter LLC is based of US.</p>
+
+
+
+<h2>How do we play Bitlife?</h2>
+
+
+
+<p>Playing bitlife is fairly simple. As soon as you open the app you are greeted with screen from where you can start a new life, to do that just click on the &#8216;Start a New Life&#8217; button.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="576" height="1024" src="https://netmiko.com/wp-content/uploads/2022/06/image-576x1024.png" alt="" class="wp-image-6119" srcset="https://netmiko.com/wp-content/uploads/2022/06/image-576x1024.png 576w, https://netmiko.com/wp-content/uploads/2022/06/image-169x300.png 169w, https://netmiko.com/wp-content/uploads/2022/06/image-768x1365.png 768w, https://netmiko.com/wp-content/uploads/2022/06/image-864x1536.png 864w, https://netmiko.com/wp-content/uploads/2022/06/image-1152x2048.png 1152w, https://netmiko.com/wp-content/uploads/2022/06/image.png 1242w" sizes="(max-width: 576px) 100vw, 576px" /></figure>
+
+
+
+<p>Now you can create two types of life, first one is a random life and second one is a custom life. So if you want a very random life then choose random, or if you want to add something to your life then choose custom. </p>
+
+
+
+<p>As soon as you create a new life / character you will be born as a infant, aka you will be 0 years old. Now after the character id created you can see all the information about the character, like relationships, assets, activities etc.</p>
+
+
+
+<p>You can see the names of your characters mother and father, their occupation and all other information. Now to continue the game you will need to click on the &#8216;Age&#8217; button, This will increase the age of your character. </p>
+
+
+
+<p>As you age you will see different events that happened with you at the top of the screen. Now as you age you will get some random choices that you will need to select, now the choices you make will change how your future becomes, so choose wisely.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="576" height="1024" src="https://netmiko.com/wp-content/uploads/2022/06/image-1-576x1024.png" alt="" class="wp-image-6120" srcset="https://netmiko.com/wp-content/uploads/2022/06/image-1-576x1024.png 576w, https://netmiko.com/wp-content/uploads/2022/06/image-1-169x300.png 169w, https://netmiko.com/wp-content/uploads/2022/06/image-1-768x1365.png 768w, https://netmiko.com/wp-content/uploads/2022/06/image-1-864x1536.png 864w, https://netmiko.com/wp-content/uploads/2022/06/image-1-1152x2048.png 1152w, https://netmiko.com/wp-content/uploads/2022/06/image-1.png 1242w" sizes="(max-width: 576px) 100vw, 576px" /></figure>
+
+
+
+<p>These choices appear randomly at random age.</p>
+
+
+
+<h2>Activities and Relationship</h2>
+
+
+
+<p>In Bitlife you get tons of things to do, like you can spend time with your family and friends, you can go do a job, you can go do some sports etc.</p>
+
+
+
+<p>Its all like in real life, and the choices you make will enable or disable different things for you.</p>
+
+
+
+<p>You can do activities and spend time with your family by clicking the relationship or the activities button at the bottom of the app.</p>
+
+
+
+<h2>Future</h2>
+
+
+
+<p>Whatever you do, whatever choices you pick will determine how your future is going to be. As you age you get different choices and different options to choose from.</p>
+
+
+
+<p>Now it all depends on what you are going to choose, a life with just joy, adventure, work, or mix of all the different things.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="576" height="1024" src="https://netmiko.com/wp-content/uploads/2022/06/image-2-576x1024.png" alt="" class="wp-image-6121" srcset="https://netmiko.com/wp-content/uploads/2022/06/image-2-576x1024.png 576w, https://netmiko.com/wp-content/uploads/2022/06/image-2-169x300.png 169w, https://netmiko.com/wp-content/uploads/2022/06/image-2-768x1365.png 768w, https://netmiko.com/wp-content/uploads/2022/06/image-2-864x1536.png 864w, https://netmiko.com/wp-content/uploads/2022/06/image-2-1152x2048.png 1152w, https://netmiko.com/wp-content/uploads/2022/06/image-2.png 1242w" sizes="(max-width: 576px) 100vw, 576px" /></figure>
+
+
+
+<h2>How to Install BitLife &#8211; Life Simulator?</h2>
+
+
+
+<p>The installation process of Bitlife is very easy, now there are two ways that you can download bitlife. You can download it directly from your app store or playstore, or you can download its apk file that you can install.</p>
+
+
+
+<div class="dt" dir="ltr" style="text-align: left;" trbidi="on">
+
+<center>
+<span id="countdown">You have to wait 15 seconds.</span></center>
+<br>
+<div style="text-align: center;">
+<b>Download APK from Here</b><br>
+<a href="https://cdn.ezjojoy.com/packages/com.candywriter.bitlife/BitLife_3.2.4_231_13c2a1.apk" id="download_link" style="display: none;"><img src="https://netmiko.com/wp-content/uploads/2022/06/da.jpg"></a>
+<noscript>JavaScript needs to be enabled in order to be able to download.</noscript>
+<script type="application/javascript">
+(function(){
+   var message = "%d seconds before download link appears";
+   // seconds before download link becomes visible
+   var count = 15;
+   var countdown_element = document.getElementById("countdown");
+   var download_link = document.getElementById("download_link");
+   var timer = setInterval(function(){
+      // if countdown equals 0, the next condition will evaluate to false and the else-construct will be executed
+      if (count) {
+          // display text
+          countdown_element.innerHTML = "You have to wait %d seconds.".replace("%d", count);
+          // decrease counter
+          count--;
+      } else {
+          // stop timer
+          clearInterval(timer);
+          // hide countdown
+          countdown_element.style.display = "none";
+          // show download link
+          download_link.style.display = "";
+      }
+   }, 1000);
+})();
+</script>
+</div>
+
+</div>
+
+
+
+<div class="wp-container-1 wp-block-buttons"></div>
+
+
+
+<p>After you have downloaded the apk file, click on it and then click on the install option, if you are getting any sort of warning then its ok, just click on &#8216;ok&#8217; then proceed.</p>
+
+
+
+<p>If you want to download from app store then here&#8217;s the link &#8211; <a href="https://play.google.com/store/apps/details?id=com.candywriter.bitlife">Android</a> |  <a href="https://apps.apple.com/us/app/bitlife-life-simulator/id1374403536">Apple</a></p>
+
+
+
+<p>After installing bitlife open it and enjoy the game.</p>
+
+
+
+<h2>How to Uninstall Bitlife?</h2>
+
+
+
+<p>You can easily uninstall bitlife from your phone by going to settings then to app settings, in app settings search for bitlife and click it. After that you will get the uninstall option.</p>
+
+
+
+<p>So that is how you can play or install bitlife.</p>The post <a href="https://netmiko.com/beginners-guide-for-bitlife-life-simulator-playing-and-installation-guide/">[ Beginners Guide for Bitlife – Life Simulator ] Playing and Installation Guide</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

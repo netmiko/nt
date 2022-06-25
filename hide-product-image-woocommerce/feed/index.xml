@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How to Hide Product Images in WooCommerce Product Page	</title>
+	<atom:link href="https://netmiko.com/hide-product-image-woocommerce/feed/" rel="self" type="application/rss+xml" />
+	<link>https://netmiko.com/hide-product-image-woocommerce/</link>
+	<description></description>
+	<lastBuildDate>Sat, 07 May 2022 10:42:16 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+	<item>
+		<title>
+		By: AOMIE		</title>
+		<link>https://netmiko.com/hide-product-image-woocommerce/#comment-204</link>
+
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Wed, 12 Jan 2022 06:01:48 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=2299#comment-204</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://netmiko.com/hide-product-image-woocommerce/#comment-203&quot;&gt;Kal&lt;/a&gt;.
+
+You&#039;re Welcome.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://netmiko.com/hide-product-image-woocommerce/#comment-203">Kal</a>.</p>
+<p>You&#8217;re Welcome.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Kal		</title>
+		<link>https://netmiko.com/hide-product-image-woocommerce/#comment-203</link>
+
+		<dc:creator><![CDATA[Kal]]></dc:creator>
+		<pubDate>Wed, 12 Jan 2022 06:01:00 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=2299#comment-203</guid>
+
+					<description><![CDATA[Thnx it&#039;s Working.]]></description>
+			<content:encoded><![CDATA[<p>Thnx it&#8217;s Working.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

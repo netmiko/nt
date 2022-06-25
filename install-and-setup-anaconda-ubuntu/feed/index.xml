@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How to Install and Setup Anaconda on Ubuntu 20.04	</title>
+	<atom:link href="https://netmiko.com/install-and-setup-anaconda-ubuntu/feed/" rel="self" type="application/rss+xml" />
+	<link>https://netmiko.com/install-and-setup-anaconda-ubuntu/</link>
+	<description></description>
+	<lastBuildDate>Sun, 12 Jun 2022 15:40:11 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+	<item>
+		<title>
+		By: AOMIE		</title>
+		<link>https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-792</link>
+
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Sun, 12 Jun 2022 15:40:11 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=1253#comment-792</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-791&quot;&gt;PANAMALA HEPSIBHA&lt;/a&gt;.
+
+Means conda is installed properly, try running it.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-791">PANAMALA HEPSIBHA</a>.</p>
+<p>Means conda is installed properly, try running it.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: PANAMALA HEPSIBHA		</title>
+		<link>https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-791</link>
+
+		<dc:creator><![CDATA[PANAMALA HEPSIBHA]]></dc:creator>
+		<pubDate>Sun, 12 Jun 2022 13:59:28 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=1253#comment-791</guid>
+
+					<description><![CDATA[Hii...
+i didn&#039;t getting conda verson when &quot;conda --version&quot;...
+
+
+i am also checked where i missed but it gives already exists...]]></description>
+			<content:encoded><![CDATA[<p>Hii&#8230;<br />
+i didn&#8217;t getting conda verson when &#8220;conda &#8211;version&#8221;&#8230;</p>
+<p>i am also checked where i missed but it gives already exists&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: PANAMALA HEPSIBHA		</title>
+		<link>https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-790</link>
+
+		<dc:creator><![CDATA[PANAMALA HEPSIBHA]]></dc:creator>
+		<pubDate>Sun, 12 Jun 2022 13:57:11 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=1253#comment-790</guid>
+
+					<description><![CDATA[Hii...
+i didn&#039;t getting conda verson when &quot;conda --version&quot;...
+please give me reply]]></description>
+			<content:encoded><![CDATA[<p>Hii&#8230;<br />
+i didn&#8217;t getting conda verson when &#8220;conda &#8211;version&#8221;&#8230;<br />
+please give me reply</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: AOMIE		</title>
+		<link>https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-227</link>
+
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Mon, 31 Jan 2022 01:33:21 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=1253#comment-227</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-226&quot;&gt;Jamal&lt;/a&gt;.
+
+I need you to follow the tutorial once again, this time follow everything step by step.  You might have missed a step.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-226">Jamal</a>.</p>
+<p>I need you to follow the tutorial once again, this time follow everything step by step.  You might have missed a step.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Jamal		</title>
+		<link>https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-226</link>
+
+		<dc:creator><![CDATA[Jamal]]></dc:creator>
+		<pubDate>Sun, 30 Jan 2022 11:37:42 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=1253#comment-226</guid>
+
+					<description><![CDATA[Hello there, sorry i have a problem 
+I did what you have done in the movie ,but the problem is doesn&#039;t show the base word in new terminal and when i get conda --version ,it doesn&#039;t found it....
+Would you please help me to fix it...]]></description>
+			<content:encoded><![CDATA[<p>Hello there, sorry i have a problem<br />
+I did what you have done in the movie ,but the problem is doesn&#8217;t show the base word in new terminal and when i get conda &#8211;version ,it doesn&#8217;t found it&#8230;.<br />
+Would you please help me to fix it&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: AOMIE		</title>
+		<link>https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-156</link>
+
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Wed, 24 Nov 2021 07:50:17 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=1253#comment-156</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-155&quot;&gt;Ferdaus&lt;/a&gt;.
+
+Thanks for commenting Ferdaus. I am glad it helped.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-155">Ferdaus</a>.</p>
+<p>Thanks for commenting Ferdaus. I am glad it helped.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Ferdaus		</title>
+		<link>https://netmiko.com/install-and-setup-anaconda-ubuntu/#comment-155</link>
+
+		<dc:creator><![CDATA[Ferdaus]]></dc:creator>
+		<pubDate>Wed, 24 Nov 2021 06:23:35 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=1253#comment-155</guid>
+
+					<description><![CDATA[For me
+The installation went smoothly in Ubuntu 21.04
+
+Thanks]]></description>
+			<content:encoded><![CDATA[<p>For me<br />
+The installation went smoothly in Ubuntu 21.04</p>
+<p>Thanks</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

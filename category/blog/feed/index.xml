@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Blog - NETMIKO.COM</title>
+	<atom:link href="https://netmiko.com/category/blog/feed/" rel="self" type="application/rss+xml" />
+	<link>https://netmiko.com</link>
+	<description></description>
+	<lastBuildDate>Sat, 25 Jun 2022 04:36:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+
+<image>
+	<url>https://netmiko.com/wp-content/uploads/2021/09/favicon-150x150.png</url>
+	<title>Blog - NETMIKO.COM</title>
+	<link>https://netmiko.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How to Setup &#038; Use Cloudinary Image CDN in WordPress</title>
+		<link>https://netmiko.com/setup-and-use-cloudinary-image-cdn-wordpress/</link>
+					<comments>https://netmiko.com/setup-and-use-cloudinary-image-cdn-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Sun, 16 Jan 2022 05:03:33 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<guid isPermaLink="false">https://netmiko.com/?p=2358</guid>
+
+					<description><![CDATA[<p>Today I&#8217;ll show you how you can Set up and use Cloudinary Image CDN in WordPress. The steps are very easy and simple to do and if you follow the steps properly then you will have Cloudinary Working and running on your website in just 5 mins. Now for this tutorial i will be using &#8230;</p>
+<p class="read-more"> <a class="" href="https://netmiko.com/setup-and-use-cloudinary-image-cdn-wordpress/"> <span class="screen-reader-text">How to Setup &#038; Use Cloudinary Image CDN in WordPress</span> Read More &#187;</a></p>
+The post <a href="https://netmiko.com/setup-and-use-cloudinary-image-cdn-wordpress/">How to Setup & Use Cloudinary Image CDN in WordPress</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></description>
+										<content:encoded><![CDATA[<p>Today I&#8217;ll show you how you can Set up and use Cloudinary Image CDN in WordPress. The steps are very easy and simple to do and if you follow the steps properly then you will have Cloudinary Working and running on your website in just 5 mins.</p>
+<p>Now for this tutorial i will be using the free tier of cloudinary which gives you 25Gb of Storage &amp; <em>25Gb of Bandwidth</em>. Which is more than enough for a small blog that gets around 10000 visitors per month.</p>
+<!-- Shortcode does not exist -->
+<p>You get all the things like media optimization tools and image cdn in the free tier so no worries about limited resources. If you have a bigger website then you can upgrade to their paid plan, which is definitely worth it for the price.</p>
+<style>/*! elementor - v3.6.6 - 08-06-2022 */
+.e-container.e-container--row .elementor-spacer-inner{width:var(--spacer-size)}.e-container.e-container--column .elementor-spacer-inner,.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}</style>
+<style>/*! elementor - v3.6.6 - 08-06-2022 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>
+<h2>What is Cloudinary Image CDN?<br />
+</h2>
+<p>How Cloudinary Image CDN works is that it serves the cached images of your wordpress blog or websites through their fast servers located around the globe. </p>
+<p>Whenever someone requests for an image from your website, cloudinary servers caches it so next time someone requests for the same image again then instead of your web hosting providing the image the cloudinary cdn servers will provide the image from the cdn servers. </p>
+<p>This helps save tons of bandwidth for your website and also makes the loading of the images faster for all users around the globe despite your server location.</p>
+<p><!-- Shortcode does not exist --><br />
+<a href="https://netmiko.com/setup-and-use-cloudinary-image-cdn-wordpress/"><img src="https://netmiko.com/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FhYrgr-X1t6Y%2Fhqdefault.jpg" alt="YouTube Video"></a><br /><br />		</p>
+<h2>Creating a Cloudinary Account<br />
+</h2>
+<p>Okay, so the first step will be to create a Cloudinary account. Now first you will need to go to the signup page of Cloudinary &#8211; <a href="https://cloudinary.com/users/register/free">https://cloudinary.com/users/register/free</a> </p>
+<p>In the Signup page enter your name, email, a secure password, select your country, enter your website name. After that in the product select “<em>media optimizer and delivery</em>”, Then click on create account.</p>
+<style>/*! elementor - v3.6.6 - 08-06-2022 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>
+<p>												<img width="1024" height="360" src="https://netmiko.com/wp-content/uploads/2022/01/select-media-optimizer-in-cloudinary-1024x360.png" alt="select media optimizer in cloudinary" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/select-media-optimizer-in-cloudinary-1024x360.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/select-media-optimizer-in-cloudinary-300x105.png 300w, https://netmiko.com/wp-content/uploads/2022/01/select-media-optimizer-in-cloudinary-768x270.png 768w, https://netmiko.com/wp-content/uploads/2022/01/select-media-optimizer-in-cloudinary.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Now Cloudinary will send you an email on the email given in the signup form to verify, so open your email and click on the “Sign In to Validate your Email Address”.</p>
+<p>After you click on the link you will be on the setup page. Here first you will need to select your “<em>Role</em>”, you can select whatever you want like you can select web developer, Tech Executive Etc.</p>
+<!-- Shortcode does not exist -->
+<p>After that you will need to now enter your <em>cloudinary cloud name</em>, which is basically the name of the url that our website&#8217;s content will be served from. Enter a unique name like your domain name or something else that you want. If it says name already taken then change the name.</p>
+<p>															<img width="1024" height="360" src="https://netmiko.com/wp-content/uploads/2022/01/set-a-cloudinary-cloud-name-1024x360.png" alt="set a cloudinary cloud name" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/set-a-cloudinary-cloud-name-1024x360.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/set-a-cloudinary-cloud-name-300x105.png 300w, https://netmiko.com/wp-content/uploads/2022/01/set-a-cloudinary-cloud-name-768x270.png 768w, https://netmiko.com/wp-content/uploads/2022/01/set-a-cloudinary-cloud-name.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Once done, <em>select the server location</em>. Which should be the closest region to your customers or visitors. Like if most of your visitors are from the USA then select the United States as the Cloud server. Click Finish when Done.</p>
+<h2>Configure Cloudinary </h2>
+<p>After you click on the Finish button, you will be redirected to the Dashboard of Cloudinary, Here click on the ‘Start Configuring’ button to start the Configuration process of Cloudinary Image CDN.</p>
+<p>In the Configuration settings you will need to first enter a <em>media source name</em>. Enter any name like “cdn for my website’ or something. After that in Type select ‘Web Address’, scroll down.</p>
+<!-- Shortcode does not exist -->
+<p>Now in URL Base enter your Website URL. like ‘https://netmiko.com/’, if your website uses https then enter the https version of your url, if you don&#8217;t use https then enter http version of your url.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2022/01/create-media-source-in-cloudinary-1024x400.png" alt="create media source in cloudinary" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/create-media-source-in-cloudinary-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/create-media-source-in-cloudinary-300x117.png 300w, https://netmiko.com/wp-content/uploads/2022/01/create-media-source-in-cloudinary-768x300.png 768w, https://netmiko.com/wp-content/uploads/2022/01/create-media-source-in-cloudinary.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Click on”Create Media Source” to Continue.</p>
+<p>Now Cloudinary will ask you to update your Website media urls from your domain name to the domain provided by cloudinary. Now to do that you will need to open your website admin dashboard in another tab.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2022/01/configure-media-optimizer-1024x400.png" alt="configure media optimizer" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/configure-media-optimizer-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/configure-media-optimizer-300x117.png 300w, https://netmiko.com/wp-content/uploads/2022/01/configure-media-optimizer-768x300.png 768w, https://netmiko.com/wp-content/uploads/2022/01/configure-media-optimizer.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<h2>Install and Setup CDN Enabler </h2>
+<!-- Shortcode does not exist -->
+<p>Now in the wordpress admin you will need to install a plugin called ‘<em>CDN Enabler</em>’ for changing your website’s media urls.</p>
+<p>To do that first go to Plugins &gt; Add New, here in the search bar search for “CDN Enabler”, install and activate the plugin to continue. You can also download and upload the plugin from here &#8211; <a href="https://wordpress.org/plugins/cdn-enabler/">https://wordpress.org/plugins/cdn-enabler/</a>.</p>
+<p>Once the CDN Enabler plugin is installed and activated, go to its settings by going to “Settings &gt; CDN Enabler”. </p>
+<p>In the CDN Enabler settings you will need to first enter the <em>hostname</em>, the host name is the domain name that cloudinary provided you with, go back to cloudinary configuration and copy the domain name you will need to add, after that paste it in the hostname. </p>
+<p><!-- Shortcode does not exist --><br />
+															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2022/01/hostname-for-cloudinary-1024x400.png" alt="hostname for cloudinary" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/hostname-for-cloudinary-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/hostname-for-cloudinary-300x117.png 300w, https://netmiko.com/wp-content/uploads/2022/01/hostname-for-cloudinary-768x300.png 768w, https://netmiko.com/wp-content/uploads/2022/01/hostname-for-cloudinary.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>NOTE: Only enter the domain name not url, like enter “example.com” not “http://example.com”./</p>
+<p>After that below in the <em>CDN Inclusions</em> remove the default file extensions and enter these file extensions &#8211; .avif .gif .jpeg .jpg .mp3 .png .svg .webp (One per line)</p>
+<p>In <em>CDN Exclusions</em> remove the default file extensions and enter these file extensions &#8211;  .js .json .mp4 .pdf .apk .css (One per line).</p>
+<p>Once done scroll down and click on ‘<em>Save Changes</em>’ and Not “Save Changes and Validate Configuration’. Once it&#8217;s saved go back to your Cloudinary Configuration and click on Done to finish the Setup of Cloudinary Image CDN on WordPress.</p>
+<!-- Shortcode does not exist -->
+<h2>Test Cloudinary Image CDN</h2>
+<p>Now to test whether cloudinary is working on your website or not you will have to go to your website, here right click any image in your site. Click on “<em>Open image in a New Tab</em>”.</p>
+<p>Now if the image is loading through cloudinary then you will have cloudinary.net in the domain name of the image url, if there is no cloudinary.net in the url and it&#8217;s only your own domain name then it means cloudinary is not working.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2022/01/image-loading-through-cloudinary-1024x400.png" alt="image loading through cloudinary" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/image-loading-through-cloudinary-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/image-loading-through-cloudinary-300x117.png 300w, https://netmiko.com/wp-content/uploads/2022/01/image-loading-through-cloudinary-768x300.png 768w, https://netmiko.com/wp-content/uploads/2022/01/image-loading-through-cloudinary.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Try to follow the steps again if that&#8217;s the case. If it&#8217;s working then it means your images are now loading through cloudinary and saving your website hosting bandwidth and cpu power.</p>
+<h2>Change Image Quality in Cloudinary CDN<br />
+</h2>
+<!-- Shortcode does not exist -->
+<p>Now by default the images that are served though cloudinary cdn are compressed to make it more optimized and make it load faster, now if you don&#8217;t want Cloudinary to do that and just want Cloudinary to serve the original images from the cdn this is how you can do it.</p>
+<p>Go login to your Cloudinary account, here go to the settings icon at the top bar, then go to the <em>Delivery tab</em> in the settings.</p>
+<p>In the Delivery settings, select the quality of the images that you want Cloudinary to use from the drop down. Select ‘Best Quality’ then click on Save Changes. That&#8217;s it, Cloudinary will now serve your website images at the original quality.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2022/01/select-image-quality-in-cloudinary-1024x400.png" alt="select image quality in cloudinary" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/select-image-quality-in-cloudinary-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/select-image-quality-in-cloudinary-300x117.png 300w, https://netmiko.com/wp-content/uploads/2022/01/select-image-quality-in-cloudinary-768x300.png 768w, https://netmiko.com/wp-content/uploads/2022/01/select-image-quality-in-cloudinary.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>And that is how you can Add Cloudinary Image CDN to your wordpress website and set it up for faster images that load through cloudinary cdn. If you need any help then comment below, thank you.</p>
+<!-- Shortcode does not exist -->
+<h2>FAQ &#8211;<br />
+</h2>
+<h3>What are the Free Alternatives of Cloudinary Image CDN?<br />
+</h3>
+<p>The best free alternatives for cloudinary are statically.io and Jetpack Photon. These Image CDNs are free without any limit on bandwidth. I have tutorials for how you can setup both statically and jetpack photon on my site so check them out if you&#8217;re interested &#8211; </p>
+<ul>
+<li><a href="https://netmiko.com/use-statically-cdn-on-a-wordpress-blog/">How to use Statically CDN on a WordPress blog</a></li>
+<li><a href="https://netmiko.com/use-jetpack-cdn-without-jetpack-plugin/">How to use Jetpack Image CDN without Jetpack plugin </a></li>
+</ul>
+<h3>Does Cloudinary Image cdn makes your website faster?</h3>
+<p>Yes, the cloudinary image cdn does help in making your wordpress website faster by loading your images and media files through fast cloud servers.</p>
+<p>As your images will now load through a cdn, the speed of your website will increase in return.</p>The post <a href="https://netmiko.com/setup-and-use-cloudinary-image-cdn-wordpress/">How to Setup & Use Cloudinary Image CDN in WordPress</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://netmiko.com/setup-and-use-cloudinary-image-cdn-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Hide Product Images in WooCommerce Product Page</title>
+		<link>https://netmiko.com/hide-product-image-woocommerce/</link>
+					<comments>https://netmiko.com/hide-product-image-woocommerce/#comments</comments>
+		
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Sat, 08 Jan 2022 08:16:29 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<guid isPermaLink="false">https://netmiko.com/?p=2299</guid>
+
+					<description><![CDATA[<p>Today I will show you how you can hide the product images on the woo commerce products page. With the help of this tutorial, you will be able to hide a single product image or all the product images on your woo-commerce products page. The steps to hide product images are very simple, it will &#8230;</p>
+<p class="read-more"> <a class="" href="https://netmiko.com/hide-product-image-woocommerce/"> <span class="screen-reader-text">How to Hide Product Images in WooCommerce Product Page</span> Read More &#187;</a></p>
+The post <a href="https://netmiko.com/hide-product-image-woocommerce/">How to Hide Product Images in WooCommerce Product Page</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></description>
+										<content:encoded><![CDATA[<p>Today I will show you how you can hide the product images on the woo commerce products page. </p>
+<p>With the help of this tutorial, you will be able to hide a single product image or all the product images on your woo-commerce products page. The steps to hide product images are very simple, it will take like 2 &#8211; 3 mins, so make sure to read this post to the end to prevent any errors.</p>
+<p><strong>Note:</strong> Before following the tutorial make sure to make a backup of your WordPress website just in case something goes wrong, although the steps are simple and don&#8217;t interfere with WordPress core, still it&#8217;s a good thing to take a backup.</p>
+<h2>Adding Custom CSS to hide Product Images </h2>
+<p>To hide the WooCommerce product image we will be using CSS code. Now to add a custom CSS code to our website we will first have to log in to the WordPress admin dashboard.</p>
+<p>Now in the WordPress admin dashboard go to <em>Appearance &gt;  Customize</em>. In the Customize menu, look for “Additional CSS”.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2022/01/wordpress-customize-settings-1024x400.png" alt="wordpress customize settings" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/wordpress-customize-settings-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/wordpress-customize-settings-300x117.png 300w, https://netmiko.com/wp-content/uploads/2022/01/wordpress-customize-settings-768x300.png 768w, https://netmiko.com/wp-content/uploads/2022/01/wordpress-customize-settings.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>In the Additional CSS settings, you can add custom CSS codes.</p>
+<h2>Hide all product images in WooCommerce</h2>
+<p>If you want to hide all the product images from your woo-commerce products pages, then you can copy the CSS code from below and paste it in the Additional CSS box.</p>
+<pre class='line-numbers theme-okaidia' data-show-toolbar='yes'><code class='language-css'>.woocommerce #content div.product .woocommerce-product-gallery {
+display:none;
+}
+.woocommerce #content div.product div.summary {
+float: left;
+}</code></pre>
+<p>This code will hide every single product image from your products page in woocommerce. Now after adding this code if there is a “<em>SALE</em>” icon visible then you can copy and paste this css code to hide the sale icon.</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-css'>.woocommerce div.product span.onsale {display: none;}
+</code></pre>
+<p>Once done, click on the <em>Publish button</em> at the top of your Customizer to save the changes.</p>
+<h2>Hide Single Product image in WooCommerce</h2>
+<p>If you don&#8217;t want to hide all the product images from the products page and just want to hide a single product image then you can copy this CSS code instead of the other one shown above.</p>
+<pre class='line-numbers theme-okaidia' data-show-toolbar='yes'><code class='language-css'>.woocommerce #content div#product-14 .woocommerce-product-gallery {
+display:none;
+}
+.woocommerce #content div#product-14 div.summary {
+float: left;
+}
+.woocommerce div#product-14 span.onsale {
+display: none;
+}
+</code></pre>
+<p>Here you will need to <em>change the Product ID</em> from “<em>product-14</em>” to whatever product id you want the image to be removed from. You can see the product ID of a product by going to “Products &gt; All Products”.</p>
+<p>Just hover your mouse over the product that you want to hide the image of, this will display the ID of the Product. Note the id and change the id in the CSS code above from “product-14” to your product id.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2022/01/woocommerce-product-id-1024x400.png" alt="woocommerce product id" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/woocommerce-product-id-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/woocommerce-product-id-300x117.png 300w, https://netmiko.com/wp-content/uploads/2022/01/woocommerce-product-id-768x300.png 768w, https://netmiko.com/wp-content/uploads/2022/01/woocommerce-product-id.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Once done, click on the publish button to save the changes.</p>
+<p>After hiding the product images from the products page, if there is a sale icon then you can remove it by using the CSS codes from below.</p>
+<h2>Hide the Sale Button in single product<br />
+</h2>
+<pre class='line-numbers theme-okaidia' data-show-toolbar='yes'><code class='language-css'>.woocommerce div#product-14 span.onsale {
+display: none;
+}
+</code></pre>
+<p>Here change the product-14 to whatever your product iD is.</p>
+<h2>Hide the Sale Button in All products<br />
+</h2>
+<pre class='line-numbers theme-okaidia' data-show-toolbar='yes'><code class='language-css'>.woocommerce div.product span.onsale {
+display: none;
+}
+</code></pre>
+<h2>Remove Product image from a Product</h2>
+<p>This method is not recommended to use as after removing the image there will still be a placeholder of the image visible to users, which will look very bad.</p>
+<p>If you still want to <em>remove the product image</em> from your products page in woocommerce instead of hiding it, then here&#8217;s how you can do that. First Go to “Products &gt; All Products”.</p>
+<p>Now using your mouse hover over the product that you want to remove the product image from, click on the edit option that will display when hovering over the product.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2022/01/Edit-WooCommerce-Product-1024x400.png" alt="Edit WooCommerce Product" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/Edit-WooCommerce-Product-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/Edit-WooCommerce-Product-300x117.png 300w, https://netmiko.com/wp-content/uploads/2022/01/Edit-WooCommerce-Product-768x300.png 768w, https://netmiko.com/wp-content/uploads/2022/01/Edit-WooCommerce-Product.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Now you will need to scroll down and look for “Product Image”, just click on the <em>Remove Product Image</em> option and scroll up and click on the blue “Update” button. That&#8217;s it, the product image will be now removed from the specific product.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2022/01/Remove-Product-image-in-WooCommerce-1024x480.png" alt="Remove Product image in WooCommerce" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/Remove-Product-image-in-WooCommerce-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/Remove-Product-image-in-WooCommerce-300x141.png 300w, https://netmiko.com/wp-content/uploads/2022/01/Remove-Product-image-in-WooCommerce-768x360.png 768w, https://netmiko.com/wp-content/uploads/2022/01/Remove-Product-image-in-WooCommerce.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Now after publishing the changes if the images are still visible then you might need to <em>clear the cache</em> of your browser or website. If it still didn&#8217;t work then you can comment below your website name and I will provide you with a custom CSS for your website.</p>
+<p>That&#8217;s it, that is how you can Hide Product Images in WooCommerce Product Page easily with a few easy steps.</p>
+<a href="https://netmiko.com/hide-product-image-woocommerce/"><img src="https://netmiko.com/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fw1RazEd9rUQ%2Fhqdefault.jpg" alt="YouTube Video"></a><br /><br />The post <a href="https://netmiko.com/hide-product-image-woocommerce/">How to Hide Product Images in WooCommerce Product Page</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://netmiko.com/hide-product-image-woocommerce/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Install, Setup &#038; Use Microsoft IndexNow Plugin on WordPress</title>
+		<link>https://netmiko.com/index-now-plugin-wordpress-installation-setup-use/</link>
+					<comments>https://netmiko.com/index-now-plugin-wordpress-installation-setup-use/#respond</comments>
+		
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Thu, 06 Jan 2022 06:44:31 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<guid isPermaLink="false">https://netmiko.com/?p=2265</guid>
+
+					<description><![CDATA[<p>Today I&#8217;ll show you how you can install, set up &#38; Use the Microsoft IndexNow plugin on your WordPress website. The IndexNow plugin by Microsoft is a new protocol created to help webmasters to submit their website URLs to search engines that are using the INdexNow protocol. This plugin will help in notifying the search &#8230;</p>
+<p class="read-more"> <a class="" href="https://netmiko.com/index-now-plugin-wordpress-installation-setup-use/"> <span class="screen-reader-text">How to Install, Setup &#038; Use Microsoft IndexNow Plugin on WordPress</span> Read More &#187;</a></p>
+The post <a href="https://netmiko.com/index-now-plugin-wordpress-installation-setup-use/">How to Install, Setup & Use Microsoft IndexNow Plugin on WordPress</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></description>
+										<content:encoded><![CDATA[<p>Today I&#8217;ll show you how you can install, set up &amp; Use the Microsoft IndexNow plugin on your WordPress website.</p>
+<p>The <em>IndexNow plugin</em> by Microsoft is a new protocol created to help webmasters to submit their website URLs to search engines that are using the INdexNow protocol. This plugin will help in notifying the search engines when there&#8217;s any change in your website.</p>
+<p>It will automatically notify the search engines of new posts, or deleted or updated posts. This will help in maintaining the SEO of your website or blog as the search engine will crawl, index your website better.</p>
+<h2>Install &#038; Activate IndexNow Plugin<br />
+</h2>
+<p>You can install the Microsoft IndexNow plugin using two methods, you can either download it directly from the wordpress.org website or you can search it within your WordPress admin dashboard.</p>
+<p>If you want to download it directly from the official website, here is the link for that &#8211; <a href="https://wordpress.org/plugins/indexnow/">https://wordpress.org/plugins/indexnow/</a>. </p>
+<p>Just go to the link above and click on the download button, this will download an <em>indexnow.zip</em> file to your downloads folder. Once the download finishes go log in to your WordPress admin dashboard.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2022/01/download-indexnow-plugin-1024x400.png" alt="download indexnow plugin" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/download-indexnow-plugin-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/download-indexnow-plugin-300x117.png 300w, https://netmiko.com/wp-content/uploads/2022/01/download-indexnow-plugin-768x300.png 768w, https://netmiko.com/wp-content/uploads/2022/01/download-indexnow-plugin.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After logging in to the admin dashboard, go to <em>plugins &gt; Add New</em>, here at the top click on “Upload Plugins” then choose the file. </p>
+<p>Select the downloaded indexnow zip file from your computer and click on <em>Install Now</em>. This might take a few seconds to complete, after it finishes installing click on Activate Plugin to activate the IndexNow plugin.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2022/01/upload-indexnow-plugin-1024x480.png" alt="upload plugin in wordpress" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/upload-indexnow-plugin-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/upload-indexnow-plugin-300x141.png 300w, https://netmiko.com/wp-content/uploads/2022/01/upload-indexnow-plugin-768x360.png 768w, https://netmiko.com/wp-content/uploads/2022/01/upload-indexnow-plugin.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Now, if you don&#8217;t want to go through all of the steps above then you can install the IndexNow plugin by just logging in to your admin dashboard.</p>
+<p>Here go to Plugins &gt; Add New. In the search bar search for “<em>IndexNow</em>”, here now install the IndexNow Plugin by Microsoft. Once installed click on activate to activate the plugin.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2022/01/install-and-activate-indexnow-plugin-from-wordpress-admin-1024x480.png" alt="install and activate indexnow plugin from wordpress admin" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/install-and-activate-indexnow-plugin-from-wordpress-admin-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/install-and-activate-indexnow-plugin-from-wordpress-admin-300x141.png 300w, https://netmiko.com/wp-content/uploads/2022/01/install-and-activate-indexnow-plugin-from-wordpress-admin-768x360.png 768w, https://netmiko.com/wp-content/uploads/2022/01/install-and-activate-indexnow-plugin-from-wordpress-admin.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>The settings of the IndexNow plugin can be found in the left admin menu. Here just click on the IndexNow option.</p>
+<h2>Setup IndexNow Plugin</h2>
+<p>After installing and activating the plugin you will have to now set up the plugin to be able to use it.</p>
+<p>If you click on the IndexNow plugin option from the admin menu the first time, then you will see the setup screen of the plugin. First, you will need to click on the “<em>Let’s get Started</em>” button.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2022/01/click-on-lets-get-started-in-indexnow-plugin-1024x400.png" alt="click on lets get started in indexnow plugin" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/click-on-lets-get-started-in-indexnow-plugin-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/click-on-lets-get-started-in-indexnow-plugin-300x117.png 300w, https://netmiko.com/wp-content/uploads/2022/01/click-on-lets-get-started-in-indexnow-plugin-768x300.png 768w, https://netmiko.com/wp-content/uploads/2022/01/click-on-lets-get-started-in-indexnow-plugin.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Now you will be in the plugin dashboard, here if you want then you can keep the default setting of auto submission of blog posts when they update, publish, or get deleted. Or you can make it manual so that it will not automatically submit the URLs to the search engines.</p>
+<p>If you want to change the submission of URLs in the IndexNow plugin from automatic to Manual then just click on the <em>three dots</em> at the “Automate URL submission” section and click on “Edit Preference”.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2022/01/edit-preference-indexnow-plugin-1024x480.png" alt="edit preference indexnow plugin" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/edit-preference-indexnow-plugin-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/edit-preference-indexnow-plugin-300x141.png 300w, https://netmiko.com/wp-content/uploads/2022/01/edit-preference-indexnow-plugin-768x360.png 768w, https://netmiko.com/wp-content/uploads/2022/01/edit-preference-indexnow-plugin.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>The Edit preference for Automate URL Submission will be enabled by default, all you will need to do is choose the Disable option and click on Save. Now your website URLs won&#8217;t get submitted to search engines automatically.</p>
+<h2>How to use IndexNow Plugin</h2>
+<p>Using the IndexNow plugin is fairly easy, after installing and setting up the plugin you can let it automatically submit the URLs of your website when they update or get deleted or you can make it manual.</p>
+<p>To manually submit a URL to the IndexNow plugin, first copy the URL of the post or page that you want to submit to the search engines. </p>
+<p>After that go to the IndexNow plugin dashboard from the admin menu. Here in the Manual URL Submissions section, click on the submit URL option. Enter your URL and click on Submit URL to submit the URL to the search engines.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2022/01/Manual-URL-submission-in-IndexNow-Plugin-1024x480.png" alt="Manual URL submission in IndexNow Plugin" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2022/01/Manual-URL-submission-in-IndexNow-Plugin-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2022/01/Manual-URL-submission-in-IndexNow-Plugin-300x141.png 300w, https://netmiko.com/wp-content/uploads/2022/01/Manual-URL-submission-in-IndexNow-Plugin-768x360.png 768w, https://netmiko.com/wp-content/uploads/2022/01/Manual-URL-submission-in-IndexNow-Plugin.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>You can see the status of the URL whether it was submitted successfully or not below in the URLs submitted section.</p>
+<h2>When will the Submitted URL in IndexNow Plugin get Indexed?</h2>
+<p>Now after submitting the Url of your website&#8217;s page or post to the IndexNow plugin you might be wondering when it will get indexed.</p>
+<p>For your page or post to get indexed in the different search engines, your post or page must follow the different guidelines of the search engines. The <em>IndexNow plugin only notifies the search engine</em> that the submitted URL exists on the web so that the search engines can try to index it.</p>
+<p>Submitting the Url to the IndexNow plugin doesn&#8217;t mean that it will get Indexed. It only works as a tool to notify search engines about your URLs.</p>
+<h2>How to Uninstall IndexNow plugin Completely</h2>
+<p>If you don&#8217;t want to use the IndexNow plugin anymore and want to get rid of all the data of the plugin then you can just <em>deactivate and delete the plugin</em>. </p>
+<p>Deleting the IndexNow plugin will remove all the data associated with the plugin from your WordPress website.</p>
+<p>That&#8217;s it, that is how you can install, set up and use the IndexNow plugin By Microsoft to submit the Urls of your website for Indexing to different search engines like bing, yandex, google etc.</p>
+<a href="https://netmiko.com/index-now-plugin-wordpress-installation-setup-use/"><img src="https://netmiko.com/wp-content/plugins/wp-youtube-lyte/lyteCache.php?origThumbUrl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FIPncRthAsr0%2Fhqdefault.jpg" alt="YouTube Video"></a><br /><br />The post <a href="https://netmiko.com/index-now-plugin-wordpress-installation-setup-use/">How to Install, Setup & Use Microsoft IndexNow Plugin on WordPress</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://netmiko.com/index-now-plugin-wordpress-installation-setup-use/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Install Koha Library Software on Windows 10</title>
+		<link>https://netmiko.com/install-koha-library-software-windows/</link>
+					<comments>https://netmiko.com/install-koha-library-software-windows/#respond</comments>
+		
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Fri, 31 Dec 2021 13:30:24 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<guid isPermaLink="false">https://netmiko.com/?p=2233</guid>
+
+					<description><![CDATA[<p>Today I will show you how you can install Koha library Software on your Windows 10 operating system. Koha is an open-source integrated library system for libraries to keep track and store data. It is used in libraries of schools and universities for library management. In this tutorial you will see the full installation process &#8230;</p>
+<p class="read-more"> <a class="" href="https://netmiko.com/install-koha-library-software-windows/"> <span class="screen-reader-text">How to Install Koha Library Software on Windows 10</span> Read More &#187;</a></p>
+The post <a href="https://netmiko.com/install-koha-library-software-windows/">How to Install Koha Library Software on Windows 10</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></description>
+										<content:encoded><![CDATA[<p>Today I will show you how you can install <a href="https://koha-community.org/">Koha library Software</a> on your Windows 10 operating system. </p>
+<p>Koha is an open-source integrated library system for libraries to keep track and store data. It is used in libraries of schools and universities for library management.</p>
+<!-- Shortcode does not exist -->
+<p>In this tutorial you will see the full installation process of koha library software on your windows computer, so make sure to read the article fully line by line to avoid getting into any problem while installing koha.</p>
+<style>/*! elementor - v3.5.6 - 28-02-2022 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>
+<h2>Installing Koha Library Software on Windows </h2>
+<p>Okay, so the Koha Library Software is only available for the Linux operating system, which means that if you go to the official website of Koha then you will see that there are only download options for Linux and not windows.</p>
+<p><strong>For Linux</strong> &#8211; <a href="https://netmiko.com/tutorials/install-koha-on-ubuntu-linux/">Koha Installation Tutorial for Ubuntu 20.04</a></p>
+<p>Now to fix that problem there is a <em>Modified version of Koha</em> which is modified to be able to run on your windows operating system. This makes it easier for people to run and install Koha on their windows operating system as not a lot of people know how to use Linux.</p>
+<h3>Download Koha for Windows</h3>
+<p>To be able to install Koha Library Software you will need to first download it, to download the Windows version of Koha first click on this link here &#8211;</p>
+<p>			<a href="https://www.mediafire.com/file/8u3019sb5i1al1a/Koha_for_Windows.zip/file" role="button"><br />
+						Click here<br />
+					</a><br />
+		<!-- Shortcode does not exist --></p>
+<p>That link will open <em>Mediafire</em>, from where you can download the Windows version of Koha, to download just click on “DOWNLOAD”, the file size will be 592Mb so make sure that you have a stable internet connection.</p>
+<style>/*! elementor - v3.5.6 - 28-02-2022 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>
+<p>												<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/download-koha-windows-version-from-mediafire-1024x400.png" alt="download koha windows version from mediafire" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/download-koha-windows-version-from-mediafire-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/download-koha-windows-version-from-mediafire-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/download-koha-windows-version-from-mediafire-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/download-koha-windows-version-from-mediafire.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Wait for the download to finish. </p>
+<h3>Move &#038; Unzip Koha<br />
+</h3>
+<p>After the download finishes, open your file manager and go to the downloads directory, here look for the <em>Koha_for_Windows.zip</em> file, select the file and right-click it, click on “CUT”.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/cut-koha-for-windows-zip-file-1024x400.png" alt="cut koha for windows zip file" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/cut-koha-for-windows-zip-file-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/cut-koha-for-windows-zip-file-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/cut-koha-for-windows-zip-file-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/cut-koha-for-windows-zip-file.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /><br />
+		<!-- Shortcode does not exist --></p>
+<p>Now go to the root directory of your Windows PC and paste the Koha zip file there. You can <em>paste it in any root directory</em> like C:, D:, E:.</p>
+<p>															<img width="1024" height="320" src="https://netmiko.com/wp-content/uploads/2021/12/paste-koha-for-windows-zip-file-in-a-root-drive-1024x320.png" alt="paste koha for windows zip file in a root drive" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/paste-koha-for-windows-zip-file-in-a-root-drive-1024x320.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/paste-koha-for-windows-zip-file-in-a-root-drive-300x94.png 300w, https://netmiko.com/wp-content/uploads/2021/12/paste-koha-for-windows-zip-file-in-a-root-drive-768x240.png 768w, https://netmiko.com/wp-content/uploads/2021/12/paste-koha-for-windows-zip-file-in-a-root-drive.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>In my case, I have moved the downloaded Koha zip file to the E: drive. So now after moving it, you will need to <em>unzip the zip</em> file. To do that select the Koha_for_Windows.zip and right-click it, click on “Extract Here”.</p>
+<p>This will extract all the contents of the zip file in your drive, this will take a little bit of time to finish extracting. After the extraction finishes the extracted folder that you will get will be named “<em>usr</em>”. </p>
+<p>															<img width="1024" height="320" src="https://netmiko.com/wp-content/uploads/2021/12/extracted-usr-folder-from-koha-for-windows-zip-file-1024x320.png" alt="extracted usr folder from koha for windows zip file" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/extracted-usr-folder-from-koha-for-windows-zip-file-1024x320.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/extracted-usr-folder-from-koha-for-windows-zip-file-300x94.png 300w, https://netmiko.com/wp-content/uploads/2021/12/extracted-usr-folder-from-koha-for-windows-zip-file-768x240.png 768w, https://netmiko.com/wp-content/uploads/2021/12/extracted-usr-folder-from-koha-for-windows-zip-file.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<h2>Running Koha Library Software<br />
+</h2>
+<p>After extracting the zip file you will get an extracted folder named “usr”, now first make sure that the usr folder is directly in the root directory and not inside any folder, it should directly be in the root like “<em>E:usr</em>” and not “E:folderusr”.</p>
+<!-- Shortcode does not exist -->
+<p>Now to run Koha in your Windows operating system just go inside the “usr” folder, here scroll down and look for the “<em>StartMysqlServer.bat</em> &#8221; file, double click on the bat file to run it.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/run-the-bat-files-of-koha-windows-version-1024x400.png" alt="run the bat files of koha windows version" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/run-the-bat-files-of-koha-windows-version-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/run-the-bat-files-of-koha-windows-version-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/run-the-bat-files-of-koha-windows-version-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/run-the-bat-files-of-koha-windows-version.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After double-clicking the StartMySqlserver.bat file, the terminal of your windows computer will run the file for a second and automatically stop and close the terminal.</p>
+<p>After running the first bat file, you will need to run the second bat file which will be named “<em>StartServer.bat</em>”, again double click it and let it run in the terminal, now to be able to use koha you will need to keep the bat file running in the terminal, so minimize the terminal tab.</p>
+<p>Finally, run the third bat file which is named “<em>ZebraServer.bat</em>”. Again keep the terminal window running, so minimize the window.</p>
+<h2>Access Koha Dashboard<br />
+</h2>
+<p>After running all the three bat files, you can now access the Koha Library Software dashboard by going to your localhost. </p>
+<!-- Shortcode does not exist -->
+<p>In your browser just enter <a href="http://localhost:8080/">http://localhost:8080/</a>, this will redirect you to the login page of Koha Library, the default username and password for logging into Koha Windows version is “<em>admin</em>”. </p>
+<p>You can now start using Koha on your Windows computer. The version of koha that is provided here is Version 3.16.01.  </p>
+<h2>Access Koha WEB OPAC<br />
+</h2>
+<p>To access the Web OPAC of Koha Library Software on windows you will need to go to <a href="http://localhost/">http://localhost/</a> on your browser.</p>
+<h2>Stopping Koha</h2>
+<p>Once you are done and have finished your work, you can now stop Koha from running by first closing all the terminal windows that were running.</p>
+<p>After closing all the running terminal windows, go to your file manager and go inside the usr folder of Koha, here look for “<em>StopMysqlServer.bat</em>”, double click the bat file, and let it run, it will stop the Localhost server from running automatically.</p>
+<!-- Shortcode does not exist -->
+<p>That&#8217;s it, Koha will be now completely stopped. To run Koha again on your windows just run the three bat files in the usr folder.</p>
+<h2>Uninstalling Koha from Windows<br />
+</h2>
+<p>To completely uninstall the Koha Windows version you will need to just <em>delete the Koha usr folder</em> from your computer. </p>
+<p>That’s it, that is how you can Install Koha Library Software on your windows operating system. If you have any questions or if you are facing any problem while installing koha, then comment below. Thank you.</p>
+<h2>FAQ &#8211; </h2>
+<h3>Is the Koha Library Windows version safe to use?<br />
+</h3>
+<p>The windows version of koha is safe, but I think it will be better if you could install the official version of koha on a Linux Machine Because in the Windows version of Koha you will not get a lot of security, and also you will not get any updates.</p>
+<p>It&#8217;s better to just call a computer guy and install Linux on your computer. After that, you can follow this tutorial here &#8211; <a href="https://netmiko.com/tutorials/install-koha-on-ubuntu-linux/">Install Koha Library Software on Ubuntu 20.04</a>.</p>The post <a href="https://netmiko.com/install-koha-library-software-windows/">How to Install Koha Library Software on Windows 10</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://netmiko.com/install-koha-library-software-windows/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Add Exam Results Feature to a WordPress website</title>
+		<link>https://netmiko.com/exam-results-feature-wordpress/</link>
+					<comments>https://netmiko.com/exam-results-feature-wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Thu, 30 Dec 2021 15:57:55 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<guid isPermaLink="false">https://netmiko.com/?p=2195</guid>
+
+					<description><![CDATA[<p>Today I will show you how you can add exam results feature to a WordPress website for releasing exam results on your college or school&#8217;s website. With the help of this tutorial, you will be able to add students&#8217; results at the backend of your college or schools WordPress website and then the student will &#8230;</p>
+<p class="read-more"> <a class="" href="https://netmiko.com/exam-results-feature-wordpress/"> <span class="screen-reader-text">How to Add Exam Results Feature to a WordPress website</span> Read More &#187;</a></p>
+The post <a href="https://netmiko.com/exam-results-feature-wordpress/">How to Add Exam Results Feature to a WordPress website</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></description>
+										<content:encoded><![CDATA[<p>Today I will show you how you can add exam results feature to a WordPress website for releasing exam results on your college or school&#8217;s website.</p>
+<p>With the help of this tutorial, you will be able to add students&#8217; results at the backend of your college or schools WordPress website and then the student will be able to search the results at the frontend of the website using their roll no like this &#8211; </p>
+<p>															<img width="1024" height="520" src="https://netmiko.com/wp-content/uploads/2021/12/exam-results-using-easy-student-results-plugin-wordpress-1024x520.png" alt="exam results using easy student results plugin wordpress" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/exam-results-using-easy-student-results-plugin-wordpress-1024x520.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/exam-results-using-easy-student-results-plugin-wordpress-300x152.png 300w, https://netmiko.com/wp-content/uploads/2021/12/exam-results-using-easy-student-results-plugin-wordpress-768x390.png 768w, https://netmiko.com/wp-content/uploads/2021/12/exam-results-using-easy-student-results-plugin-wordpress.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>You can manually enter the students&#8217; results in the backend or you can upload a CSV file to the WordPress site and upload all results at once. Okay now, let&#8217;s see how we can do that.</p>
+<h2>Enable Construction Mode [OPTIONAL]</h2>
+<p>As we will be installing and adding a plugin and also entering data that is not supposed to be available to students before the results date, we will enable construction mode which will make your website unavailable to users until the release of the results.</p>
+<p>To begin you will need to first log in to your WordPress website, after logging in go to your WordPress website go to Plugins &gt; Add New. In the search bar search for “<em>Under Construction</em>”.</p>
+<p>Install the “Under Construction” plugin by the developer WebFactory. Install the Plugin and activate it.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/under-construction-plugin-wordpress-1024x400.png" alt="under construction plugin wordpress" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/under-construction-plugin-wordpress-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/under-construction-plugin-wordpress-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/under-construction-plugin-wordpress-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/under-construction-plugin-wordpress.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After activating the plugin you can enable construction mode by going to Settings &gt; UnderConstruction. Go to the Main tab and <em>enable Under Construction Mode</em>, scroll down, and in Automatic End Date &amp; Time you can set a time when Construction mode will end.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/enable-under-construction-mode-wordpress-1024x400.png" alt="" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/enable-under-construction-mode-wordpress-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/enable-under-construction-mode-wordpress-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/enable-under-construction-mode-wordpress-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/enable-under-construction-mode-wordpress.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After setting up the settings click on Save Changes to enable Construction mode on your website. Now only the admins of the WordPress website will be able to access it until the time finishes.</p>
+<h2>Install Easy Student Result Plugin<br />
+</h2>
+<p>The plugin that we are going to use for our WordPress website to add the feature of uploading students&#8217; results and searching the results by roll or registration no is called “<a href="https://wordpress.org/plugins/easy-student-results/">Easy Student Result</a>”.</p>
+<p>To Install the plugin first Log in to your WordPress website, then go to Plugins &gt; Add New. Search for “<em>Easy Student Result</em>”, install and activate the plugin created by &#8211; <em>Nurul Umbhiya</em>.</p>
+<p>															<img width="1024" height="320" src="https://netmiko.com/wp-content/uploads/2021/12/easy-students-result-plugin-wordpress-1024x320.png" alt="easy students result plugin wordpress" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/easy-students-result-plugin-wordpress-1024x320.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/easy-students-result-plugin-wordpress-300x94.png 300w, https://netmiko.com/wp-content/uploads/2021/12/easy-students-result-plugin-wordpress-768x240.png 768w, https://netmiko.com/wp-content/uploads/2021/12/easy-students-result-plugin-wordpress.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>You can also install the plugin by downloading it from <a href="https://downloads.wordpress.org/plugin/easy-student-results.2.2.8.zip">https://downloads.wordpress.org/plugin/easy-student-results.2.2.8.zip</a>, after downloading the plugin go to Plugins &gt; Add new. Upload the plugin and activate it.</p>
+<p><strong>NOTE:</strong> You might get an error saying “The plugin generated X characters of unexpected output during activation”, Don&#8217;t worry, that&#8217;s not a fatal error. Your website will be fine.</p>
+<h2>Setup Easy Student Result Plugin<br />
+</h2>
+<p>After installing the plugin you will need to now set up the plugin. I will show you all the things that you will need to do to add a student&#8217;s results and show the result on the front end of your WordPress website.</p>
+<p>You can access the Plugin From the admin menu on the left side, it will be named “<em>Student Results</em>”.</p>
+<p>In the Easy Student Result Plugin, you can add Department, Batch, Courses, grade, exams, and Results of students. This is an all-in-one Plugin for Schools and colleges to maintain and publish students&#8217; results.</p>
+<h3>Add Department / Class<br />
+</h3>
+<p>To add a department you will need to first go to <em>Student Results &gt; Department</em> from the admin menu.</p>
+<p>Here first you will need to add the department name in short uppercase word without any space, like Mathematics will be “MATHS”, Biology will be “BIO”. </p>
+<p>After that in department slug you will need to add the url-friendly version of the name of the department, this should be always in lowercase and should not contain space or any symbol. For example &#8211;  For the Mathematics department the url should be “mathematics”, no Uppercase.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/enter-department-name-and-slug-in-easy-students-result-plugin-1024x400.png" alt="enter department name and slug in easy students result plugin" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/enter-department-name-and-slug-in-easy-students-result-plugin-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/enter-department-name-and-slug-in-easy-students-result-plugin-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/enter-department-name-and-slug-in-easy-students-result-plugin-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/enter-department-name-and-slug-in-easy-students-result-plugin.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Scroll down, in “Full Name” Enter the full name of the subject. After that you can add a description to the subject, after that in Total Credit you can add the amount of credit someone needs to pass that exam, credits are time that a student has spent in the classroom. You can keep it blank if your college/school doesn&#8217;t have a credit system.</p>
+<p>Once all the things are added, click on “Add new department” to add the department.</p>
+<h3>Add Semester<br />
+</h3>
+<p>To add a semester to any department you will need to first go to <em>Student Results &gt; Department</em>, here on the right side of the departments you will see an option “<em>Configure Semester</em>”, click on the configure option on whatever department you want to add a semester</p>
+<p>															<img width="1024" height="320" src="https://netmiko.com/wp-content/uploads/2021/12/configure-semester-in-easy-student-results-plugin-1024x320.png" alt="configure semester in easy student results plugin" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/configure-semester-in-easy-student-results-plugin-1024x320.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/configure-semester-in-easy-student-results-plugin-300x94.png 300w, https://netmiko.com/wp-content/uploads/2021/12/configure-semester-in-easy-student-results-plugin-768x240.png 768w, https://netmiko.com/wp-content/uploads/2021/12/configure-semester-in-easy-student-results-plugin.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>In Name enter the Semester name, like if you are adding a semester in Mathematics department then enter like “1st Semester Maths”. After that, in slug enter the semester name in a URL-friendly way, no uppercase, no number, and no symbol.</p>
+<p>Once done click on Add New semester to add a new semester to the department you selected to configure.</p>
+<h3>Add Batch </h3>
+<p>Now to add different batches of classes you will need to go to <em>Student Results &gt; Batch</em>. Click on Add New to add a new batch, like &#8211; 1st SEM MATHS / 2019 or something.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/add-batch-in-easy-student-results-plugin-1024x400.png" alt="add batch in easy student results plugin" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/add-batch-in-easy-student-results-plugin-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/add-batch-in-easy-student-results-plugin-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/add-batch-in-easy-student-results-plugin-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/add-batch-in-easy-student-results-plugin.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>In Batch/Year, enter the batch name and the batch year, below in Department select the department that the batch belongs to from the dropdown, after that in Session, select the time when that batch took the admission and click on Add New Batch to add the batch.</p>
+<h3>Add Courses </h3>
+<p>Now you will need to add courses / Subjects, you can add courses by going to <em>Student Results &gt; Courses</em>, click on Add Course to add a new course. </p>
+<p>First enter your course name, after that enter the course code, in Department / Class select the department from the dropdown, in Semester / Section select the semester from the dropdown.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/add-course-in-easy-student-results-plugin-1024x400.png" alt="add course in easy student results plugin" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/add-course-in-easy-student-results-plugin-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/add-course-in-easy-student-results-plugin-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/add-course-in-easy-student-results-plugin-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/add-course-in-easy-student-results-plugin.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>In Course Detailed Information first enter the total marks of the subject. In credits enter the credits required to pass that subject. Select the course type from the dropdown, like if it&#8217;s a theory subject or practical, enter the Prerequisite Subject &amp; Related subject if any, and click on Publish.</p>
+<h3>Add Grades</h3>
+<p>To add different grades like “A,B,C,D or A+,B+,C+,D+”. you will need to first go to <em>Student Results &gt; Grade</em>, here, by default there will be some grades already created, you can delete them by hovering over on the top of the grade.</p>
+<p>After deleting the default grades you can add new grades by clicking on Add new.</p>
+<p>Now in Alphabetic grade enter the grade in alphabets like “A, B, C”. In marks enter the marks required for a student to get that grade, like 80 &#8211; 100 for A Grade. After that, if your school/college uses grade points then you can add them.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/add-grades-in-easy-student-results-plugin-1024x400.png" alt="add grades in easy student results plugin" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/add-grades-in-easy-student-results-plugin-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/add-grades-in-easy-student-results-plugin-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/add-grades-in-easy-student-results-plugin-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/add-grades-in-easy-student-results-plugin.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>In Grade Classification enter the description of that grade, like you can give Excellent for A Grade, Average for B Grade, etc. click on Add new Grade to add the grade.</p>
+<h3>Add Exams</h3>
+<p>To add exams you will need to first go to <em>Student Results &gt; Exams</em>, there click on Add new to add a new exam. </p>
+<p>Name the exam with a unique name, like “Maths-1st-SEM-2019-January”. After that select the date when the exam was held and click on Add New Exam to add a new exam.</p>
+<h3>Add Students</h3>
+<p>Now to add the main thing, which is students you will need to go to <em>Student Results &gt; Students</em> and click on Add Students to add a new student.</p>
+<p>First, enter the name of the student at the very top, after that enter the registration no and roll no of the student, do note that the registration no &amp; roll no cannot be zero ( It should be greater than zero ).</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/add-student-in-easy-student-results-plugin-1024x400.png" alt="add student in easy student results plugin" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/add-student-in-easy-student-results-plugin-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/add-student-in-easy-student-results-plugin-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/add-student-in-easy-student-results-plugin-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/add-student-in-easy-student-results-plugin.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After that select the Department/Class, Batch/Year, Semester/Section from the dropdowns. Once done scroll down and fill up all the personal details of the student and click on Publish to Add the student.</p>
+<h3>Add Results<br />
+</h3>
+<p>Now the final thing that you will need to add is of course the results. To add the results and assign marks to different students you will need to first go to <em>Student Results &gt; Results</em>. Click on Add new.</p>
+<p>After that, you will need to add a new exam record, here first select the exam from the dropdown, after that select the Department/Class, Batch/Year, Semester/Section. </p>
+<p>Once done, now select all the students that appeared in the exam and select the courses/subjects they appeared in by selecting them using your mouse. If some students did not appear in any exam then just uncheck them.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/add-exam-record-in-easy-student-results-1024x480.png" alt="add exam record in easy student results" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/add-exam-record-in-easy-student-results-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/add-exam-record-in-easy-student-results-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/add-exam-record-in-easy-student-results-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/add-exam-record-in-easy-student-results.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After that click on Add New Exam Record to add a new record.</p>
+<h3>Add Marks to Results</h3>
+<p>Now to add Marks to the results you will need to click on the <em>Add Marks option at the Results Record tab</em> after adding any exam records. </p>
+<p>															<img width="1024" height="360" src="https://netmiko.com/wp-content/uploads/2021/12/click-add-marks-option-in-easy-student-results-1024x360.png" alt="click add marks option in easy student results" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/click-add-marks-option-in-easy-student-results-1024x360.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/click-add-marks-option-in-easy-student-results-300x105.png 300w, https://netmiko.com/wp-content/uploads/2021/12/click-add-marks-option-in-easy-student-results-768x270.png 768w, https://netmiko.com/wp-content/uploads/2021/12/click-add-marks-option-in-easy-student-results.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Here again, click on Add marks on the right side of the student that you want to give the marks to. You can now add the marks a student got in different subjects, just enter the marks someone got in the Marks obtained section and select the grade that the user got.</p>
+<p>After filling up all the required things, click on Update to assign the exam marks to the student.</p>
+<h2>Display Results in Frontend using Shortcode<br />
+</h2>
+<p>After adding all the results of students in the backend of your WordPress website, you can now add the search form in the frontend of the website from where students will be able to search their exam results using their roll no.</p>
+<p>To do that you can use the shortcodes &#8211;</p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">[esr_results] for Searching results using only roll no.</li>
+<li style="font-weight: 400;" aria-level="1">[esr_results2] for Searching results using both roll no &amp; Registration no.</li>
+<li style="font-weight: 400;" aria-level="1">[esr_students] for displaying all students&#8217; results without searching.</li>
+</ol>
+<p>To add the shortcodes you can just create a new page and add the shortcode in the page using a shortcode block. Publish the page and after that, your students will be able to search their results by providing the required info.</p>
+<p>															<img width="1024" height="520" src="https://netmiko.com/wp-content/uploads/2021/12/exam-results-using-easy-student-results-plugin-wordpress-1024x520.png" alt="exam results using easy student results plugin wordpress" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/exam-results-using-easy-student-results-plugin-wordpress-1024x520.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/exam-results-using-easy-student-results-plugin-wordpress-300x152.png 300w, https://netmiko.com/wp-content/uploads/2021/12/exam-results-using-easy-student-results-plugin-wordpress-768x390.png 768w, https://netmiko.com/wp-content/uploads/2021/12/exam-results-using-easy-student-results-plugin-wordpress.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<h2>Edit the Robots.txt<br />
+</h2>
+<p>There is one problem with the Easy Student Result plugin that is, it creates lots of <em>404 URLs</em> that will cause lots of problems for you as google will crawl those pages and get tons of 404 errors which is not something good.</p>
+<p>To fix that, you can prevent Google from crawling the pages automatically created by the plugin, just add the code line given below to the <em>robots.txt</em> file of your WordPress website and it should fix the problem.</p>
+<pre class='line-numbers theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>User-agent: *
+Disallow: /rps_result_student/</code></pre>
+<p>After editing the robots.txt file, clear the cache of your WordPress website if you are using a caching plugin.</p>
+<h2>Adding Additional Features</h2>
+<p>If you would like to make the process of adding students&#8217; results to the backend of your WordPress website in the Easy Student Results plugin easier, then you can just purchase the <em>premium add-ons</em> provided by the app developer.</p>
+<p>Go to the Student Results &gt; Premium Addons from the admin menu and buy the addon that you would like to add to your plugin. Premium addons like CSV import results search by students name, Hiding students results from each other are some of the premium features of the plugin.</p>
+<p><strong>NOTE:</strong> The plugin hasn&#8217;t been updated in almost 2 years, which means that the plugin developer might or might not be still active, so be careful when purchasing any premium addon as if you get into any problem then there will be no one to help you.</p>
+<h2>FAQ &#8211;</h2>
+<h3>How to add different subjects in the Easy Student Results plugin?</h3>
+<p>You can add different subjects in the Easy Students Results by going to Student Results &gt; Courses. Just click on add course and add the subject that you would like to add. </p>
+<h3>Is the Easy Students Results plugin safe to use?</h3>
+<p>The Easy Students Results plugin is safe to use, but as the plugin hasn&#8217;t been updated in almost 2years you might get conflicts with other plugins or themes installed on your WordPress website.</p>
+<p>Always make a new backup of your website before installing any plugin, you can use VaultPress or UpDraft Backups for backing up your WordPress website for free with just a few steps.</p>
+<p>That is how you can Add Exam Results Feature to a WordPress website. If you are facing any problem while installing the plugin or setting up anything like adding courses, exams, etc then you can always contact me by mail at &#8211; <a href="mailto:admin@localhost">admin@localhost</a>. I will try to reply as soon as I can to fix your problem. Thank you.</p>The post <a href="https://netmiko.com/exam-results-feature-wordpress/">How to Add Exam Results Feature to a WordPress website</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://netmiko.com/exam-results-feature-wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Install a XAPK on Android without PC</title>
+		<link>https://netmiko.com/install-xapk-android-no-pc/</link>
+					<comments>https://netmiko.com/install-xapk-android-no-pc/#respond</comments>
+		
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Tue, 28 Dec 2021 14:30:55 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<guid isPermaLink="false">https://netmiko.com/?p=2117</guid>
+
+					<description><![CDATA[<p>Today I will show you how you can install an XAPK file on your Android device without the need for a computer or PC. If you are downloading any app or game from the internet then chances are that the file that you are downloading is a xapk instead of the regular apk file, now &#8230;</p>
+<p class="read-more"> <a class="" href="https://netmiko.com/install-xapk-android-no-pc/"> <span class="screen-reader-text">How to Install a XAPK on Android without PC</span> Read More &#187;</a></p>
+The post <a href="https://netmiko.com/install-xapk-android-no-pc/">How to Install a XAPK on Android without PC</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></description>
+										<content:encoded><![CDATA[<p>Today I will show you how you can install an XAPK file on your Android device without the need for a computer or PC. </p>
+<p>If you are downloading any app or game from the internet then chances are that the file that you are downloading is a xapk instead of the regular apk file, now the problem with this file type is that you cannot install xapk directly like you can install an apk.</p>
+<p>To know why you will need to first know what a xapk is and how it is different from the regular apk.</p>
+<h2>What is XAPK<br />
+</h2>
+<p>XAPK is a new file type that contains all the files of an app or game, files like images, scripts, fonts, and the apk of the app or game are all stored in a single file extension called XAPK. This is very helpful for people that want to install apps and games from third-party websites and app stores.</p>
+<p>Previously, before the introduction of XAPK, people used to download both the apk and OBB files (data files) separately which was not very convenient, due to which XAPK was introduced by using which we can install an app or game completely with just one file.</p>
+<h2>What is the difference between APK and XAPK<br />
+</h2>
+<p>The only difference between an APK &amp; XAPK is that an APK can be installed on your android phone directly without the need for an external app or without going through extra steps to install it.</p>
+<h2>Installing a XAPK on Android</h2>
+<p>Okay, so now let&#8217;s see how we can install an XAPK on our Android phone without the use of a PC. I will show you multiple methods to do this, the first one will be a direct install method and the other ones will be using apps.</p>
+<h2>Using File Manager </h2>
+<p>To install an XAPK using a File manager you will need to first install <em>zarchiver</em>, which is a file manager app for android. You can download zarchiver from the play store by going to this link here &#8211; <a href="https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver">https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver</a>, It&#8217;s around 3Mb in size, install it and open it.</p>
+<p>If you are opening zarchiver for the first time, then you might get asked to allow storage permissions, allow it to continue. Inside zarchiver go to the folder where you have the xapk file downloaded.</p>
+<p>For most people, the downloaded files from the internet will be stored in the Download folder. Locate the xapk file and long press on it. This will bring up a menu from the bottom, click on “<em>Rename</em>”, now rename the xapk files extension from “.xapk” to “.zip”. Once done save it.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/rename-xapk-file-1024x480.png" alt="rename xapk file" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/rename-xapk-file-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/rename-xapk-file-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/rename-xapk-file-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/rename-xapk-file.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Now click on the saved zip file, click on view. Now look for the OBB file, the OBB file will be named like “com.something.something”, long-press the OBB file and click on “<em>Copy</em>”.</p>
+<p>[ If there are multiple OBB files or you cannot find the obb file then use the other methods shown in this blog post ]</p>
+<p>On the top of the app click on your file path, after that click on <em>Device Memory</em> then go to <em>Android</em>, then OBB, and paste the OBB file there by clicking the clipboard icon at the bottom of the zarchiver app.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/copy-and-paste-obb-files-1024x480.png" alt="copy and paste obb files" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/copy-and-paste-obb-files-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/copy-and-paste-obb-files-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/copy-and-paste-obb-files-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/copy-and-paste-obb-files.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After pasting the obb file, go back to the zip file and click on the .apk file, click on Install to install the xapk file on your android using zarchiver.</p>
+<h2>Using Apkpure App </h2>
+<p>Now if the file manager method didn&#8217;t work for you or it was too complicated then you can follow this method instead to install a xapk on your android.</p>
+<p>To begin, first, install the official <em>apkpure app</em> that you can search for on Google or you can use this link here &#8211; <a href="https://m.apkpure.com/apkpure-app.html">https://m.apkpure.com/apkpure-app.html</a>, Download the latest version of Apkpure and install it.</p>
+<p>After downloading and installing apkpure, open it. Allow all the permissions it asks for, like storage and phone. After that in the apkpure app, click on “<em>ME</em>” at the bottom right corner, after that click on “<em>App Management</em>”.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/go-to-app-management-in-apkpure-app-1024x480.png" alt="How to Install a XAPK on Android without PC" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/go-to-app-management-in-apkpure-app-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/go-to-app-management-in-apkpure-app-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/go-to-app-management-in-apkpure-app-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/go-to-app-management-in-apkpure-app.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Now in the App Management tab go to <em>APK/XAPK MANAGEMENT</em>, here you will see all the xapks and apks downloaded on your device, click on install.</p>
+<p>Your phone will now ask for permissions to install from unknown sources, allow it, and go back to continue. </p>
+<p>If the app brings you back to the home screen then just go to apk/xapk management again and install the xapk that you want to install.</p>
+<p>That is how you can install a xapk on your android device using the apkpure app.</p>
+<h2>Using Apk Installer by Uptodown<br />
+</h2>
+<p>If Apkpure didn&#8217;t work for you then you can use the <em>Apk Installer by Uptodown</em>, you can download the uptodown apk installer from google play store by simply searching for “Apk Installer by Uptodown” or you can just download it from its website at &#8211; <a href="https://uptodown-apk-installer.en.uptodown.com/android">https://uptodown-apk-installer.en.uptodown.com/android</a>. </p>
+<p>Install the app and open it, it will ask for file and storage permissions, allow it to continue. On the home screen click on Install Apps.</p>
+<p>Now here you will see all the xapks and apks downloaded on your android phone, look for the xapk that you want to download and click on it. This will now take a few minutes to finish and your xapk will be installed.</p>
+<h2>Using XAPK Installer<br />
+</h2>
+<p>Now, as the name says, it is an app that is made for installing xapk files on your android. You can download XAPK Installer from the play store by searching for “<em>XAPK Installer</em>”, the developer is MTV Mobile.</p>
+<p>Download and install the app and open it, in the home screen of the app you will need to first provide the app two permissions to work, the first will be Install Packages and the second will be Read and Write permissions. Click on both of them and allow the app the permissions.</p>
+<p>After providing the necessary permissions to the app, click on the <em>Install XAPK</em> button and select the “<em>Automatically search for XAPK</em>” option.</p>
+<p>Once the search finishes, all the xapk files stored in your device will show up here, click on the download icon next to it to install the xapk on your android.</p>
+<p>And that is how you can install a xapk file using the xapk installer on android.</p>
+<h2>What is the Recommended Method to install a XAPK?<br />
+</h2>
+<p>The method that I recommend you to use to install a xapk on your android device is using the apkpure app. Using Apkpure installer is easy and has fewer chances of error compared to other apps like uptodown installer and XAPK Installer.</p>
+<h2>Best Apps to Install XAPK<br />
+</h2>
+<p>Okay so if you are looking for the best apps to install xapk files on your android device then here are the best apps for installing xapk &#8211; </p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">Apkpure App</li>
+<li style="font-weight: 400;" aria-level="1">Uptodown Apk Installer</li>
+<li style="font-weight: 400;" aria-level="1">XAPK Installer</li>
+<li style="font-weight: 400;" aria-level="1">Apk Installer pro</li>
+<li style="font-weight: 400;" aria-level="1">App Bundle Installer</li>
+</ol>
+<p>If you want the list for more apps then comment below.</p>
+<h2>Fix XAPK not Working after Installing<br />
+</h2>
+<p>Okay, so if you installed an apk manually using the file manager and now the app is not working, then here are the reasons and fixes for it &#8211;</p>
+<ul>
+<li><b>Wrong Destination </b>&#8211; When copying the data files on the xapk to its location you might have pasted the data files in the wrong path. You can fix this by uninstalling the app and reinstalling it again with the correct path.</li>
+</ul>
+<ul>
+<li><b>App opened before full install &#8211;</b> You might have opened the installed app before copying the data files to the obb folder. Always install the app last, first copy the data files to their location then install the apk file that is inside the xapk.</li>
+</ul>
+<p>If you made one of these mistakes then chances are that your installed app or game will not work, reinstall the app again properly to fix it. Thank you.</p>The post <a href="https://netmiko.com/install-xapk-android-no-pc/">How to Install a XAPK on Android without PC</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://netmiko.com/install-xapk-android-no-pc/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Install WordPress on NGINX with Varnish Cache in Ubuntu 20.04</title>
+		<link>https://netmiko.com/install-wordpress-nginx-with-varnish-ubuntu/</link>
+					<comments>https://netmiko.com/install-wordpress-nginx-with-varnish-ubuntu/#respond</comments>
+		
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Mon, 27 Dec 2021 14:29:02 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<guid isPermaLink="false">https://netmiko.com/?p=2097</guid>
+
+					<description><![CDATA[<p>Today I&#8217;ll show you how you can host a WordPress website on an NGINX server with varnish caching for a fast and optimized WordPress website.  If you want to host a WordPress website that can handle lots of traffic without crashing on a cheap cloud hosting like digital ocean basic plan then this is the &#8230;</p>
+<p class="read-more"> <a class="" href="https://netmiko.com/install-wordpress-nginx-with-varnish-ubuntu/"> <span class="screen-reader-text">Install WordPress on NGINX with Varnish Cache in Ubuntu 20.04</span> Read More &#187;</a></p>
+The post <a href="https://netmiko.com/install-wordpress-nginx-with-varnish-ubuntu/">Install WordPress on NGINX with Varnish Cache in Ubuntu 20.04</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></description>
+										<content:encoded><![CDATA[<p>Today I&#8217;ll show you how you can host a WordPress website on an NGINX server with varnish caching for a fast and optimized WordPress website. </p>
+<p>If you want to host a WordPress website that can handle lots of traffic without crashing on a cheap cloud hosting like digital ocean basic plan then this is the perfect tutorial for you, with the help of this tutorial your WordPress website will be able to handle <em>5000+ visitors daily</em> at a cost of just 5$ per month.</p>
+<h2>Why NGINX instead of Apache?<br />
+</h2>
+<p>The reason I recommended you to use Nginx instead of Apache for your WordPress site’s web server is that Nginx can handle more traffic and load compared to an Apache server, as Apache server uses more memory compared to Nginx because it creates a new thread for each request which consumes memory.</p>
+<h2>Creating a Ubuntu Server </h2>
+<p>Okay so this step is for those people who haven&#8217;t created an ubuntu server yet, I will show you how you can create a ubuntu 20.04 server on <em>AWS</em> and also on <em>Digital Ocean</em>. Skip this part if you already have a ubuntu server.</p>
+<h3>Amazon AWS<br />
+</h3>
+<p>To create a new Ubuntu server or Instance on AWS you will need to first log in to your AWS account, here go to the EC2 dashboard and click on “<em>Launch Instance</em>” to start the process of creating a new Ubuntu instance.</p>
+<p>First, you will need to choose an Amazon Machine Image (<em>AMI</em>), in the search bar search for Ubuntu, this will display a few ubuntu machine images, you will need to select the “<em>Ubuntu Server 20.04 LTS (HVM)</em>” which comes under free tier, click on select on the right side.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/choose-amazon-machine-image-1024x400.png" alt="choose amazon machine image" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/choose-amazon-machine-image-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/choose-amazon-machine-image-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/choose-amazon-machine-image-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/choose-amazon-machine-image.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After that you will need to choose an <em>instance type</em>, choose the instance that suits your need, like t2.micro or t.2small for a small and medium blog, choose the instance type that you can afford, and click on next.</p>
+<p>In the <em>Configure Instance Details,</em> you don&#8217;t need to change anything, click on next to continue. </p>
+<p>In the <em>Storage</em> Tab enter the amount of storage that you need and the storage type that you need, like SSD or Magnetic, once done click on next. In Tags, no need to do anything, click next again.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/choose-ssd-and-storage-1024x400.png" alt="choose ssd and storage" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/choose-ssd-and-storage-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/choose-ssd-and-storage-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/choose-ssd-and-storage-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/choose-ssd-and-storage.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Now in the <em>Configure Security Group</em> tab, you will need to add two security group rules, which are HTTP and HTTPS. Click on “<em>Add Rule</em>”, in type select “<strong>HTTP</strong>”, again add another rule for “<strong>HTTPS</strong>”. Click Review and Launch to continue.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/add-http-and-https-rule-1024x400.png" alt="add http and https rule" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/add-http-and-https-rule-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/add-http-and-https-rule-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/add-http-and-https-rule-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/add-http-and-https-rule.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>In the <em>Review</em> Tab, check if everything is correct or not, things like Instance type, storage, and Machine image are important things to check before launching the instance. If everything is correct then click on “Launch”. </p>
+<p>It will now ask you to add a <em>Key Pair</em> to the instance, select <em>create a new Key pair</em> option from the dropdown, name the keypair and <em>click on download</em> to download a .pem or .ppk file. Save this file somewhere safe because you will need it to log in to your server.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/create-a-new-keypair-1024x400.png" alt="create a new keypair" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/create-a-new-keypair-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/create-a-new-keypair-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/create-a-new-keypair-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/create-a-new-keypair.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After downloading the Key pair, <em>click on Launch</em> to launch a ubuntu server.</p>
+<p>It will take a few minutes for the instance to run so wait a few minutes. Once done you can proceed to log in to the server.</p>
+<h3>Digital Ocean<br />
+</h3>
+<p>If you are using Digital ocean then here are the steps to create a ubuntu server or droplet. To begin, log in to your digital ocean dashboard.</p>
+<p>Click on Create then select <em>Droplets</em>, to create a new droplet. In image Choose Ubuntu 20.04, after that in plans select the plan that suits your need.</p>
+<p>															<img width="1024" height="320" src="https://netmiko.com/wp-content/uploads/2021/12/choose-droplet-image-in-digital-ocean-1024x320.png" alt="choose droplet image in digital ocean" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/choose-droplet-image-in-digital-ocean-1024x320.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/choose-droplet-image-in-digital-ocean-300x94.png 300w, https://netmiko.com/wp-content/uploads/2021/12/choose-droplet-image-in-digital-ocean-768x240.png 768w, https://netmiko.com/wp-content/uploads/2021/12/choose-droplet-image-in-digital-ocean.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Scroll down and in the data center region select the server that is closest to your customers or users. After that in the Additional option check the “<em>IpV6</em>” and “<em>Monitoring</em>”.</p>
+<p>															<img width="1024" height="320" src="https://netmiko.com/wp-content/uploads/2021/12/check-ipv6-and-monitoring-1024x320.png" alt="check ipv6 and monitoring" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/check-ipv6-and-monitoring-1024x320.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/check-ipv6-and-monitoring-300x94.png 300w, https://netmiko.com/wp-content/uploads/2021/12/check-ipv6-and-monitoring-768x240.png 768w, https://netmiko.com/wp-content/uploads/2021/12/check-ipv6-and-monitoring.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Now in authentication select Password and enter a very secure password, make sure to note it down somewhere safe. Scroll down and in <em>Hostname</em> enter your domain name and scroll down again and click on Create Droplet.</p>
+<p>This will create a new ubuntu server for you.</p>
+<h2>Connect Domain &#8211;<br />
+</h2>
+<p>If you want to connect a domain name to your server then you can follow these steps otherwise you can skip this step if you just want to use the IP address.</p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">Login to your domain provider and select your domain name and go to its DNS settings.</li>
+<li style="font-weight: 400;" aria-level="1">Add a new “<em>A</em>” Record, in the name field enter “<em>@</em>” and in value enter the IP address of your server.</li>
+<li style="font-weight: 400;" aria-level="1">After that add a “<em>CNAME</em>” Record, in the name enter “<em>www</em>” and in value enter your domain name.</li>
+</ol>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/add-dns-records-in-domain-dns-settings-1024x400.png" alt="add dns records in domain dns settings" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/add-dns-records-in-domain-dns-settings-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/add-dns-records-in-domain-dns-settings-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/add-dns-records-in-domain-dns-settings-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/add-dns-records-in-domain-dns-settings.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Wait for the DNS propagation to finish and your domain will be connected.</p>
+<h2>Install Putty<br />
+</h2>
+<p>Now to login to the ubuntu server, we will need to install Putty, you can download putty from its official website at &#8211; <a href="https://www.putty.org/">https://www.putty.org/</a>. Download the latest version of putty from the website and install it.</p>
+<h2>Login to Ubuntu Server<br />
+</h2>
+<p>Once you have created the ubuntu server and installed putty, you can now log in to your server. This process is different for different cloud hostings, I will show you the steps for AWS and Digital Ocean. </p>
+<p>You can google how to log in to your cloud server if you are using something else.</p>
+<h3>Amazon AWS &#8211;<br />
+</h3>
+<p>If you want to log in to your ubuntu server hosted on AWS then here are the steps. </p>
+<p>Open putty, in the hostname, enter the IP address of your amazon instance, after that on the left side click on “<em>SSH</em>” twice, this will display some more options, click on “<em>Auth</em>”, after that click on Browse and <em>select the .ppk or .pem Key Pair</em> downloaded during instance launch.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/enter-hostname-and-port-select-private-keypair-1024x480.png" alt="enter hostname and port &amp; select private keypair" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/enter-hostname-and-port-select-private-keypair-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/enter-hostname-and-port-select-private-keypair-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/enter-hostname-and-port-select-private-keypair-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/enter-hostname-and-port-select-private-keypair.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After that in putty click on open to connect to your AWS instance. In the terminal, it will ask “Login as”, enter <em>root</em> and you will be logged in to your AWS ubuntu server.</p>
+<h3>Digital Ocean &#8211;<br />
+</h3>
+<p>If you are using digital ocean then just copy the Ip address of the Droplet and open putty, in hostname enter the Ip address and click on open.</p>
+<p>Login as Root, enter the password that you used when setting up the digital ocean droplet. That&#8217;s it you will be now logged into your ubuntu server.</p>
+<h2>Install NGINX<br />
+</h2>
+<p>Okay now it&#8217;s time to set up the server, we will be installing WordPress on Lemp Stack so the first thing we will need to do is install NGINX. All you need to do is copy &amp; paste the commands given below in the putty terminal.</p>
+<p>First, update your ubuntu apt packages before starting the installation process, you can update your apt packages using this command &#8211; </p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo apt-get update &amp;&amp; sudo apt-get upgrade
+</code></pre>
+<p>After that you can now <em>download Nginx</em>, to do that use this command &#8211; </p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo apt-get install nginx</code></pre>
+<p>Once Nginx is installed check its status using the command “<em>sudo service nginx status</em>”, if it shows an output that says “Active(running) then Nginx is installed and running properly. Exit the status screen by pressing “q”.</p>
+<p>After this, you will need to set up a firewall for ubuntu and also add a <em>rule for ufw</em>.</p>
+<pre class='line-numbers theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo ufw allow OpenSSH
+sudo ufw allow 'Nginx Full'
+</code></pre>
+<p>After adding the rule <em>enable the ufw firewall</em> and also check its status.</p>
+<pre class='line-numbers theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo ufw enable
+sudo ufw status</code></pre>
+<p>Once done you can now check if Nginx is working properly or not, to do that enter the IP address of your Ubuntu server in a browser. This will display the “<em>Welcome to Nginx</em>” page which means that Nginx is working perfectly.</p>
+<p>															<img width="1024" height="320" src="https://netmiko.com/wp-content/uploads/2021/12/welcome-to-nginx-1024x320.jpg" alt="welcome to nginx" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/welcome-to-nginx-1024x320.jpg 1024w, https://netmiko.com/wp-content/uploads/2021/12/welcome-to-nginx-300x94.jpg 300w, https://netmiko.com/wp-content/uploads/2021/12/welcome-to-nginx-768x240.jpg 768w, https://netmiko.com/wp-content/uploads/2021/12/welcome-to-nginx.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<h2>Install MySQL </h2>
+<p>Now we will install the MySQL database, again before starting the installation make sure to update the apt packages again &#8211; </p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo apt-get update</code></pre>
+<p>After that enter the MySQL installation command, you might need to press “y” after entering the command.</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo apt-get install mysql-server
+</code></pre>
+<p>After MySQL finishes installing, <em>check its status</em> and exit status screen once done. You can exit status by pressing “q”.</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo service mysql status</code></pre>
+<p>After this, you will need to now create a root password for your MySQL, and remove anonymous users, Disable remote root login, remove the test database and reload privilege tables.</p>
+<p>First <em>create a root password</em>, to do that first enter the command given below &#8211; </p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo mysql_secure_installation
+</code></pre>
+<p>In the terminal you will now get an output asking “Would you like to set up the <em>VALIDATE PASSWORD</em> component?”, just enter any key to continue. After that, you will be asked to enter a new password and confirm the password.</p>
+<p>Create a strong password and confirm it.</p>
+<p>After that you will be asked to <em>remove the anonymous users</em>, press y to continue. After that it will ask “<em>Disallow remote root login</em>”, press y to continue.</p>
+<p>After that, in both remove test databases and reload privilege tables press and enter “y” to finish setting up the MySQL database.</p>
+<h2>Install PHP</h2>
+<p>Now we will install PHP for our Nginx server, to begin first you will need to <em>add the universe repository</em> of Ubuntu to your system, use the command given below for adding the universe repo.</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo add-apt-repository universe</code></pre>
+<p>After adding the repo, update the apt packages and <em>install php-fpm and php-mysql</em>. You can install them by using these commands &#8211; </p>
+<pre class='line-numbers theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo apt-get install php-fpm
+sudo apt-get install php-mysql
+</code></pre>
+<p>After installing both php-fpm and php-mysql you will need to configure Nginx for installing WordPress in it.</p>
+<h2>Configure NGINX<br />
+</h2>
+<p>To configure Nginx for php you will need to first <em>edit the default config file</em> of your Nginx server, to do that we will be using nano editor, you can also use vim editor for this, enter this command in terminal &#8211;</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo nano /etc/nginx/sites-available/default
+</code></pre>
+<p>The file path for the server block can be different sometimes.</p>
+<p>That command will open the default config file in the nano editor, you will now need to change a few things inside this file to set up the Nginx server. The first thing will be to add index.php.</p>
+<p>Inside this file scroll down and look for the “Add index.php to the list” option, here <em>between the index and index.html</em> enter <em>index.php</em>. Just below that in “server_name” enter your domain name or IP address. </p>
+<p>															<img width="1024" height="360" src="https://netmiko.com/wp-content/uploads/2021/12/add-index.php-and-server-ip-to-virtual-host-configuration-file-1024x360.png" alt="add index.php and server ip to virtual host configuration file" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/add-index.php-and-server-ip-to-virtual-host-configuration-file-1024x360.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/add-index.php-and-server-ip-to-virtual-host-configuration-file-300x105.png 300w, https://netmiko.com/wp-content/uploads/2021/12/add-index.php-and-server-ip-to-virtual-host-configuration-file-768x270.png 768w, https://netmiko.com/wp-content/uploads/2021/12/add-index.php-and-server-ip-to-virtual-host-configuration-file.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After that remove the “<em>try_files $uri $uri/ =404;</em>” line below it and replace it with the line given below.</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>try_files $uri $uri/ /index.php?$args;
+</code></pre>
+<p>Once done, just below it you will need to <em>uncomment 3 lines of code</em>, you can uncomment them by removing the “#”, the lines that you will need to uncomment are &#8211; </p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">location ~ .php$ {</li>
+<li style="font-weight: 400;" aria-level="1">include snippets/fastcgi-php.conf;</li>
+<li style="font-weight: 400;" aria-level="1">fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;</li>
+</ol>
+<p>After that, also <em>uncomment the closing bracket</em> below the “fastcgi_pass 127.0.0.1:9000;” line. Once done, recheck everything and save the file by clicking “CTRL+X &gt; Y &gt; Enter”.</p>
+<p>															<img width="1024" height="360" src="https://netmiko.com/wp-content/uploads/2021/12/uncomment-php-code-1024x360.png" alt="uncomment php code" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/uncomment-php-code-1024x360.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/uncomment-php-code-300x105.png 300w, https://netmiko.com/wp-content/uploads/2021/12/uncomment-php-code-768x270.png 768w, https://netmiko.com/wp-content/uploads/2021/12/uncomment-php-code.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After saving the file, check if there are any errors in the file by using the command &#8211;</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo nginx -t
+</code></pre>
+<p>This will display an output in the terminal like, “Syntax is OK” and “test is successful”, this means that there are no errors after editing the file and you can now proceed to the next step.</p>
+<p>First, <em>reload</em> your Nginx config using the command &#8211; </p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo service nginx reload
+</code></pre>
+<p>You can check if php on your Nginx server is working or not by creating a new .php file at location “/var/www/html/” by using the command &#8211; </p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo nano /var/www/html/test.php
+</code></pre>
+<h2>Install phpMyAdmin</h2>
+<p>Now to be able to set up and manage MySQL databases on your WordPress website you will need to install and set up phpMyAdmin.</p>
+<p>To begin first update your apt packages using the command “sudo apt update”, after that download PHPMyAdmin using the command &#8211; </p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo apt-get install phpmyadmin
+</code></pre>
+<p>During the download, it will ask you to enter “y” enter y and press enter to continue, when asked to choose a web server you will need to press TAB Key and press enter to continue.</p>
+<p>															<img width="1024" height="360" src="https://netmiko.com/wp-content/uploads/2021/12/php-installation-server-select-1024x360.png" alt="php installation - server select" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/php-installation-server-select-1024x360.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/php-installation-server-select-300x105.png 300w, https://netmiko.com/wp-content/uploads/2021/12/php-installation-server-select-768x270.png 768w, https://netmiko.com/wp-content/uploads/2021/12/php-installation-server-select.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After that select yes and press enter in “<em>Configure database for phpmyadmin</em>”, The setup will now ask you for a password for PHPMyAdmin, enter the same password that you used during MySQL installation, select OK and press Enter, you might get asked to confirm the password.</p>
+<p>Once phpMyAdmin is installed you will need to <em>link your PHPMyAdmin to your root directory</em>, to do that enter the command given below.</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
+</code></pre>
+<p>Once done go to your web browser and go to domain.com/phpmyadmin or ip_addresss/phpmyadmin to check if PHPMyAdmin is working perfectly or not. If it is then now you will need to create a superuser to log in to your admin dashboard.</p>
+<p>First, enter the command given below to <em>enter MySQL</em>.</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo mysql -u root -p
+</code></pre>
+<p>After this you will now need to <em>create a username and password</em> for phpmyadmin, the format for the command will be “CREATE USER &#8216;username&#8217;@&#8217;localhost&#8217; IDENTIFIED BY &#8216;password&#8217;;”, where change the username to anything you like and change the password to a secure password.</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+</code></pre>
+<p>After that, grant all the root privileges to the user using the command below, change the username to the one you added using the above command &#8211;</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost';
+</code></pre>
+<p>Once done, exit using the command “<em>exit</em>”.</p>
+<p><strong>[ OPTIONAL BUT RECOMMENDED STEP ]</strong></p>
+<p>You should secure your phpMyAdmin by following this tutorial here &#8211; <a href="https://bit.ly/3FG2lso">https://bit.ly/3FG2lso</a></p>
+<h2>Create a MySQL Database<br />
+</h2>
+<p>Now after installing phpmyadmin, log in to the dashboard by going to your_domain.com/phpmyadmin, log in using the username and password that you provided.</p>
+<p>After logging in, on the top left click on “Databases”, here in “<em>database name</em>” enter a database name like “<em>wordpress_database</em>” and click on create to create the database. After that proceed to the installation of WordPress.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/create-new-mysql-database-1024x400.png" alt="create new mysql database" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/create-new-mysql-database-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/create-new-mysql-database-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/create-new-mysql-database-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/create-new-mysql-database.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<h2>Install WordPress<br />
+</h2>
+<p>Now we can start the installation of WordPress, first, go to the official website of WordPress at &#8211; <a href="https://wordpress.org/">https://wordpress.org/</a> and download the latest version of the WordPress zip file.</p>
+<p>Once done extract the downloaded zip file and go inside it, here look for “<em>wp-config-sample.php</em>”, right click and <em>rename it</em> to just “wp-config.php”, after renaming it, <em>edit the PHP file</em> using a note editor by right clicking and open with &gt; note pad. </p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/rename-wpconfig-file-1024x480.jpg" alt="rename wpconfig file" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/rename-wpconfig-file-1024x480.jpg 1024w, https://netmiko.com/wp-content/uploads/2021/12/rename-wpconfig-file-300x141.jpg 300w, https://netmiko.com/wp-content/uploads/2021/12/rename-wpconfig-file-768x360.jpg 768w, https://netmiko.com/wp-content/uploads/2021/12/rename-wpconfig-file.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Inside the wp-config file look for “<em>MySQL database username</em>” and change the “database_name_here” to your database name. Below that change the “username_here” to your MySQL username, below that change password to your database password.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/edit-the-wp-congif-file-1024x480.png" alt="edit the wp-congif file" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/edit-the-wp-congif-file-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/edit-the-wp-congif-file-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/edit-the-wp-congif-file-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/edit-the-wp-congif-file.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Once done, save the file. After that select all the files using your mouse and <em>archive them to a zip file named wordpress.zip</em>.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/archive-all-the-wordpress-file-to-a-zip-file-1024x480.png" alt="archive all the wordpress file to a zip file" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/archive-all-the-wordpress-file-to-a-zip-file-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/archive-all-the-wordpress-file-to-a-zip-file-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/archive-all-the-wordpress-file-to-a-zip-file-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/archive-all-the-wordpress-file-to-a-zip-file.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Now, open Filezilla and log in using the Ip address of your server, username will be root, enter the password of your server, and select port 22. For AWS you will need to use the key pair to log in to Filezilla, the steps can be seen here &#8211; <a href="https://youtu.be/-80-39VNzOA">https://youtu.be/-80-39VNzOA</a>. </p>
+<p>After logging in, go to the file path “<em>/var/www/html</em>”, and inside the html, directory upload the edited wordpress.zip that you created. Wait for the upload to finish, after the wordpress.zip finishes uploading open putty and log in to your server.</p>
+<p>															<img width="1024" height="320" src="https://netmiko.com/wp-content/uploads/2021/12/upload-wordpress-zip-to-server-1024x320.png" alt="upload wordpress zip to server" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/upload-wordpress-zip-to-server-1024x320.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/upload-wordpress-zip-to-server-300x94.png 300w, https://netmiko.com/wp-content/uploads/2021/12/upload-wordpress-zip-to-server-768x240.png 768w, https://netmiko.com/wp-content/uploads/2021/12/upload-wordpress-zip-to-server.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>First, you will need to <em>install unzip</em>, to do that update your apt packages and install unzip &#8211; </p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo apt-get install zip unzip 
+</code></pre>
+<p>After installing unzip, you can now unzip the WordPress zip file, to do that <em>change your directory</em> to “/var/www/html/” using the command &#8211; </p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>cd /var/www/html/
+</code></pre>
+<p>After changing the directory use the unzip command to <em>unzip the WordPress zip</em> file &#8211;</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>unzip wordpress.zip
+</code></pre>
+<p>Once the zip file finishes unzipping without any error, remove the zip file from the directory &#8211;</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>rm wordpress.zip
+</code></pre>
+<p>That&#8217;s it, WordPress is now installed successfully on your Nginx server.</p>
+<h2>Setup WordPress</h2>
+<p>To set up WordPress just enter your Ip address in a browser, if you have a domain connected then enter your domain name.</p>
+<p>You will be redirected to the setup page of WordPress where you will need to first enter your site title, then enter a username for logging in to the server and a secure password, after that enter the admin email and Click “Install WordPress”.</p>
+<p>Once WordPress install finishes you can log in to your website by going to “<em>domain_or_IP/wp-login.php</em>”.</p>
+<p>In your WordPress website, check if everything is working or not, things like are you able to install and activate themes and plugins or not, does changing permalinks break your website. Try out different things and keep refreshing your website for potential errors.</p>
+<p>If there is none then congratulations, your WordPress website is now almost ready to use, why almost?? Because there are still two things that we have left to set up on our WordPress website, the first is an SSL Certificate and the second one is Varnish Cache for an optimized web server.</p>
+<h2>Install SSL Certificate<br />
+</h2>
+<p>Okay so now you have two options to add an SSL Certificate to your WordPress website with an Nginx server, the first is directly installing a free SSL certificate in your web server, the second one is to use Cloudflare to add the SSL certificate.</p>
+<p>Both methods are easy to do, if you don&#8217;t want to use Cloudflare then you can use the <em>direct install</em> method and if you are using Cloudflare then use <em>Cloudflare</em> to add the SSL.</p>
+<h3>Install SSL Nginx-Ubuntu<br />
+</h3>
+<p>To install SSL directly in our server we will use <em>certbot</em>, to begin first update your apt packages using the command “sudo apt-get update”, after that install the certbot using the command &#8211; </p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo apt-get install certbot python3-certbot-nginx
+</code></pre>
+<p>If you are getting any errors then try “sudo apt-get install certbot python-certbot-nginx” instead. </p>
+<p>After installing the certbot, run the command given below to get an SSL Certificate for your domain or IP. </p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo certbot &#8211; nginx
+</code></pre>
+<p>At first, you will be asked for an email address, enter an email then press enter, after that accept the terms and conditions by pressing a, after that enter y to receive a newsletter from let&#8217;s encrypt. After that, you will need to select the domain name or IP address that you want to get the SSL for.</p>
+<p>After that, you will be asked whether you want to redirect all the traffic from HTTP to HTTPS or not, enter 2 and press enter. Now your SSL certificate will be assigned to your domain or IP address and HTTP traffic will now get redirected to HTTPS.</p>
+<p><strong>NOTE:</strong> The SSL certificate that you will get will only be <em>valid for 90days</em>, which means you will need to renew it after 90days using putty again.</p>
+<h3>Install SSL using Cloudflare<br />
+</h3>
+<p>If you don&#8217;t want to install an SSL directly on your server then you can use Cloudflare’s SSL to serve your website over HTTPS. To do that make a Cloudflare account and connect your domain name, after that log in to the dashboard and go to the <em>SSL/TLS</em> tab.</p>
+<p>Here Scroll down and select Flexible, after that go to Edge certificates and scroll down and enable the “<em>Always use HTTPS</em>” option.</p>
+<p>															<img width="1024" height="376" src="https://netmiko.com/wp-content/uploads/2021/12/select-flexible-ssl-in-cloudflare-1024x376.png" alt="select flexible ssl in cloudflare" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/select-flexible-ssl-in-cloudflare-1024x376.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/select-flexible-ssl-in-cloudflare-300x110.png 300w, https://netmiko.com/wp-content/uploads/2021/12/select-flexible-ssl-in-cloudflare-768x282.png 768w, https://netmiko.com/wp-content/uploads/2021/12/select-flexible-ssl-in-cloudflare.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>That&#8217;s it, all the frontend users will now be served using a secure SSL certificate.</p>
+<h2>Install Varnish Cache<br />
+</h2>
+<p>Now the final thing that we will need to install on our Nginx server is <em>Varnish Cache.</em> Varnish Cache is an HTTP accelerator used for caching HTTP requests to make a web server response time faster.</p>
+<p>To Install Varnish on your Nginx server, first update its apt package using the command “sudo apt-get update”, after that use this command to <em>install varnish cache</em>.</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo apt-get install varnish -y
+</code></pre>
+<p>After installing varnish check if it is installed or not by entering the command “<em>varnish -v</em>” in the terminal, this will show you the version of varnish installed.</p>
+<p>After that, you will need to <em>change the port</em> to which Varnish listens to. Enter the command given below which will again open the default configuration file of Nginx.</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo nano /etc/nginx/sites-available/default</code></pre>
+<p>Inside the file scroll down and look for “Virtual host Configuration”, <em>change both the listen 80 to 8088</em>. Once done save the file and restart the Nginx server.</p>
+<p>															<img width="1024" height="320" src="https://netmiko.com/wp-content/uploads/2021/12/change-port-80-to-8088-1024x320.png" alt="change port 80 to 8088" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/change-port-80-to-8088-1024x320.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/change-port-80-to-8088-300x94.png 300w, https://netmiko.com/wp-content/uploads/2021/12/change-port-80-to-8088-768x240.png 768w, https://netmiko.com/wp-content/uploads/2021/12/change-port-80-to-8088.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>systemctl restart nginx
+</code></pre>
+<p>Now you will need to <em>edit the varnish.service file</em>, to do that we will use nano editor, use the command &#8211; </p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo nano /lib/systemd/system/varnish.service
+</code></pre>
+<p>Inside the file <em>change the default port 6081 to 80</em>, save it, and after that reload daemon.</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>systemctl daemon-reload
+</code></pre>
+<p>Now you will need to <em>edit the default.vcl file</em>, use the command &#8211; </p>
+<pre class='line-numbers theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>sudo nano /etc/varnish/default.vcl
+</code></pre>
+<p>Inside the vcl file in “backend default” change the port from “8080” to “8088”. Save and Exit.</p>
+<p>After that restart varnish &#8211; </p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>systemctl restart varnish
+</code></pre>
+<p>Now check if varnish is working correctly or not by entering this command &#8211;</p>
+<pre class='theme-okaidia' data-show-toolbar='yes'><code class='language-javascript'>curl -I your-server-ip
+</code></pre>
+<p>In the terminal, you will get the output which will show if varnish is working or not.</p>
+<p>That’s it, you have now successfully installed a WordPress website on an NGINX Server with Varnish Cache in Ubuntu 20.04. If you are facing any problems then comment below, thank you for reading. </p>The post <a href="https://netmiko.com/install-wordpress-nginx-with-varnish-ubuntu/">Install WordPress on NGINX with Varnish Cache in Ubuntu 20.04</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://netmiko.com/install-wordpress-nginx-with-varnish-ubuntu/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Host a WordPress Website on Alibaba Cloud for Free</title>
+		<link>https://netmiko.com/host-wordpress-on-alibaba-cloud-free/</link>
+					<comments>https://netmiko.com/host-wordpress-on-alibaba-cloud-free/#respond</comments>
+		
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Thu, 23 Dec 2021 15:53:13 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<guid isPermaLink="false">https://netmiko.com/?p=2023</guid>
+
+					<description><![CDATA[<p>Today I will walk you through the steps to host a WordPress Website on Alibaba Cloud for free. I will show you everything you need to do to get a new WordPress website set up on Alibaba cloud. The steps for hosting a WordPress website on Alibaba cloud are very easy, you just need a &#8230;</p>
+<p class="read-more"> <a class="" href="https://netmiko.com/host-wordpress-on-alibaba-cloud-free/"> <span class="screen-reader-text">How to Host a WordPress Website on Alibaba Cloud for Free</span> Read More &#187;</a></p>
+The post <a href="https://netmiko.com/host-wordpress-on-alibaba-cloud-free/">How to Host a WordPress Website on Alibaba Cloud for Free</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></description>
+										<content:encoded><![CDATA[<p>Today I will walk you through the steps to host a WordPress Website on Alibaba Cloud for free. I will show you everything you need to do to get a new WordPress website set up on Alibaba cloud.</p>
+<p>The steps for hosting a WordPress website on Alibaba cloud are very easy, you just need a little bit of time and your website will be up and running.</p>
+<h2>Why Host WordPress on Alibaba Cloud?<br />
+</h2>
+<p>Because it&#8217;s <em>free and fast</em>!! You get a slice of 1 core CPU, 1Gb memory that you can increase later, and 40Gb of storage for the website files, that&#8217;s more than enough for a new low traffic blog, or a moderate traffic blog. </p>
+<p>Instead of paying hundreds of dollars on web hosting you can host your website for <em>free for 1year</em> on Alibaba cloud, and once your website becomes successful you can move to another host or just stick to Alibaba cloud. Cloud is very cheap compared to other types of web hosting, you only pay for what you use.</p>
+<p>You can easily run a high-traffic blog that gets 2-3k visitors per day on Alibaba cloud for just 5$ a month.</p>
+<h2>Register in Alibaba Cloud </h2>
+<p>Okay, so now let&#8217;s get started, to begin we will need to first create a free trial account on Alibaba cloud, to sign up for the free trial of Alibaba cloud, click on this link &#8211; <a href="https://www.alibabacloud.com/free">https://www.alibabacloud.com/free</a>, you can also search on google for “Alibaba free trial” in case the link changes.</p>
+<p>On the Alibaba free trial page click on the “Get started for Free” button, this will redirect you to the sign-in page, in the sign-in page click on the “Register Now” link at the bottom right.</p>
+<p>															<img width="1024" height="320" src="https://netmiko.com/wp-content/uploads/2021/12/alibaba-cloud-click-on-register-1024x320.png" alt="alibaba cloud click on register" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/alibaba-cloud-click-on-register-1024x320.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/alibaba-cloud-click-on-register-300x94.png 300w, https://netmiko.com/wp-content/uploads/2021/12/alibaba-cloud-click-on-register-768x240.png 768w, https://netmiko.com/wp-content/uploads/2021/12/alibaba-cloud-click-on-register.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>On the signup page, you will need to select “<em>individual account</em>” and click on next, after that you will need to enter your email address and create a very secure password that contains a capital letter, symbol, and number. Confirm the password and click on sign up.</p>
+<p>															<img width="1024" height="320" src="https://netmiko.com/wp-content/uploads/2021/12/enter-email-in-alibaba-signup-page-1024x320.png" alt="enter email in alibaba signup page" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/enter-email-in-alibaba-signup-page-1024x320.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/enter-email-in-alibaba-signup-page-300x94.png 300w, https://netmiko.com/wp-content/uploads/2021/12/enter-email-in-alibaba-signup-page-768x240.png 768w, https://netmiko.com/wp-content/uploads/2021/12/enter-email-in-alibaba-signup-page.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>On the next page, you will need to select your country and verify your phone number, you can verify using your phone number or your email address, whatever you feel comfortable with. I recommend you to verify using your phone number.</p>
+<p>Click on “<em>Send Message</em>” which will send you a verification code on your phone number or email, enter it in the signup page, agree to the agreement and click on Sign Up once again to create an Alibaba Cloud Account.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/verify-email-or-phone-number-for-alibaba-cloud-account-1024x480.png" alt="verify email or phone number for alibaba cloud account" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/verify-email-or-phone-number-for-alibaba-cloud-account-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/verify-email-or-phone-number-for-alibaba-cloud-account-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/verify-email-or-phone-number-for-alibaba-cloud-account-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/verify-email-or-phone-number-for-alibaba-cloud-account.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After this your Alibaba cloud account will be created, now you will need to Enter some basic information about you, like name, address, postal code, and phone number. Select Individual Account at the top.</p>
+<p>Enter your phone number and click on verify, you will get a verification code at the phone number provided, enter it and verify your phone number again, after that click on submit.</p>
+<p>Now in the Payment Information tab, you will need to provide your payment info, the payment method will be different for different countries, if it asks for a credit card then provide it there, don&#8217;t worry <em>you won&#8217;t be charged a cent</em> for it, payment info is asked to prevent spam accounts.</p>
+<p>After providing your payment info, you will automatically get redirected to the confirmation page of Alibaba cloud, click on “<em>Free Trial</em>” to start the activation process of the free trial of Alibaba Cloud.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/account-creation-confirmation-page-of-alibaba-cloud-1024x400.png" alt="account creation confirmation page of alibaba cloud" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/account-creation-confirmation-page-of-alibaba-cloud-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/account-creation-confirmation-page-of-alibaba-cloud-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/account-creation-confirmation-page-of-alibaba-cloud-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/account-creation-confirmation-page-of-alibaba-cloud.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<h2>Create ECS Instance in Alibaba Cloud<br />
+</h2>
+<p>After clicking on Free Trial you will be redirected to the free trial page of Alibaba cloud, here scroll down a little and select the products that you want to use.</p>
+<p>If you just want to host a <em>simple WordPress blog</em> with low to medium traffic then just select the Burstable t5, 1 core CPU, 1Gb memory, 40Gb SSD storage which will give you a trial period of 12months, meaning that you host your low to medium traffic website free for 12 months.</p>
+<p>															<img width="1024" height="320" src="https://netmiko.com/wp-content/uploads/2021/12/choose-alibaba-ecs-product-1024x320.png" alt="choose alibaba ecs product" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/choose-alibaba-ecs-product-1024x320.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/choose-alibaba-ecs-product-300x94.png 300w, https://netmiko.com/wp-content/uploads/2021/12/choose-alibaba-ecs-product-768x240.png 768w, https://netmiko.com/wp-content/uploads/2021/12/choose-alibaba-ecs-product.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>You can also use the Burstable t6/t5, 2 core CPU, 2Gb memory which is more powerful and can handle high traffic, but the problem with this is that the trial period will only be 3months for this, so better choose the 1 core CPU one with 12 months.</p>
+<p>Just select it and click on “<em>Try Now</em>”, after which you will now need to set up the server aka ECS, you will need to first select the Data server region, select the server which is closest to your customers, in “operating system” select “<em>WordPress on LAMP Ubuntu 16</em>”.</p>
+<p>															<img width="1024" height="440" src="https://netmiko.com/wp-content/uploads/2021/12/configure-alibaba-ecs-specs-1024x440.png" alt="configure alibaba ecs specs" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/configure-alibaba-ecs-specs-1024x440.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/configure-alibaba-ecs-specs-300x129.png 300w, https://netmiko.com/wp-content/uploads/2021/12/configure-alibaba-ecs-specs-768x330.png 768w, https://netmiko.com/wp-content/uploads/2021/12/configure-alibaba-ecs-specs.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>If you want you can also select a different operating system like Ubuntu 18.04, but remember that you will set up WordPress manually using the terminal if you do that, I recommend you to just use the WordPress LAMP which automatically does everything for us.</p>
+<p>After selecting your data center and operating system, accept the Terms and conditions and click on Try now. This will automatically set up a WordPress ECS instance for you.</p>
+<p>If you get any error like “<em>Sorry you have already tried the instance</em>” or something then don&#8217;t worry and go to your Alibaba Cloud Console from the top-right menu, then go to Elastic Compute Service (ECS) from the top left corner menu, then go to “Instances”.</p>
+<p>There you will see your WordPress instance.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/ecs-delpoyment-error-alibaba-cloud-1024x400.png" alt="ecs delpoyment error alibaba cloud" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/ecs-delpoyment-error-alibaba-cloud-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/ecs-delpoyment-error-alibaba-cloud-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/ecs-delpoyment-error-alibaba-cloud-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/ecs-delpoyment-error-alibaba-cloud.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<h2>Change Disk Image<br />
+</h2>
+<p>Now after creating an ECS instance you will need to change the disk image of your instance. To do that first go to your <em>console</em>&gt;<em>Elastic compute service</em>&gt;<em>Instances</em>. Here select your instance and click on STOP at the bottom.</p>
+<p>Select Force stop, and also check the “Proceed to forcibly stop” option and click on OK, this will stop the instance, this might take a few minutes, keep refreshing the page until the status says “<em>Stopped</em>”.</p>
+<p>Once the instance stops, select the instance once again, and below click on the More button, after that select Disk &amp; Image &gt; Replace System Disk. Click on OK on the popup.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/change-disk-image-setting-in-alibaba-cloud-1024x400.png" alt="change disk image setting in alibaba cloud" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/change-disk-image-setting-in-alibaba-cloud-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/change-disk-image-setting-in-alibaba-cloud-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/change-disk-image-setting-in-alibaba-cloud-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/change-disk-image-setting-in-alibaba-cloud.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After that, you will be in the operating system settings where to change the disk image of your instance you will need to click on MarketPlace Image then “<em>Select from Image Market</em>”.</p>
+<p>That will open up the Marketplace, In the search bar you will need to search for “WordPress”, which will bring up a lot of different options, the WordPress image that you will need to select is the “<em>WordPress on LEMP CentOS7.2 64 bits powered by IGS</em>”. Click on USE to continue.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/select-wordpress-on-lemp-centOS-1024x480.png" alt="select wordpress on lemp centOS" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/select-wordpress-on-lemp-centOS-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/select-wordpress-on-lemp-centOS-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/select-wordpress-on-lemp-centOS-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/select-wordpress-on-lemp-centOS.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After that scroll down and in Security settings, click on Password and enter a secure password, confirm it, and accept the Terms of service below. Click on Create Order to continue the payment, it&#8217;s free so no need to pay anything, just finish the purchase and once the purchase completes, go back to your console.</p>
+<h2>Configure Security Groups<br />
+</h2>
+<p>Now the last thing to do before we can access our WordPress website is to configure security groups. To configure Security groups go to your console and then go to “<em>Network &amp; Security</em>” by clicking on the top left menu, after that in Network &amp; Security go to “<em>Security groups</em>”.</p>
+<p>Here click on “<em>Add rules</em>” on the right side of your Instance, Click on “<em>Quick rule Creation</em>” to add a new rule.</p>
+<p>In Common Port (TCP) check “http”, in Custom Port range enter “21/22”, in Authorization Object enter “0.0.0.0/0” and click on OK to add that rule.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/add-http-rule-in-security-group-1024x400.png" alt="add http rule in security group" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/add-http-rule-in-security-group-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/add-http-rule-in-security-group-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/add-http-rule-in-security-group-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/add-http-rule-in-security-group.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Again click on Quick rule creation and add another rule, this time in Common Port check “<em>https</em>” in Custom Port enter “31/32” and in Authorization Object enter “0.0.0.0/0”, click on OK to add that rule, once done go back to Instances.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/add-https-rule-in-security-group-1024x400.png" alt="add https rule in security group" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/add-https-rule-in-security-group-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/add-https-rule-in-security-group-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/add-https-rule-in-security-group-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/add-https-rule-in-security-group.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Now here in Instances check if the status of your WordPress Instance is Running or not, if it&#8217;s not running then select the instance and click on start to start it. </p>
+<p>Doesn&#8217;t matter if the instance was running or not, you will have to <em>restart the instance</em> to proceed, select the instance and click on restart. Once done you can now proceed to set up the WordPress website.</p>
+<h2>Setup WordPress<br />
+</h2>
+<p>To set up your WordPress site hosted on Alibaba cloud free tier you will need to copy the Internet IP address of the Instance. Copy it and paste it into a web browser.</p>
+<p>You will need to configure your WordPress installation, select your language, and click on continue. Give your website name, username, a secure password, your email, make sure to remember the password and username because you will need it to log in to your WordPress website.</p>
+<p>Once done click on Install WordPress, after the installation finishes click on Log In and log in to your WordPress website using the provided username and password.</p>
+<h2>Add a Custom Domain<br />
+</h2>
+<p>Okay so, now let&#8217;s see how we can <em>connect a custom domain like yourdomain.com</em> instead of the IP Address of the Server. Because an IP address is not easy to remember and also not professional for a WordPress blog.</p>
+<p>You can add a custom domain to your WordPress website hosted on Alibaba cloud using two methods, the first is directly from your domain registrar and the second one is by using Cloudflare (which is recommended).</p>
+<h3>By using your domain registrar<br />
+</h3>
+<p>To add a custom domain to your Alibaba cloud-hosted website you will need to first <em>log in to your domain registrar</em> dashboard from where you bought your domain name. Hereafter logging in, select your domain name and go to its DNS settings.</p>
+<p>In DNS settings you will need to add a new “<em>A</em>” record, the name field will be “<em>@</em>” and the value will be the <em>IP Address</em> of your Alibaba cloud instance. After that add another record which will be a CNAME.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/add-dns-records-in-domain-dns-settings-1024x400.png" alt="add dns records in domain dns settings" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/add-dns-records-in-domain-dns-settings-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/add-dns-records-in-domain-dns-settings-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/add-dns-records-in-domain-dns-settings-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/add-dns-records-in-domain-dns-settings.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>The name field will be “<em>www</em>” and the value will be your domain name. After adding both these values you will need to wait a few minutes to a few hours depending upon how fast the DNS propagates, once it does then you can access your website through the domain name instead of its IP address.</p>
+<h3>By Using Cloudflare </h3>
+<p>If you have Cloudflare connected to your domain then you can use Cloudflare to add a custom domain to your WordPress website hosted on Alibaba Cloud. If you don&#8217;t have Cloudflare connected to your domain then here are the steps to add Cloudflare &#8211; </p>
+<ol>
+<li style="font-weight: 400;" aria-level="1">Create an account at <a href="https://dash.cloudflare.com/sign-up">https://dash.cloudflare.com/sign-up</a>, add your domain name and complete the rest of the steps.</li>
+<li style="font-weight: 400;" aria-level="1">Add Cloudflare nameservers to your DNS Settings by going to your domain provider, select your domain name and go to its Nameservers settings, remove the default nameservers and add the ones given by Cloudflare.</li>
+<li style="font-weight: 400;" aria-level="1">Wait for the DNS Propagation to finish.</li>
+</ol>
+<p>Okay so once Cloudflare is connected to your domain, go to the DNS settings in your Cloudflare dashboard, here add an A record with the name “@” and value the IP address of your Alibaba cloud instance.</p>
+<p>After that add a CNAME with the name “www” and value your domain name, that&#8217;s it your website will be now connected to a custom domain. </p>
+<p>The plus point of using Cloudflare is that it gives you<em> free CDN and DDOS protection</em> and also hides the real IP address of your website.</p>
+<h2>Add SSL to Alibaba Cloud Hosted Website<br />
+</h2>
+<p>To add an SSL certificate to your Alibaba cloud-hosted WordPress website you can use Cloudflare that provides you with free SSL. To enable the SSL certificate login to your Cloudflare dashboard.</p>
+<p>In the dashboard of Cloudflare go to <em>SSL/TLS tab</em> and make the SSL setting to “<em>Flexible</em>” this will serve your website with HTTPS to the users, after that you will need to redirect all the users using HTTP to HTTPS.</p>
+<p>															<img width="1024" height="376" src="https://netmiko.com/wp-content/uploads/2021/12/select-flexible-ssl-in-cloudflare-1024x376.png" alt="select flexible ssl in cloudflare" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/select-flexible-ssl-in-cloudflare-1024x376.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/select-flexible-ssl-in-cloudflare-300x110.png 300w, https://netmiko.com/wp-content/uploads/2021/12/select-flexible-ssl-in-cloudflare-768x282.png 768w, https://netmiko.com/wp-content/uploads/2021/12/select-flexible-ssl-in-cloudflare.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>To redirect everyone using HTTP to HTTPS you will need to go to SSL/TLS tab and then go to the Edge Certificates tab, here scroll down and find <em>Always Use HTTPS</em>, enable it and all your users using HTTP will now get redirected to HTTPS.</p>
+<h2>Fix WordPress Asking for FTP details Alibaba Cloud<br />
+</h2>
+<p>After installing WordPress on Alibaba cloud if you are trying to install a plugin or a theme and WordPress asks for your FTP username and password then here&#8217;s how you can fix it.</p>
+<h3>Using Plugin &#8211;<br />
+</h3>
+<p>First, log in to your WordPress admin and go plugins, click on Add New and search for “<em>File Manager</em>” click on install, this will ask you for your FTP details, you can get it by logging in to your Alibaba Cloud Console.</p>
+<p>Go to your instances and copy your IP address, go back to your WordPress dashboard, and in the <em>FTP hostname</em> enter “sftp://your_ip_address” or “your_ip_address”, in username enter “root” and in the password enter the password that you gave when changing disk image.</p>
+<p>After that click on proceed and install the plugin, once the plugin is installed open it, in the file manager look for “<em>wp-config.php</em>”, right-click on it, and select edit. After that enter the PHP codes from below in the wp-config file below “define (‘<em>DB COLLATE</em>’)”.</p>
+<pre class='line-numbers theme-okaidia' data-show-toolbar='yes'><code class='language-php'>define(&ldquo;FTP_HOST&rdquo;, 'ftp.yourhost.com');
+define(&ldquo;FTP_USER&rdquo;, 'root');                                          
+define(&ldquo;FTP_PASS&rdquo;, 'password');
+define('FS_METHOD', 'direct');
+define('FTP_BASE', '/data/wwwroot/default/');
+define('FTP_CONTENT_DIR', '/data/wwwroot/default/wp-content/');
+define('FTP_PLUGIN_DIR ', '/data/wwwroot/default/wp-content/plugins/');
+</code></pre>
+<p>Here, ftp.yourhost.com will be “<em>sftp://your_instance_ip_address</em>”, username and password would be the one from the disk image change step. Add all these to the wp-config file and save it.</p>
+<p>Go back to your Alibaba Cloud instance and restart it to see changes, also refresh your website.</p>
+<h3>Using FileZilla &#8211;<br />
+</h3>
+<p>To fix the problem using FileZilla you will need to first connect to your FTP server using Filezilla, in hostname enter the IP address of your Alibaba cloud instance, in username enter root, and in password enter the password set during disk image change. Click Connect.</p>
+<p>After connecting to the server, go to the file path at &#8211; <em>/data/wwwroot/default</em></p>
+<p>Inside this file path, you will need to find wp-config, download it, and using note editor add the codes given above in the article. Save it and upload it back to the server.</p>
+<p>Restart the Alibaba Cloud instance to save the changes.</p>
+<h2>Change WordPress URL &#038; Site Address</h2>
+<p>One final thing left to do is to change the WordPress Address and Site Address, as the default URL will be the IP address instead of your domain name.</p>
+<p>To change your url go to your wordpress admin and then go to settings &gt; General. Here remove the IP Address and enter your domain name.</p>
+<p>															<img width="1024" height="240" src="https://netmiko.com/wp-content/uploads/2021/12/change-wordpress-url-1024x240.png" alt="change wordpress url" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/change-wordpress-url-1024x240.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/change-wordpress-url-300x70.png 300w, https://netmiko.com/wp-content/uploads/2021/12/change-wordpress-url-768x180.png 768w, https://netmiko.com/wp-content/uploads/2021/12/change-wordpress-url.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<h2>PHP version Not Supported<br />
+</h2>
+<p>Okay so this is something that you might face if you install WordPress on Alibaba cloud, you will be unable to install some plugins due to an unsupported version of PHP. To fix this problem you will need to update the PHP of your server.</p>
+<p>You can see this tutorial on how you can update PHP &#8211; <a href="https://www.digitalocean.com/community/questions/how-to-update-nginx-php">https://www.digitalocean.com/community/questions/how-to-update-nginx-php</a>. </p>
+<p>You can connect to your Alibaba cloud instance by ssh or by using putty.</p>
+<p>That&#8217;s it, that is how you can host a WordPress website on Alibaba cloud for free, the free trial of Alibaba cloud will last for 12 months, so enjoy your free WordPress hosting for one year. Thank you for reading.</p>
+<h2>FAQ &#8211; </h2>
+<h3>How much traffic does a WordPress Website hosted on Alibaba Cloud Free tier Handle?</h3>
+<p>A WordPress website that is hosted on Alibaba Cloud free trial can handle at least <em>1500 to 3000 users per day</em> with proper caching and optimization. If you use a CDN for both images and static resources then the website can easily handle more than 3000+ visitors per day.</p>The post <a href="https://netmiko.com/host-wordpress-on-alibaba-cloud-free/">How to Host a WordPress Website on Alibaba Cloud for Free</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://netmiko.com/host-wordpress-on-alibaba-cloud-free/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Save Screen Recording directly to USB/SD card in Android</title>
+		<link>https://netmiko.com/save-screen-recording-to-usb-and-sdcard-directly/</link>
+					<comments>https://netmiko.com/save-screen-recording-to-usb-and-sdcard-directly/#respond</comments>
+		
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Tue, 21 Dec 2021 13:05:08 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<guid isPermaLink="false">https://netmiko.com/?p=2014</guid>
+
+					<description><![CDATA[<p>Today I will show you how you can save the screen recordings of your android device directly to the SD card or an external USB/Flash drive without saving them in the internal storage of your android device. As you know that all the screen recording that you do using your phone’s screen recorder is saved &#8230;</p>
+<p class="read-more"> <a class="" href="https://netmiko.com/save-screen-recording-to-usb-and-sdcard-directly/"> <span class="screen-reader-text">How to Save Screen Recording directly to USB/SD card in Android</span> Read More &#187;</a></p>
+The post <a href="https://netmiko.com/save-screen-recording-to-usb-and-sdcard-directly/">How to Save Screen Recording directly to USB/SD card in Android</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></description>
+										<content:encoded><![CDATA[<p>Today I will show you how you can save the screen recordings of your android device directly to the SD card or an external USB/Flash drive without saving them in the internal storage of your android device.</p>
+<p>As you know that all the screen recording that you do using your phone’s screen recorder is saved in the internal storage of your phone, it doesn&#8217;t give you the option to save the recording somewhere else, like on an sd card or USB. </p>
+<p>Now to fix that you can easily download a third-party screen recorder which gives you the option to save your screen recording using that app on your sd card, but the problem with using a third-party screen recorder is that you will have a watermark on your recording, which is something that doesn&#8217;t look professional and is better to avoid.</p>
+<p>If your phone doesn&#8217;t have a pre-installed screen recorder and you are using a third-party screen recorder then don&#8217;t worry, I&#8217;ll show you how you can <em>save screen recording directly to sd card/USB</em> on both third-party apps and pre-installed screen recorders on our phone.</p>
+<h2>Inbuilt Screen Recorder<br />
+</h2>
+<p>If you are trying to directly save screen recording done by the inbuilt screen recorder of your phone, then here is how you can do it. </p>
+<p>To begin first open the play store, here in the play store search for “Auto Move to SD Card”, the app developer is GoNext, you can also click on this link to download the app from play store &#8211; <a href="https://play.google.com/store/apps/details?id=com.gonext.automovetosdcard">https://play.google.com/store/apps/details?id=com.gonext.automovetosdcard</a>. Install it, but don&#8217;t open it.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/download-auto-move-to-sdcard-app-1024x400.png" alt="download auto move to sdcard app" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/download-auto-move-to-sdcard-app-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/download-auto-move-to-sdcard-app-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/download-auto-move-to-sdcard-app-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/download-auto-move-to-sdcard-app.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Now you will need to find out the location where your inbuilt screen recorder saves its recorded files, to do that first open your screen recorder and create a small recording, save it, and after that open your file manager.</p>
+<p>In file manager search for your screen recording, most of the time it is stored in the “<em>DCIM&gt;Screen Recorder</em>” folder of your internal storage, but if it&#8217;s not there then you will need to find it manually. Once you find the Screen Recording folder you can proceed to the next step.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/find-file-path-of-screen-recordings-1024x480.png" alt="find file path of screen recordings" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/find-file-path-of-screen-recordings-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/find-file-path-of-screen-recordings-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/find-file-path-of-screen-recordings-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/find-file-path-of-screen-recordings.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Now take your sd card or a USB and insert it into your android phone, after that open the downloaded Auto Move to SD Card app.</p>
+<p>Here on the home screen click on the “<em>Start Now</em>” button and skip the tutorial that the app shows, After that click on the green “<em>Auto Transfer</em>” button.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/open-and-start-auto-move-to-sd-card-app-1024x480.png" alt="open and start auto move to sd card app" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/open-and-start-auto-move-to-sd-card-app-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/open-and-start-auto-move-to-sd-card-app-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/open-and-start-auto-move-to-sd-card-app-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/open-and-start-auto-move-to-sd-card-app.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>In the Auto Transfer tab you will need to choose the source folder and the destination folder, in the <em>source folder</em> you will need to select the folder where your screen recordings are stored after finishing.</p>
+<p>In my case it will be “<em>Internal Storage/DCIM/Screen Recordings</em>”, it might or might not be different for you.</p>
+<p>The <em>destination folder</em> will be the folder in the SD card or USB where you want to screen recording to go directly instead of saving in the internal storage of the phone. After selecting the folder just turn the automatic transfer “ON” by clicking on the button at the top right.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/select-source-and-destination-and-turn-on-the-app-1024x480.png" alt="select source and destination and turn on the app" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/select-source-and-destination-and-turn-on-the-app-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/select-source-and-destination-and-turn-on-the-app-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/select-source-and-destination-and-turn-on-the-app-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/select-source-and-destination-and-turn-on-the-app.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Now every file that goes into the Screen Recording folder will be automatically transferred to the SD card or USB.</p>
+<h2>Fix Auto Move to SD card not working<br />
+</h2>
+<p>Okay so after turning on auto transfer in the app with the location selected, if it&#8217;s not working and the screen recordings are still getting saved in your internal phone storage then here are the possible reasons and fixes.</p>
+<p><b>1. Background Running &#8211; </b>This app runs in the background and moves every file created in the source folder to the destination folder, which means that if your phone doesn&#8217;t allow it to run in the background then this app will not work.</p>
+<p>To fix this, go to the app setting then select the Auto move to SD card app and then turn on “<em>Autostart</em>”, after that in Background settings <em>allow it to run in the background</em> instead of restricting it from running in the background.</p>
+<p><b>2. Turn Off Battery Saver &#8211; </b>If you have the battery saver turned on then turn it off, battery saver stops apps running in the background which means that it will prevent the Auto Move to Sd card app from running properly. </p>
+<p><b>3. Recheck Source and Destination &#8211; </b>You might wanna check the source and destination in the app, check if it is in the right place or not. Sometimes people just select a different folder and wonder why the app is not working.</p>
+<p>Make sure the source is the folder where your screen recordings get saved by default, and the destination folder is the SD Card / USB where you want the screen recording to go.</p>
+<p><b>4. Check Compatibility &#8211; </b>If you are using a very old phone, or a cheap Chinese phone, then there might be a chance that the Auto Move to SD Card <em>app is not compatible with your android phone</em>. With the recent changes in google’s policy, there are lots of features that require additional permissions to work.</p>
+<h2>Third Party Screen Recorder</h2>
+<p>If you want the third-party screen recorder that you downloaded from the play store to save the screen recordings directly to the SD card / USB instead of the internal storage of your android phone then here is how you can do that.</p>
+<p>All you need to do is first open the screen recorder, I am using Xscreen recorder so here are the steps for it, the steps will be the same for all third-party screen recorders.</p>
+<p>Go to settings, here look for “Save location, Recording location or storage location”, it will be different for different apps, now it will give you two options, you can choose to either save the Screen Recordings of that app in your internal storage or SD Card, just <em>select SD Card</em>.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/change-save-location-in-screen-recorder-1024x400.png" alt="change save location in screen recorder" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/change-save-location-in-screen-recorder-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/change-save-location-in-screen-recorder-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/change-save-location-in-screen-recorder-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/change-save-location-in-screen-recorder.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>All your screen recording done by that app will now get stored in the SD Card or the USB connected to your Android phone.</p>
+<h2>Manually Move Screen Recordings</h2>
+<p>Okay so here’s the easiest way to save the screen recordings to your SD card or USB, all you need to do is open your file manager, here open the folder where your screen recordings are stored.</p>
+<p>Here, inside the Screen Recordings folder <em>long press</em> and select all the videos that you want to move to SD Card / USB, after that click on the <em>move</em> option and select the location where you want to move it, in our case, it will be SD card, so just select the SD card and click on “<em>Paste</em>” to move the Screen recording from Internal Storage to SD Card.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/move-screen-recording-manually-to-sd-card-1024x400.png" alt="move screen recording manually to sd card" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/move-screen-recording-manually-to-sd-card-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/move-screen-recording-manually-to-sd-card-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/move-screen-recording-manually-to-sd-card-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/move-screen-recording-manually-to-sd-card.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>That&#8217;s it, it will take some time to finish if your screen recording size is very big. And that is how you can Save Screen Recording directly to a USB/SD card in Android. Just use any method that you find easier to do and does not require that much effort.</p>
+<p>If the Auto move to SD card app is not working for you then you can use any other <em>alternative apps</em> like Auto File Transfer, Move to SD Card, Link2SD, etc, all these apps will work just fine.</p>
+<p>Thanks for reading, if you are having any problems then comment below.</p>The post <a href="https://netmiko.com/save-screen-recording-to-usb-and-sdcard-directly/">How to Save Screen Recording directly to USB/SD card in Android</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://netmiko.com/save-screen-recording-to-usb-and-sdcard-directly/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How to Dual boot Linux Mint 20 with Windows 10</title>
+		<link>https://netmiko.com/dual-boot-linux-mint-20-with-windows-10/</link>
+					<comments>https://netmiko.com/dual-boot-linux-mint-20-with-windows-10/#respond</comments>
+		
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Mon, 20 Dec 2021 14:01:00 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<guid isPermaLink="false">https://netmiko.com/?p=1962</guid>
+
+					<description><![CDATA[<p>Today I will walk you through the steps to dual boot Linux Mint with Windows 10. The version of Linux mint that I will be using is Linux Mint 20, which is the latest version of Linux Mint. Before starting the installation process let&#8217;s see all the requirements you will need to fulfill to be &#8230;</p>
+<p class="read-more"> <a class="" href="https://netmiko.com/dual-boot-linux-mint-20-with-windows-10/"> <span class="screen-reader-text">How to Dual boot Linux Mint 20 with Windows 10</span> Read More &#187;</a></p>
+The post <a href="https://netmiko.com/dual-boot-linux-mint-20-with-windows-10/">How to Dual boot Linux Mint 20 with Windows 10</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></description>
+										<content:encoded><![CDATA[<p>Today I will walk you through the steps to dual boot Linux Mint with Windows 10. The version of Linux mint that I will be using is Linux Mint 20, which is the latest version of Linux Mint. </p>
+<p>Before starting the installation process let&#8217;s see all the requirements you will need to fulfill to be able to install Mint.</p>
+<p><em>Flash Drive (USB) &#8211;</em> You will need a flash drive that has at least 10GB of storage, try to use an empty Flash drive to avoid any conflict.</p>
+<p><em>Hard Disk &#8211;</em> The hard disk on your computer must have at least 50GB of free space, this is to make sure that Linux mint runs properly. Besides, if you are going to use it a lot then you will need 50GB of space.</p>
+<p><em>Stable Internet connection &#8211;</em>  You will need a stable internet connection to download Linux Mint and the flashing software.</p>
+<p>Once you have all these things ready, you can now proceed to the installation.</p>
+<h2>Download Linux Mint </h2>
+<p>The first step for us will be to download the ISO file of Linux mint, to do that you can either search for “Download Linux Mint” on google or directly go to their official website at &#8211; <a href="https://linuxmint.com/download.php">https://linuxmint.com/download.php</a>. </p>
+<p>On the download page, you will need to select the edition of Linux Mint that you want, I will select the <em>Cinnamon edition</em>, as it is the most popular one. You can also select any edition of Linux mint you want, the installation process will remain the same. Click on download to continue. </p>
+<p>															<img width="1024" height="392" src="https://netmiko.com/wp-content/uploads/2021/12/choose-linux-mint-edition-1024x392.png" alt="choose linux mint edition" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/choose-linux-mint-edition-1024x392.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/choose-linux-mint-edition-300x115.png 300w, https://netmiko.com/wp-content/uploads/2021/12/choose-linux-mint-edition-768x294.png 768w, https://netmiko.com/wp-content/uploads/2021/12/choose-linux-mint-edition.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>You will be then redirected to the Linux Mint Cinnamon Edition page, where you will need to scroll down and find “Download Mirrors”, click on any of the mirrors that are closest to you. </p>
+<p>Once you click on the mirror link, if you are using chrome or Firefox then you will get a popup asking you to either save the file or open it, click save file and your download will start.</p>
+<p>															<img width="1024" height="520" src="https://netmiko.com/wp-content/uploads/2021/12/select-download-mirrors-1024x520.png" alt="select download mirrors" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/select-download-mirrors-1024x520.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/select-download-mirrors-300x152.png 300w, https://netmiko.com/wp-content/uploads/2021/12/select-download-mirrors-768x390.png 768w, https://netmiko.com/wp-content/uploads/2021/12/select-download-mirrors.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<h2>Download BalenaEtcher<br />
+</h2>
+<p>After downloading the Linux Mint ISO file, you will need to download BalenaEtcher, which is an open-source flashing tool to flash OS images on Flash drives and SD cards.</p>
+<p>To download Etcher first go to their website at &#8211; <a href="https://www.balena.io/etcher/">https://www.balena.io/etcher/</a>, here click on the Download for windows button, the website will automatically detect your OS, in case if it doesn&#8217;t then you can just use the down arrow on the right side of the download button and select the right version for your device.</p>
+<p>															<img width="1024" height="464" src="https://netmiko.com/wp-content/uploads/2021/12/download-etcher-1024x464.png" alt="download etcher" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/download-etcher-1024x464.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/download-etcher-300x136.png 300w, https://netmiko.com/wp-content/uploads/2021/12/download-etcher-768x348.png 768w, https://netmiko.com/wp-content/uploads/2021/12/download-etcher.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Just click “save file” and save the setup.exe of Etcher.</p>
+<h2>Install Etcher </h2>
+<p>Once the etcher setup.exe is downloaded, double click on it to run the setup wizard of Etcher, first you will need to agree to the license by clicking “<em>I Agree</em>”. This will start the installation of Etcher which will take a little bit of time, once installed it will open automatically.</p>
+<h2>Flash Linux Mint ISO<br />
+</h2>
+<p>Now once Etcher is installed you can now flash the downloaded Linux Mint ISO file to the Flash drive, to do that first open Etcher.</p>
+<p>After that take your Flash drive and plug it in, now in etcher, you will need to click on “<em>Flash from file</em>”, this will open your file manager where you will need to select the downloaded Linux Mint ISO file, click on open to continue.</p>
+<p>															<img width="1024" height="464" src="https://netmiko.com/wp-content/uploads/2021/12/select-flash-from-file-in-etcher-1024x464.png" alt="select flash from file in etcher" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/select-flash-from-file-in-etcher-1024x464.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/select-flash-from-file-in-etcher-300x136.png 300w, https://netmiko.com/wp-content/uploads/2021/12/select-flash-from-file-in-etcher-768x348.png 768w, https://netmiko.com/wp-content/uploads/2021/12/select-flash-from-file-in-etcher.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>In “<em>Select Target</em>” you will need to select your Flash drive and after that click on “<em>Flash!</em>” to start the flashing process, you might get a popup from “Windows command processor” to allow something, just click yes and it will start the flashing.</p>
+<p>															<img width="1024" height="360" src="https://netmiko.com/wp-content/uploads/2021/12/select-target-in-etcher-1024x360.png" alt="select target in etcher" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/select-target-in-etcher-1024x360.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/select-target-in-etcher-300x105.png 300w, https://netmiko.com/wp-content/uploads/2021/12/select-target-in-etcher-768x270.png 768w, https://netmiko.com/wp-content/uploads/2021/12/select-target-in-etcher.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>The flashing process will take a few minutes depending upon the speed of your flash drive. Once done you will now have a bootable USB with Linux Mint that you can use on any device that you want.</p>
+<p><strong>NOTE:</strong> Sometimes you might get a popup asking you to erase your computer hard disk to be able to use it after flashing the USB, just close the popup and it will be fine.</p>
+<h2>Backup Windows (Optional)<br />
+</h2>
+<p>Now before installing Linux Mint on your computer you might wanna create a backup of your system, just to be on the safer side if something goes wrong. This step is optional but it&#8217;s a good idea to create a backup.</p>
+<p>There are lots of videos on youtube that show you how you can create a backup of your Windows computer to external storage and restore it. So, I would recommend you to check them out.</p>
+<p>Once you have created a backup of your website, you can now start the installation of Linux Mint.</p>
+<h2>Boot into Linux Mint Live Mode from USB<br />
+</h2>
+<p>Okay so once everything is ready you can now start the installation of Linux mint. </p>
+<p>To do that, first, click on your Windows icon and click on “Restart”, now to install Linux mint we will need to enter the “<em>Boot Menu</em>”, I am using a Lenovo laptop so I will enter “F12” Rapidly during the restart to enter the Boot menu.</p>
+<p>You can google how you can enter the boot menu on your device if it&#8217;s hp, Asus, Dell, or something else.</p>
+<p>In the Boot Menu, you will need to select the “<em>UEFI</em>” option using your arrow keys, do make sure that the Flash drive is connected to the computer. Press enter in “UEFI” to enter the GNU GRUB.</p>
+<p>															<img width="1024" height="360" src="https://netmiko.com/wp-content/uploads/2021/12/select-UEFI-in-boot-menu-1024x360.png" alt="select UEFI in boot menu" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/select-UEFI-in-boot-menu-1024x360.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/select-UEFI-in-boot-menu-300x105.png 300w, https://netmiko.com/wp-content/uploads/2021/12/select-UEFI-in-boot-menu-768x270.png 768w, https://netmiko.com/wp-content/uploads/2021/12/select-UEFI-in-boot-menu.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Here in gnu grub, you will see multiple booting options, the one that you will need to select is the “<em>Start Linux Mint 20 Cinnamon 64-bit</em>”, if you are facing any problem when using that booting option then you can try the “Start Linux Mint 20 Cinnamon 64-bit (Compatibility Mode)”. Press enter to continue.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/select-start-linux-mint-20-cinnamon-1024x400.png" alt="select start linux mint 20 cinnamon" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/select-start-linux-mint-20-cinnamon-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/select-start-linux-mint-20-cinnamon-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/select-start-linux-mint-20-cinnamon-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/select-start-linux-mint-20-cinnamon.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Once Linux Mint boots up, you will be in the <em>live mode</em>, which means that Linux mint is now running directly from your Flash Drive, now as we need a dual bootable computer where we can use both Linux Mint and windows, we will need to install Linux Mint instead of just running it on live mode.</p>
+<h2>Install Linux Mint </h2>
+<p>To Install Linux Mint, you will need to first click on the “<em>Install Linux Mint</em> &#8221; icon at the home screen of the Live mode, double click on it to start the installation of Linux mint.</p>
+<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/click-on-install-linux-mint-icon-1024x480.png" alt="click on install linux mint icon" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/click-on-install-linux-mint-icon-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/click-on-install-linux-mint-icon-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/click-on-install-linux-mint-icon-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/click-on-install-linux-mint-icon.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>After clicking on the “Install Linux Mint” icon you will be asked to select your language, select it and click continue. In “Keyboard Layout” select your keyboard language and click continue.</p>
+<p>In the next tab which is “<em>Multimedia Codecs</em>” you get an option to install the multimedia codecs required to play any video or audio in your Linux Mint, I recommend you to check it because sometimes you might need it, check the “Install Multimedia Codecs and click continue.</p>
+<p>In the “<em>Installation Type</em>” tab you will need to select what kind of installation you want to do, there will be two options, first one is “Install Linux Mint alongside Windows Boot Manager” which is the one that we will select as we want a dual boot Linux Mint Installation. </p>
+<p>															<img width="1024" height="312" src="https://netmiko.com/wp-content/uploads/2021/12/select-installation-type-1024x312.png" alt="select installation type" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/select-installation-type-1024x312.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/select-installation-type-300x91.png 300w, https://netmiko.com/wp-content/uploads/2021/12/select-installation-type-768x234.png 768w, https://netmiko.com/wp-content/uploads/2021/12/select-installation-type.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>The second option is “Erase Disk and Install Linux Mint” which will erase everything we have on our hard disk and install Linux Mint, this option is used when you want to just install one OS on your computer.</p>
+<p>Select the “<em>Install Linux Mint alongside Windows Boot Manager</em>”  option and click on continue</p>
+<p>Now, after that in the “Install Linux Mint alongside Windows Boot Manager”  tab, you will need to choose how much storage you want to allocate to Linux Mint, use the slider and drag it to allocate storage. I recommend allocating at least 50 GB of storage for Linux Mint. </p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/allocate-storage-to-linux-mint-1024x400.png" alt="allocate storage to linux mint" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/allocate-storage-to-linux-mint-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/allocate-storage-to-linux-mint-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/allocate-storage-to-linux-mint-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/allocate-storage-to-linux-mint.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Once the required storage is allocated, click on “<em>Install Now</em>”. You might get a popup asking to “write the changes to Disk”, click on continue. This will start the installation of Linux Mint in the background. You still have some things to set.</p>
+<p>On the next tab select your time zone, after that you will have to now provide the login details and a few other things.</p>
+<p>Enter your name, your computer name (name it anything), a short username, a short but secure password. After that keep the other things to default, you can select Log in automatically if you don&#8217;t want to enter a password for logging in. </p>
+<p>The installation will take a few minutes to complete, so just sit back and relax till then, once the installation finishes it will ask you to restart the computer, just click on Restart now to restart.</p>
+<p>It will ask you to <em>remove your flash drive</em> from the computer when it is restarting, so just remove your flash drive and click enter when asked, after that wait for it to automatically boot into Linux Mint, you don&#8217;t need to press anything.</p>
+<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/restart-pc-and-remove-flash-drive-1024x400.png" alt="restart pc and remove flash drive" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/restart-pc-and-remove-flash-drive-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/restart-pc-and-remove-flash-drive-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/restart-pc-and-remove-flash-drive-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/restart-pc-and-remove-flash-drive.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Once your Linux Mint boots up, log in using your username and password, and check if everything is working perfectly or not. Things like the internet, apps, settings, etc.</p>
+<h2>Test Dual Booting</h2>
+<p>Now that Linux Mint is working on your computer, it&#8217;s now time to check whether Windows is working or not. First shut down your Linux Mint.</p>
+<p>Now to Boot into Linux Mint or Windows 10 you will need to select whether you want to boot into Linux or Windows at the boot menu that you will get when starting your computer.</p>
+<p>In the Boot menu if you want to <em>boot into Linux Mint</em> then select “Linux Mint 20 Cinnamon” and if you want to boot into Windows 10 then select “ Windows boot Manager”, select your OS and press enter to boot into that OS.</p>
+<p>															<img width="1024" height="320" src="https://netmiko.com/wp-content/uploads/2021/12/boot-into-liinux-mint-1024x320.png" alt="boot into liinux mint" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/boot-into-liinux-mint-1024x320.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/boot-into-liinux-mint-300x94.png 300w, https://netmiko.com/wp-content/uploads/2021/12/boot-into-liinux-mint-768x240.png 768w, https://netmiko.com/wp-content/uploads/2021/12/boot-into-liinux-mint.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
+<p>Boot into windows and check if all the things are working or not, check your hard drive to see if you accidentally didn&#8217;t delete everything stored there or something.</p>
+<p>And, that&#8217;s it, that is how you can create a dual boot flash drive easily and Dual boot Linux Mint 20 with Windows 10. You can now use both the OS on the same computer without any problem…If you have any questions or have any problems then comment below. Thank you.</p>
+<h2>FAQ &#8211; </h2>
+<h3>Can I use a SD card to dual boot Linux Mint with Windows 10?</h3>
+<p>Yes, you can easily use a SD card to flash Linux Mint in it and use it for Dual Booting, just make sure the SD card is empty and has plenty of storage and has faster transfer speed.</p>
+<h3>Some things are not working after installing Linux Mint as dual boot.<br />
+</h3>
+<p>If things such as the internet, apps, etc are not working on your Linux Mint installation then you will need to try to install the compatibility mode version of Linux Mint, as there might be some compatibility issue.</p>
+<p>When booting into Live Mode of Linux Mint you get two options to boot into Linux Mint, the first one is the normal one and the second one is the “Start Linux Mint 20 Cinnamon 64-bit (Compatibility Mode)”, <em>boot into compatibility mode</em> and check if all things are working or not.</p>
+<p>If all things are working perfectly then proceed to install Linux Mint by following the steps given above.</p>
+<h3>Fix System Rebooting Automatically to Windows.</h3>
+<p>Now when starting your computer after installing Linux Mint, if your computer boots automatically into windows instead of showing the grub menu where you can select which OS you want to boot into then here is how you can fix that problem. </p>
+<p>To fix the problem all you will need to do is to <em>move the Linux Mint up in the order in the GRUB menu</em>, to do that first restart your computer and go into the boot by clicking F2/F12 OR F10 depending upon your computer brand multiple times. Now once you are in the boot menu. </p>
+<p>You will need to now select Linux Mint and move it to the top using the F5 key, after that press F10 to save it, once done you can exit the boot menu. This should fix the problem of the system automatically booting into windows.</p>The post <a href="https://netmiko.com/dual-boot-linux-mint-20-with-windows-10/">How to Dual boot Linux Mint 20 with Windows 10</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></content:encoded>
+					
+					<wfw:commentRss>https://netmiko.com/dual-boot-linux-mint-20-with-windows-10/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

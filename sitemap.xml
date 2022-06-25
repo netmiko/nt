@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This sitemap was dynamically generated on June 25, 2022 at 11:08 am by All in One SEO - the original SEO plugin for WordPress. -->
+<!-- This sitemap was dynamically generated on June 25, 2022 at 5:42 pm by All in One SEO - the original SEO plugin for WordPress. -->
 
 <?xml-stylesheet type="text/xsl" href="https://netmiko.com/default.xsl?sitemap=root"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
 		<loc><![CDATA[https://netmiko.com/addl-sitemap.xml]]></loc>
-		<lastmod><![CDATA[2022-06-25T04:36:56+00:00]]></lastmod>
+		<lastmod><![CDATA[2022-06-25T12:11:58+00:00]]></lastmod>
 	</sitemap>
 	<sitemap>
 		<loc><![CDATA[https://netmiko.com/post-sitemap.xml]]></loc>
-		<lastmod><![CDATA[2022-06-25T04:36:56+00:00]]></lastmod>
+		<lastmod><![CDATA[2022-06-25T12:11:58+00:00]]></lastmod>
 	</sitemap>
 	<sitemap>
 		<loc><![CDATA[https://netmiko.com/page-sitemap.xml]]></loc>

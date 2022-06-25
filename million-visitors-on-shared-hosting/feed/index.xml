@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How to make a Blog handle millions of visitors on shared hosting	</title>
+	<atom:link href="https://netmiko.com/million-visitors-on-shared-hosting/feed/" rel="self" type="application/rss+xml" />
+	<link>https://netmiko.com/million-visitors-on-shared-hosting/</link>
+	<description></description>
+	<lastBuildDate>Sat, 07 May 2022 10:45:19 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+	<item>
+		<title>
+		By: Lil Durk		</title>
+		<link>https://netmiko.com/million-visitors-on-shared-hosting/#comment-44</link>
+
+		<dc:creator><![CDATA[Lil Durk]]></dc:creator>
+		<pubDate>Sun, 17 Oct 2021 08:17:33 +0000</pubDate>
+		<guid isPermaLink="false">https://netmiko.com/?p=645#comment-44</guid>
+
+					<description><![CDATA[Thanks for finally talking about &#062;How to make a Blog handle millions of visitors on shared hosting 
+- Netmiko.com &#060;Loved it!]]></description>
+			<content:encoded><![CDATA[<p>Thanks for finally talking about &gt;How to make a Blog handle millions of visitors on shared hosting<br />
+&#8211; Netmiko.com &lt;Loved it!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
