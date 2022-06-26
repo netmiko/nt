@@ -77,6 +77,15 @@ flexibility(document.documentElement);
 <link rel="shortlink" href="https://netmiko.com/?p=1146">
 <link rel="alternate" type="application/json+oembed" href="https://netmiko.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnetmiko.com%2Finstall-cplex-ubuntu%2F">
 <link rel="alternate" type="text/xml+oembed" href="https://netmiko.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnetmiko.com%2Finstall-cplex-ubuntu%2F&#038;format=xml">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com/">
+<meta property="og:image" content="https://netmiko.com/wp-content/uploads/2021/10/How-to-Install-IBM-CPLEX-on-UBUNTU-20.041.png">
+<meta property="og:title" content="How to Install IBM CPLEX on Ubuntu 20.04">
+<meta property="og:description" content="">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Install IBM CPLEX on Ubuntu 20.04">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://netmiko.com/wp-content/uploads/2021/10/How-to-Install-IBM-CPLEX-on-UBUNTU-20.041.png">
 <link rel="pingback" href="https://netmiko.com/xmlrpc.php">
 <link rel="icon" href="https://netmiko.com/wp-content/uploads/2021/09/favicon-150x150.png" sizes="32x32">
 <link rel="icon" href="https://netmiko.com/wp-content/uploads/2021/09/favicon-300x300.png" sizes="192x192">
@@ -382,7 +391,17 @@ div#comments,section.no-results.not-found{
     background-color: #000 !important;
 }
 }</style>
-		</head>
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-196633016-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-196633016-1');
+</script>
+
+</head>
 
 <body itemtype="https://schema.org/Blog" itemscope="itemscope" class="post-template-default single single-post postid-1146 single-format-standard wp-custom-logo ast-blog-single-style-1 ast-single-post ast-inherit-site-logo-transparent ast-hfb-header ast-desktop ast-separate-container ast-left-sidebar astra-3.8.4 ast-full-width-primary-header ast-normal-title-enabled">
 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
@@ -691,7 +710,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 </div>
 </div></div>
 <p>Here are the steps to Install IBM CPLEX on your Ubuntu –</p>
-<div class="DnVFMsoD" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="c0hc06e8" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic -  First_ad - under_second_paragraph -->
 <div>
 <div id="ezoic-pub-ad-placeholder-648"> </div>
@@ -709,7 +728,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>Okay, so the first step will be to download the IBM CPLEX bin file. You can download CPLEX by Going to this link here – <a href="http://www.mysmu.edu/faculty/hclau/is421.html">http://www.mysmu.edu/faculty/hclau/is421.html</a></p>
 <p>Here select the .bin file for Linux 64-bit if your system is 64-bit. If it’s 32-bit then you can go to the (OLD) Installation Package section and download the 32-bit version from there.</p>
 <p>You can also alternatively download CPLEX by going to IBM’s official website – <a href="https://www.ibm.com/products/ilog-cplex-optimization-studio">https://www.ibm.com/products/ilog-cplex-optimization-studio</a>. Here select the version you need. The free edition or the academic edition. </p>
-<div class="a6owAUOc" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="0HvSuz6Y" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic -  second_ad - mid_content -->
 <div>
 <div id="ezoic-pub-ad-placeholder-649"> </div>
@@ -722,7 +741,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>To download IBM CPLEX using the terminal follow these steps – </p>
 <blockquote>
 <p><strong>NOTE:</strong> You’ll need root permission to be able to download CPLEX using the terminal. Download it directly from the internet if you don’t have root permissions.</p>
-<div class="KyQjkWzV" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="r3DVUKn0" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - longer_content - longer_content -->
 <div>
 <div id="ezoic-pub-ad-placeholder-652"> </div>
@@ -738,7 +757,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p><strong>2.</strong> Create a new directory where we will download the CPLEX bin file. This is to make things organized instead of installing everything here and there.</p>
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">mkdir -p cplex</code></pre>
 <p>This command will create a new directory called “<em>cplex</em>” in your ubuntu.</p>
-<div class="GTqwaRAK" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="k3a58Zj8" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - longest_content - longest_content -->
 <div>
 <div id="ezoic-pub-ad-placeholder-653"> </div>
@@ -751,7 +770,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">wget http://www.mysmu.edu/faculty/hclau/CPLEX/cplex_studio128.linux-x86-64.bin
 </code></pre>
 <p>If your ubuntu system don’t have wget installed then you can install it using this command – </p>
-<div class="VRmlRyGb" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="7OR1an3e" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_5 - incontent_5 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-654"> </div>
@@ -769,7 +788,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <h2><span id="Installing_IBM_CPLEX">Installing IBM CPLEX –<br>
 </span></h2>
 <p>Now let’s see the installation process. To install CPLEX we will have to first run and execute the bin file that we downloaded. </p>
-<div class="DELvKd1q" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="1uY6A6cd" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_6 - incontent_6 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-655"> </div>
@@ -782,7 +801,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>After changing the directory we will execute the bin file. To do that we will run the following command-</p>
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">bash /home/username/cplex/cplex_studio128.linux-x86-64.bin </code></pre>
 <p>Here in the place of “<em>username</em>” type your own username.</p>
-<div class="pmpUzA3B" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="1Up87cGe" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_7 - incontent_7 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-656"> </div>
@@ -792,7 +811,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>After executing the bash file follow the instructions of the installation process.</p>
 <p>Here it will ask you to select your language, select English by entering number 2. Choose different numbers for different languages as shown in the installation window. Click Enter.</p>
 <p>After that enter number “1” to accept the user agreement. </p>
-<div class="i4kNStW6" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="8Bgeotlf" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_8 - incontent_8 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-657"> </div>
@@ -805,7 +824,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>After entering the absolute path, press enter and then enter “y” to continue. Follow the remaining steps shown in the terminal. </p>
 <blockquote>
 <p>Now, after it asks you to press Enter to exit the installer. Press enter which will finish the installation.</p>
-<div class="xRjCXzQl" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="gCZAm0U5" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_9 - incontent_9 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-658"> </div>
@@ -819,7 +838,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">cd CPLEX_Studio128
 </code></pre>
 <p>Now, after changing the working directory we’ll edit the bashrc file using the gedit editor- </p>
-<div class="d1SAAgFA" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="eZimD36Q" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_10 - incontent_10 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-659"> </div>
@@ -833,7 +852,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 </code></pre>
 <p>Here, change “username” to your own username.</p>
 <p>Now after adding the following line in the file, click on the Save button at the top of the editor and then click on the close button.</p>
-<div class="Bjwr9jyi" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="QSkWHclc" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_11 - incontent_11 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-660"> </div>
@@ -870,7 +889,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <h3><span id="Do_I_need_Root_permission_to_install_CPLEX">Do I need Root permission to install CPLEX ?<br>
 </span></h3>
 <p>No, you don’t need root permission to install CPLEX. You can install it without root permission.</p>
-<div class="U3DuiXJK" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="SFIQokHN" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_12 - incontent_12 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-661"> </div>
@@ -955,6 +974,10 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 var astra = {"break_point":"921","isRtl":""};
 </script>
 <script src="https://netmiko.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=3.8.4" id="astra-theme-js-js"></script>
+<script id="fifu-image-js-js-extra">
+var fifuImageVars = {"fifu_lazy":"","fifu_woo_lbox_enabled":"1","fifu_woo_zoom":"inline","fifu_is_product":"","fifu_is_flatsome_active":"","fifu_rest_url":"https:\/\/netmiko.com\/wp-json\/","fifu_nonce":"064f72e339"};
+</script>
+<script src="https://netmiko.com/wp-content/plugins/featured-image-from-url/includes/html/js/image.js?ver=3.9.9" id="fifu-image-js-js"></script>
 <script src="https://netmiko.com/wp-content/plugins/luckywp-table-of-contents/front/assets/main.min.js?ver=2.1.4" id="lwptoc-main-js"></script>
 <script type="text/javascript" id="flying-scripts">const loadScriptsTimer=setTimeout(loadScripts,5*1000);const userInteractionEvents=["mouseover","keydown","touchstart","touchmove","wheel"];userInteractionEvents.forEach(function(event){window.addEventListener(event,triggerScriptLoader,{passive:!0})});function triggerScriptLoader(){loadScripts();clearTimeout(loadScriptsTimer);userInteractionEvents.forEach(function(event){window.removeEventListener(event,triggerScriptLoader,{passive:!0})})}
 function loadScripts(){document.querySelectorAll("script[data-type='lazy']").forEach(function(elem){elem.setAttribute("src",elem.getAttribute("data-src"))})}</script>

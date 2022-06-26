@@ -79,6 +79,15 @@ flexibility(document.documentElement);
 <link rel="shortlink" href="https://netmiko.com/?p=1497">
 <link rel="alternate" type="application/json+oembed" href="https://netmiko.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnetmiko.com%2Finstall-tableau-server-ubuntu%2F">
 <link rel="alternate" type="text/xml+oembed" href="https://netmiko.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnetmiko.com%2Finstall-tableau-server-ubuntu%2F&#038;format=xml">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com/">
+<meta property="og:image" content="https://netmiko.com/wp-content/uploads/2021/12/How-to-Install-Tableau-Server-on-Ubuntu.png">
+<meta property="og:title" content="How to Install Tableau Server on Ubuntu 18.04">
+<meta property="og:description" content="">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Install Tableau Server on Ubuntu 18.04">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://netmiko.com/wp-content/uploads/2021/12/How-to-Install-Tableau-Server-on-Ubuntu.png">
 <link rel="pingback" href="https://netmiko.com/xmlrpc.php">
 <link rel="icon" href="https://netmiko.com/wp-content/uploads/2021/09/favicon-150x150.png" sizes="32x32">
 <link rel="icon" href="https://netmiko.com/wp-content/uploads/2021/09/favicon-300x300.png" sizes="192x192">
@@ -384,7 +393,17 @@ div#comments,section.no-results.not-found{
     background-color: #000 !important;
 }
 }</style>
-		</head>
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-196633016-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-196633016-1');
+</script>
+
+</head>
 
 <body itemtype="https://schema.org/Blog" itemscope="itemscope" class="post-template-default single single-post postid-1497 single-format-standard wp-custom-logo ast-blog-single-style-1 ast-single-post ast-inherit-site-logo-transparent ast-hfb-header ast-desktop ast-separate-container ast-left-sidebar astra-3.8.4 ast-full-width-primary-header ast-normal-title-enabled">
 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
@@ -681,7 +700,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 </div>
 </div></div>
 <p><b>Tableau Server</b> – is a web-based data analysis tool that allows for the analysis of data in a wide variety of formats. It also enables users to create interactive dashboards that can be published on the internet.</p>
-<div class="MLhz2W3K" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="rzY1LN1r" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic -  First_ad - under_second_paragraph -->
 <div>
 <div id="ezoic-pub-ad-placeholder-648"> </div>
@@ -696,7 +715,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>We will use wget to download tableau, so make sure you have wget installed on your ubuntu. You can check whether you have wget installed on your ubuntu or not by using this command –</p>
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">wget – version</code></pre>
 <p>After entering the above command you will get an output in the terminal which will say something like “ GNU wget 1.20.3 built on linux-gnu “ this means that wget is installed, if it says command not found then it means wget is not installed on your ubuntu.</p>
-<div class="DF04BrNQ" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="GaSXopDk" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic -  second_ad - mid_content -->
 <div>
 <div id="ezoic-pub-ad-placeholder-649"> </div>
@@ -709,7 +728,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">wget https://downloads.tableau.com/tssoftware/tableau-server-2021-3-4_amd64.deb 
 </code></pre>
 <p>The size of the Tableau server is 2.5GB, so it will take some time to finish downloading depending upon your internet connection.</p>
-<div class="X1wibAsC" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="Ak1nLfYg" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - longer_content - longer_content -->
 <div>
 <div id="ezoic-pub-ad-placeholder-652"> </div>
@@ -720,7 +739,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <h3><span id="Download_Tableau_Server_using_Web_Browser">Download Tableau Server using Web Browser </span></h3>
 <p>To download tableau server using your web browser, first, open your web browser and paste this link in the web browser – <a href="https://www.tableau.com/downloads/server/deb">https://www.tableau.com/downloads/server/deb</a> </p>
 <p>This is the direct download link for Tableau Server. After downloading the Tableau server deb file, move the downloaded file from the Downloads folder to the home directory, as by default anything you download using the browser will be downloaded to the downloads directory.</p>
-<div class="NwiPA1wG" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="jG4Cscwc" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - longest_content - longest_content -->
 <div>
 <div id="ezoic-pub-ad-placeholder-653"> </div>
@@ -735,7 +754,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 sudo apt-get upgrade
 </code></pre>
 <p>After that, we will need to <em>install GDebi-core</em> which we use for installing local deb packages. You can install gdebi-core by entering this command in the terminal – </p>
-<div class="LPDiZRH5" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="Fwo9RJKG" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_5 - incontent_5 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-654"> </div>
@@ -748,7 +767,7 @@ sudo apt-get upgrade
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">sudo gdebi -n tableau-server-2021-3-4_amd64.deb 
 </code></pre>
 <p>Wait for it to finish installing the tableau deb file, it will take some time. </p>
-<div class="qJXL5Y4B" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="zJbnTixQ" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_6 - incontent_6 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-655"> </div>
@@ -758,7 +777,7 @@ sudo apt-get upgrade
 <p>Now to start the Tableau Services Manager we’ll have to run the “./initialize-tsm” file located at the path “<em>/</em>opt/tableau/tableau_server/packages/scripts_version/initialize-tsm”.</p>
 <p>After the installation of the tableau deb file, at the end of the installation, you will get an output in the terminal that will give you the command that you will need to enter for a single node or initial node installation. It will be in this format – “<em>sudo /opt/tableau/tableau_server/packages/scripts_version/initialize-tsm –accepteula</em>”.</p>
 <p>															<img width="1024" height="200" src="https://netmiko.com/wp-content/uploads/2021/12/initialize-tsm-1024x200.png" alt="initialize tsm" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/initialize-tsm-1024x200.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/initialize-tsm-300x59.png 300w, https://netmiko.com/wp-content/uploads/2021/12/initialize-tsm-768x150.png 768w, https://netmiko.com/wp-content/uploads/2021/12/initialize-tsm.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px">															</p>
-<div class="mjdNMWkT" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="ORRIu56p" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_7 - incontent_7 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-656"> </div>
@@ -768,7 +787,7 @@ sudo apt-get upgrade
 <p>Copy the command shown in the terminal and enter it.</p>
 <p>Once this finishes you can now use the web installer to finish the installation process of Tableau server.</p>
 <p>Connect to the web interface of Tableau server by going to <a href="http://tableau:8850/">http://your-server-ip:8850</a> or if you want to run it locally then its <a href="http://tableau:8850/">http://tableau:8850</a> or <a href="http://localhost:8850/">http://localhost:8850</a> </p>
-<div class="lh2YJpfM" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="VI32tx25" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_8 - incontent_8 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-657"> </div>
@@ -780,7 +799,7 @@ sudo apt-get upgrade
 <p>After going to the web address of the Tableau server, you will be asked to first log in. Log in using your username and your password. </p>
 <p>After logging in you will be on the <strong>Activation</strong> page of Tableau, here if you have a product key then enter it. If you don’t, then at the bottom you will get the option to try Tableau for free for 14 days. Click on “<em>Start Tableau Server Trial</em>” to continue.</p>
 <p>After that, you will be on the <strong>Register</strong> page where you will need to enter all the information that is asked there, and after that click on <em>Register</em>.</p>
-<div class="9nhrCxo0" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="Dj97rwsE" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_9 - incontent_9 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-658"> </div>
@@ -792,7 +811,7 @@ sudo apt-get upgrade
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">tabcmd initialuser – server 'localhost:80' – username 'your_username_here' 
 </code></pre>
 <p>Add a username of your choice and log in to your Tableau server using this username. </p>
-<div class="GRasU8wo" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="ShOnkgcC" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_10 - incontent_10 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-659"> </div>
@@ -804,7 +823,7 @@ sudo apt-get upgrade
 <h3><span id="Is_Tableau_server_supported_on_Ubuntu_2004">Is Tableau server supported on Ubuntu 20.04 ?<br>
 </span></h3>
 <p>No, currently Tableau server is not supported on ubuntu 20.04. However, the developers of tableau have said that they are working on making tableau server supported on other versions of ubuntu. They said that 2 years ago, so I don’t think the Tableau server for ubuntu 20.04 is coming anytime soon.</p>
-<div class="USLZRPFL" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="KxpFvpib" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_11 - incontent_11 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-660"> </div>
@@ -885,6 +904,10 @@ sudo apt-get upgrade
 var astra = {"break_point":"921","isRtl":""};
 </script>
 <script src="https://netmiko.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=3.8.4" id="astra-theme-js-js"></script>
+<script id="fifu-image-js-js-extra">
+var fifuImageVars = {"fifu_lazy":"","fifu_woo_lbox_enabled":"1","fifu_woo_zoom":"inline","fifu_is_product":"","fifu_is_flatsome_active":"","fifu_rest_url":"https:\/\/netmiko.com\/wp-json\/","fifu_nonce":"064f72e339"};
+</script>
+<script src="https://netmiko.com/wp-content/plugins/featured-image-from-url/includes/html/js/image.js?ver=3.9.9" id="fifu-image-js-js"></script>
 <script src="https://netmiko.com/wp-content/plugins/luckywp-table-of-contents/front/assets/main.min.js?ver=2.1.4" id="lwptoc-main-js"></script>
 <script type="text/javascript" id="flying-scripts">const loadScriptsTimer=setTimeout(loadScripts,5*1000);const userInteractionEvents=["mouseover","keydown","touchstart","touchmove","wheel"];userInteractionEvents.forEach(function(event){window.addEventListener(event,triggerScriptLoader,{passive:!0})});function triggerScriptLoader(){loadScripts();clearTimeout(loadScriptsTimer);userInteractionEvents.forEach(function(event){window.removeEventListener(event,triggerScriptLoader,{passive:!0})})}
 function loadScripts(){document.querySelectorAll("script[data-type='lazy']").forEach(function(elem){elem.setAttribute("src",elem.getAttribute("data-src"))})}</script>

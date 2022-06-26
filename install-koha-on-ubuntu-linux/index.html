@@ -77,6 +77,15 @@ flexibility(document.documentElement);
 <link rel="shortlink" href="https://netmiko.com/?p=146">
 <link rel="alternate" type="application/json+oembed" href="https://netmiko.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnetmiko.com%2Finstall-koha-on-ubuntu-linux%2F">
 <link rel="alternate" type="text/xml+oembed" href="https://netmiko.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnetmiko.com%2Finstall-koha-on-ubuntu-linux%2F&#038;format=xml">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com/">
+<meta property="og:image" content="https://netmiko.com/wp-content/uploads/2021/09/install-koha-on-ubuntu-20.04.png">
+<meta property="og:title" content="How to Install KOHA on Ubuntu 20.04">
+<meta property="og:description" content="">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Install KOHA on Ubuntu 20.04">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://netmiko.com/wp-content/uploads/2021/09/install-koha-on-ubuntu-20.04.png">
 <link rel="pingback" href="https://netmiko.com/xmlrpc.php">
 <link rel="icon" href="https://netmiko.com/wp-content/uploads/2021/09/favicon-150x150.png" sizes="32x32">
 <link rel="icon" href="https://netmiko.com/wp-content/uploads/2021/09/favicon-300x300.png" sizes="192x192">
@@ -382,7 +391,17 @@ div#comments,section.no-results.not-found{
     background-color: #000 !important;
 }
 }</style>
-		</head>
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-196633016-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-196633016-1');
+</script>
+
+</head>
 
 <body itemtype="https://schema.org/Blog" itemscope="itemscope" class="post-template-default single single-post postid-146 single-format-standard wp-custom-logo ast-blog-single-style-1 ast-single-post ast-inherit-site-logo-transparent ast-hfb-header ast-desktop ast-separate-container ast-left-sidebar astra-3.8.4 ast-full-width-primary-header ast-normal-title-enabled">
 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
@@ -761,7 +780,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 </div>
 </div></div>
 <p>In this tutorial, we will show you the complete installation process of koha, after which you will be able to easily install it on your Ubuntu Linux by yourself.</p>
-<div class="vHw5q65l" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="swNEumRt" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic -  First_ad - under_second_paragraph -->
 <div>
 <div id="ezoic-pub-ad-placeholder-648"> </div>
@@ -778,7 +797,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">sudo apt-get update</code></pre>
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">sudo apt-get upgrade</code></pre>
 <p>Now we will have to flush our apt cache files, for which we have to type the following commands –</p>
-<div class="IhE3IaMQ" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="Hapmi2dp" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic -  second_ad - mid_content -->
 <div>
 <div id="ezoic-pub-ad-placeholder-649"> </div>
@@ -793,7 +812,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">sudo echo deb https://debian.koha-community.org/koha stable main | sudo tee /etc/apt/sources.list.d/koha.list
 </code></pre>
 <p>Type the command given above and after that press enter and after which type the command given below which will download the source package key.</p>
-<div class="DmcvavpZ" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="XclGtwqU" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - longer_content - longer_content -->
 <div>
 <div id="ezoic-pub-ad-placeholder-652"> </div>
@@ -804,7 +823,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>If this command is not working then it means that you have not installed wget. To install wget copy the command below after that try again.</p>
 <p>To install wget in ubuntu you have to use this command – “apt-get install wget” using which wget will be installed in your system.</p>
 <p>Now we will update our ubuntu system again with the help of sudo apt-get update command.</p>
-<div class="GR1BzwxX" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="RdlzuXCz" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - longest_content - longest_content -->
 <div>
 <div id="ezoic-pub-ad-placeholder-653"> </div>
@@ -818,7 +837,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 </code></pre>
 <p>It will take some time to download depending upon your internet connection.</p>
 <p>Now we have to change the port number in it for the staff client, to change the port number we have to open one of its conf file and edit it. <br>To open the conf file we will type the command given below and give the address of the directory where our conf file is located. The path will be same for everyone.</p>
-<div class="tzUWJzmz" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="JhoMDD9P" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_5 - incontent_5 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-654"> </div>
@@ -835,7 +854,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>Now we will download MySQL server for the database which we need to run koha.</p>
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">sudo apt-get install mysql-server</code></pre>
 <p>After typing this command, the MySQL server will be installed in your ubuntu, if it asks you for a password, then type your password in it.</p>
-<div class="qxzb3XBg" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="mdJHb9dW" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_6 - incontent_6 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-655"> </div>
@@ -847,7 +866,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>We will type this command to enable rewrite.</p>
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">sudo a2enmod rewrite</code></pre>
 <p>And to enable cgi will use this command.</p>
-<div class="JNrjOs3n" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="kAGO7S5Y" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_7 - incontent_7 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-656"> </div>
@@ -864,7 +883,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <h2><span id="Create_Koha_instance">Create Koha instance –<br>
 </span></h2>
 <p>Now we have to create an instance of koha. To create an instance of koha, we will type the following command in our terminal which is –</p>
-<div class="JZaopdT3" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="AfkYrW1e" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_8 - incontent_8 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-657"> </div>
@@ -877,7 +896,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>After this we have to add a port in our apache’s ports conf file just like we previously added in koha’s conf file. For this we will edit the ports conf file of our apache server.</p>
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">sudo gedit  /etc/apache2/ports.conf</code></pre>
 <p>Inside this file, we have to add the port we had previously added in koha’s conf file under “listen 80”, which in our case is “listen 8080”. After that we will save it and then hit exit from the file editor.</p>
-<div class="UvhOs20F" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="4GFCNmdi" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_9 - incontent_9 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-658"> </div>
@@ -893,7 +912,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <h2><span id="Enable_Koha_Instance">Enable Koha Instance –<br>
 </span></h2>
 <p>Now we will have to disable the default site of our apache server and enable our koha instance for which we have to type the commands given below.</p>
-<div class="z1Lpnf87" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="6DpLEada" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_10 - incontent_10 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-659"> </div>
@@ -914,7 +933,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 </code></pre>
 <h2><span id="Know_Master_Password">Know Master Password –</span></h2>
 <p>Now you have to type the command given below to know the master password of your koha installation, from which you will get its password which you will need later to log in to koha web installer.</p>
-<div class="PBbWwA01" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="vE25QykQ" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_11 - incontent_11 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-660"> </div>
@@ -927,7 +946,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>Koha is now installed in our ubuntu and now we have to set it up, keep reading below for the setup process.</p>
 <h2><span id="Setup_Koha">Setup Koha – </span></h2>
 <p>Now we have to open any web browser in which we will go to localhost, for which we will type “localhost:8080” in the browser, if you had given a different port then, remove 8080 then give the port you added.</p>
-<div class="SJ7jeqwy" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="6qVQktkV" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_12 - incontent_12 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-661"> </div>
@@ -937,7 +956,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>Now we have to type our username and password. Here in the username, by default it is “ koha_library ” and the master password we copied a while back is our password. After that we will click on login.</p>
 <p>After this we will follow the instructions of the web installer and click on continue to the next step. And when we get the option to select your marc flavor then we have to select any one of the two options and then click on continue to the next step.</p>
 <p>Now, here we have to select all the things that we want in our koha installation and then we will scroll down and click on import.</p>
-<div class="0W9coDzS" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="c7T1tGbK" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_13 - incontent_13 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-662"> </div>
@@ -950,7 +969,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>Whatever password and username you provide here, keep them well noted somewhere because you will need them to login to koha.</p>
 <h3><span id="Create_Library">Create Library – </span></h3>
 <p>Now we have to create a library in the web installer. Here we have to give library code which you can give anything and you can give anything in name also. And then we will click on submit button here. The library code will be “library” and the name will be “library”.</p>
-<div class="YWI6zSvP" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="NipVFgvT" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_14 - incontent_14 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-663"> </div>
@@ -962,7 +981,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <h3><span id="Create_administrator_patron">Create administrator patron –</span></h3>
 <p>Now we have to enter our identity here i.e. we have to enter our name and card number. The card number can be anything like “1”  or “001” “000001” etc.</p>
 <p>Now we will scroll down a bit and there we will confirm our administrator password and then click on submit.</p>
-<div class="Me63qyS8" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="uDMPOwt5" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_15 - incontent_15 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-664"> </div>
@@ -976,7 +995,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <h2><span id="Web_Installer_Setup_Complete">Web Installer Setup Complete –<br>
 </span></h2>
 <p>Now the setup of our web installer is complete and now we will click on start using koha. Here now we will login with the username and password of our library by selecting our library. Now we are logged in to our koha admin dashboard and we can use it now.</p>
-<div class="Db6V0JUF" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="CihA9oiv" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_16 - incontent_16 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-665"> </div>
@@ -1007,7 +1026,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <h3><span id="How_to_fix_Perl_modules_missing_error">How to fix Perl modules missing error.</span></h3>
 <p>If you also get the error of Perl modules missing then you will get the option of recheck dependencies below which if you click then it will recheck dependencies again and this time your error will be fixed.</p>
 <p>Here is the command to install perl modules – “sudo apt install liblocale-codes-perl”</p>
-<div class="Pu9uyrOs" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="STeyf7uL" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_17 - incontent_17 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-666"> </div>
@@ -1020,7 +1039,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>Koha is an integrated library system that is open source and free and is used by schools, colleges and libraries around the world.</p>
 <h3><span id="Can_we_install_koha_on_windows">Can we install koha on windows?</span></h3>
 <p>Yes, you can install koha in your windows computer also. It is very easy to install koha in windows as compared to ubuntu. You will find many videos on YouTube that how you can install koha in windows, Search on YouTube and you will definitely get a good video.</p>
-<div class="L2goobJy" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="jCEcY3OJ" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_18 - incontent_18 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-667"> </div>
@@ -1158,6 +1177,10 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 var astra = {"break_point":"921","isRtl":""};
 </script>
 <script src="https://netmiko.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=3.8.4" id="astra-theme-js-js"></script>
+<script id="fifu-image-js-js-extra">
+var fifuImageVars = {"fifu_lazy":"","fifu_woo_lbox_enabled":"1","fifu_woo_zoom":"inline","fifu_is_product":"","fifu_is_flatsome_active":"","fifu_rest_url":"https:\/\/netmiko.com\/wp-json\/","fifu_nonce":"064f72e339"};
+</script>
+<script src="https://netmiko.com/wp-content/plugins/featured-image-from-url/includes/html/js/image.js?ver=3.9.9" id="fifu-image-js-js"></script>
 <script src="https://netmiko.com/wp-content/plugins/luckywp-table-of-contents/front/assets/main.min.js?ver=2.1.4" id="lwptoc-main-js"></script>
 <script type="text/javascript" id="flying-scripts">const loadScriptsTimer=setTimeout(loadScripts,5*1000);const userInteractionEvents=["mouseover","keydown","touchstart","touchmove","wheel"];userInteractionEvents.forEach(function(event){window.addEventListener(event,triggerScriptLoader,{passive:!0})});function triggerScriptLoader(){loadScripts();clearTimeout(loadScriptsTimer);userInteractionEvents.forEach(function(event){window.removeEventListener(event,triggerScriptLoader,{passive:!0})})}
 function loadScripts(){document.querySelectorAll("script[data-type='lazy']").forEach(function(elem){elem.setAttribute("src",elem.getAttribute("data-src"))})}</script>

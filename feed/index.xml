@@ -12,7 +12,7 @@
 	<atom:link href="https://netmiko.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://netmiko.com</link>
 	<description></description>
-	<lastBuildDate>Sat, 25 Jun 2022 12:11:58 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 26 Jun 2022 12:01:41 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,175 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>[ Beginners Guide ] A Guide to Spotify</title>
+		<link>https://netmiko.com/beginners-guide-a-guide-to-spotify/</link>
+		
+		<dc:creator><![CDATA[AOMIE]]></dc:creator>
+		<pubDate>Sun, 26 Jun 2022 11:47:17 +0000</pubDate>
+				<category><![CDATA[Guides]]></category>
+		<guid isPermaLink="false">https://netmiko.com/?p=6142</guid>
+
+					<description><![CDATA[<p>This is a simple guide to Spotify App, in this guide I will be teaching you the things you need to know about Spotify, like how you can use it, install it or how you can access different features and stuff, etc. The guide is small but very helpful to you if you read it &#8230;</p>
+<p class="read-more"> <a class="" href="https://netmiko.com/beginners-guide-a-guide-to-spotify/"> <span class="screen-reader-text">[ Beginners Guide ] A Guide to Spotify</span> Read More &#187;</a></p>
+The post <a href="https://netmiko.com/beginners-guide-a-guide-to-spotify/">[ Beginners Guide ] A Guide to Spotify</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></description>
+										<content:encoded><![CDATA[<p>This is a simple guide to Spotify App, in this guide I will be teaching you the things you need to know about Spotify, like how you can use it, install it or how you can access different features and stuff, etc.</p>
+
+
+
+<p>The guide is small but very helpful to you if you read it thoroughly. So lets begin, now first lets know what Spotify is.</p>
+
+
+
+<h2>What is Spotify</h2>
+
+
+
+<p>Spotify is a music streaming service that provides users with unlimited access to over 30 million songs. The service is available in most of the world and offers users a variety of different ways to listen to their favorite artists, from albums and curated playlists, to individual songs. </p>
+
+
+
+<figure class="wp-block-image size-large"><img src="https://netmiko.files.wordpress.com/2022/06/sh.jpg" alt=""/></figure>
+
+
+
+<p>Spotify also offers podcasts and video content, as well as artist-specific pages where they can post photos, videos, and other media.</p>
+
+
+
+<p>Spotify was founded in 2006 by Swedish entrepreneurs Daniel Ek and Martin Lorentzon. The company has since grown into one of the most popular music streaming services in the world with more than 140 million active monthly users. Spotify operates under a freemium model: basic features are free for all.</p>
+
+
+
+<h2>What is Spotify Premium</h2>
+
+
+
+<p>Now the Spotify service runs on a freemium model, which means it gives people free access to some features of their app and limits access to some other features.</p>
+
+
+
+<p>On the regular Spotify app you can listen to songs with ads playing in between the songs, also you get a limit of how many songs you can skip. It also prevents you from downloading songs to your offline storage for offline listening.</p>
+
+
+
+<p>Now what Spotify Premium offers is ad-free, on-demand access to the largest music library in the world.</p>
+
+
+
+<p>The service is available for a monthly fee of $9.99, and for an additional $4.99 users can use Spotify&#8217;s mobile app without ads, download songs for offline listening, and listen to music without interruption from advertisements.</p>
+
+
+
+<h2>Features of Spotify</h2>
+
+
+
+<p><strong>1. High Quality Songs</strong> &#8211; Spotify has very high quality songs that you can listen to. Now the quality of the songs also depends on the version of Spotify you have, like the premium version has much higher quality compared to free version.</p>
+
+
+
+<p><strong>2. Song &amp; Playlist Search</strong> &#8211; On Spotify you can search for individual songs or you can search for playlists made by both individual users and Spotify. You can also search for podcasts that are available on Spotify..</p>
+
+
+
+<p><strong>3. Library</strong> &#8211; You can like songs and those will be added to your liked songs in library, you can also save playlists and podcasts in your library.</p>
+
+
+
+<p><strong>4. Radio</strong> &#8211; Liked a song and want to listen to more songs like that??? Then you can use the &#8216;Go to song Radio&#8217; option to play similar songs to a song you want. To do this just click on the three dots of the song you want, after that click the &#8216; Go to Song Radio &#8216; option.</p>
+
+
+
+<p><strong>5. Lyrics</strong> &#8211; By default the lyrics of the song that is currently playing a displayed at the bottom of the song. So if you want to sing along then you can do that using Spotify without searching for YouTube videos.</p>
+
+
+
+<p><strong>6. Downloading Songs</strong> &#8211; You can download songs you like to your device which you can play later when you are not connected to the internet.</p>
+
+
+
+<p>Now there are lots of different features in Spotify, but the ones I talked about above are the basic ones you need to know.</p>
+
+
+
+<h2>How to Install Spotify</h2>
+
+
+
+<p>To install Spotify in your mobile device or on your pc you can download it from playstore, app store, or windows store or you can download its apk file. The link for the app is below &#8211; </p>
+
+
+
+<div class="dt" dir="ltr" style="text-align: left;" trbidi="on">
+
+<center>
+<span id="countdown">You have to wait 15 seconds.</span></center>
+<br>
+<div style="text-align: center;">
+<b>Download Spotify from Here</b><br>
+<a href="https://aomie.in/netmiko/spotify.html" id="download_link" style="display: none;"><img src="https://netmiko.files.wordpress.com/2022/06/da.jpg"></a>
+<noscript>JavaScript needs to be enabled in order to be able to download.</noscript>
+<script type="application/javascript">
+(function(){
+   var message = "%d seconds before download link appears";
+   // seconds before download link becomes visible
+   var count = 15;
+   var countdown_element = document.getElementById("countdown");
+   var download_link = document.getElementById("download_link");
+   var timer = setInterval(function(){
+      // if countdown equals 0, the next condition will evaluate to false and the else-construct will be executed
+      if (count) {
+          // display text
+          countdown_element.innerHTML = "You have to wait %d seconds.".replace("%d", count);
+          // decrease counter
+          count--;
+      } else {
+          // stop timer
+          clearInterval(timer);
+          // hide countdown
+          countdown_element.style.display = "none";
+          // show download link
+          download_link.style.display = "";
+      }
+   }, 1000);
+})();
+</script>
+</div>
+
+</div>
+
+
+
+<p>Installation requires you to have a little bit of storage empty so make sure you have that.</p>
+
+
+
+<h2>How to Use Spotify</h2>
+
+
+
+<p>Using Spotify is very easy , after you have installed it you need to open the app, here you need to create a Spotify account using your Gmail or mobile number.</p>
+
+
+
+<p>After creating the account you will need to pick a few artist that you like after which you can select the language you want to listen songs in and that&#8217;s it .  You will be greeted to the home page where you can now search for different songs, playlist, podcast etc. and enjoy your day.</p>
+
+
+
+<p>If you want to get rid of the ads or the skip limit then you will need to upgrade to premium plan.</p>
+
+
+
+<h2>Conclusion</h2>
+
+
+
+<p>And that&#8217;s it, and that was the small guide to Spotify.</p>The post <a href="https://netmiko.com/beginners-guide-a-guide-to-spotify/">[ Beginners Guide ] A Guide to Spotify</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>[ Beginners Guide for Bitlife &#8211; Life Simulator ] Playing and Installation Guide</title>
 		<link>https://netmiko.com/beginners-guide-for-bitlife-life-simulator-playing-and-installation-guide/</link>
 		
@@ -59,10 +228,6 @@ The post <a href="https://netmiko.com/beginners-guide-for-bitlife-life-simulator
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="576" height="1024" src="https://netmiko.com/wp-content/uploads/2022/06/image-576x1024.png" alt="" class="wp-image-6119" srcset="https://netmiko.com/wp-content/uploads/2022/06/image-576x1024.png 576w, https://netmiko.com/wp-content/uploads/2022/06/image-169x300.png 169w, https://netmiko.com/wp-content/uploads/2022/06/image-768x1365.png 768w, https://netmiko.com/wp-content/uploads/2022/06/image-864x1536.png 864w, https://netmiko.com/wp-content/uploads/2022/06/image-1152x2048.png 1152w, https://netmiko.com/wp-content/uploads/2022/06/image.png 1242w" sizes="(max-width: 576px) 100vw, 576px" /></figure>
-
-
-
 <p>Now you can create two types of life, first one is a random life and second one is a custom life. So if you want a very random life then choose random, or if you want to add something to your life then choose custom. </p>
 
 
@@ -76,10 +241,6 @@ The post <a href="https://netmiko.com/beginners-guide-for-bitlife-life-simulator
 
 
 <p>As you age you will see different events that happened with you at the top of the screen. Now as you age you will get some random choices that you will need to select, now the choices you make will change how your future becomes, so choose wisely.</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="576" height="1024" src="https://netmiko.com/wp-content/uploads/2022/06/image-1-576x1024.png" alt="" class="wp-image-6120" srcset="https://netmiko.com/wp-content/uploads/2022/06/image-1-576x1024.png 576w, https://netmiko.com/wp-content/uploads/2022/06/image-1-169x300.png 169w, https://netmiko.com/wp-content/uploads/2022/06/image-1-768x1365.png 768w, https://netmiko.com/wp-content/uploads/2022/06/image-1-864x1536.png 864w, https://netmiko.com/wp-content/uploads/2022/06/image-1-1152x2048.png 1152w, https://netmiko.com/wp-content/uploads/2022/06/image-1.png 1242w" sizes="(max-width: 576px) 100vw, 576px" /></figure>
 
 
 
@@ -115,10 +276,6 @@ The post <a href="https://netmiko.com/beginners-guide-for-bitlife-life-simulator
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="576" height="1024" src="https://netmiko.com/wp-content/uploads/2022/06/image-2-576x1024.png" alt="" class="wp-image-6121" srcset="https://netmiko.com/wp-content/uploads/2022/06/image-2-576x1024.png 576w, https://netmiko.com/wp-content/uploads/2022/06/image-2-169x300.png 169w, https://netmiko.com/wp-content/uploads/2022/06/image-2-768x1365.png 768w, https://netmiko.com/wp-content/uploads/2022/06/image-2-864x1536.png 864w, https://netmiko.com/wp-content/uploads/2022/06/image-2-1152x2048.png 1152w, https://netmiko.com/wp-content/uploads/2022/06/image-2.png 1242w" sizes="(max-width: 576px) 100vw, 576px" /></figure>
-
-
-
 <h2>How to Install BitLife &#8211; Life Simulator?</h2>
 
 
@@ -134,7 +291,7 @@ The post <a href="https://netmiko.com/beginners-guide-for-bitlife-life-simulator
 <br>
 <div style="text-align: center;">
 <b>Download APK from Here</b><br>
-<a href="https://cdn.ezjojoy.com/packages/com.candywriter.bitlife/BitLife_3.2.4_231_13c2a1.apk" id="download_link" style="display: none;"><img src="https://netmiko.com/wp-content/uploads/2022/06/da.jpg"></a>
+<a href="https://cdn.ezjojoy.com/packages/com.candywriter.bitlife/BitLife_3.2.4_231_13c2a1.apk" id="download_link" style="display: none;"><img src="https://netmiko.files.wordpress.com/2022/06/da.jpg"></a>
 <noscript>JavaScript needs to be enabled in order to be able to download.</noscript>
 <script type="application/javascript">
 (function(){
@@ -1117,67 +1274,6 @@ define('FTP_PLUGIN_DIR ', '/data/wwwroot/default/wp-content/plugins/');
 <p>A WordPress website that is hosted on Alibaba Cloud free trial can handle at least <em>1500 to 3000 users per day</em> with proper caching and optimization. If you use a CDN for both images and static resources then the website can easily handle more than 3000+ visitors per day.</p>The post <a href="https://netmiko.com/host-wordpress-on-alibaba-cloud-free/">How to Host a WordPress Website on Alibaba Cloud for Free</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></content:encoded>
 					
 					<wfw:commentRss>https://netmiko.com/host-wordpress-on-alibaba-cloud-free/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>How to Save Screen Recording directly to USB/SD card in Android</title>
-		<link>https://netmiko.com/save-screen-recording-to-usb-and-sdcard-directly/</link>
-					<comments>https://netmiko.com/save-screen-recording-to-usb-and-sdcard-directly/#respond</comments>
-		
-		<dc:creator><![CDATA[AOMIE]]></dc:creator>
-		<pubDate>Tue, 21 Dec 2021 13:05:08 +0000</pubDate>
-				<category><![CDATA[Blog]]></category>
-		<guid isPermaLink="false">https://netmiko.com/?p=2014</guid>
-
-					<description><![CDATA[<p>Today I will show you how you can save the screen recordings of your android device directly to the SD card or an external USB/Flash drive without saving them in the internal storage of your android device. As you know that all the screen recording that you do using your phone’s screen recorder is saved &#8230;</p>
-<p class="read-more"> <a class="" href="https://netmiko.com/save-screen-recording-to-usb-and-sdcard-directly/"> <span class="screen-reader-text">How to Save Screen Recording directly to USB/SD card in Android</span> Read More &#187;</a></p>
-The post <a href="https://netmiko.com/save-screen-recording-to-usb-and-sdcard-directly/">How to Save Screen Recording directly to USB/SD card in Android</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></description>
-										<content:encoded><![CDATA[<p>Today I will show you how you can save the screen recordings of your android device directly to the SD card or an external USB/Flash drive without saving them in the internal storage of your android device.</p>
-<p>As you know that all the screen recording that you do using your phone’s screen recorder is saved in the internal storage of your phone, it doesn&#8217;t give you the option to save the recording somewhere else, like on an sd card or USB. </p>
-<p>Now to fix that you can easily download a third-party screen recorder which gives you the option to save your screen recording using that app on your sd card, but the problem with using a third-party screen recorder is that you will have a watermark on your recording, which is something that doesn&#8217;t look professional and is better to avoid.</p>
-<p>If your phone doesn&#8217;t have a pre-installed screen recorder and you are using a third-party screen recorder then don&#8217;t worry, I&#8217;ll show you how you can <em>save screen recording directly to sd card/USB</em> on both third-party apps and pre-installed screen recorders on our phone.</p>
-<h2>Inbuilt Screen Recorder<br />
-</h2>
-<p>If you are trying to directly save screen recording done by the inbuilt screen recorder of your phone, then here is how you can do it. </p>
-<p>To begin first open the play store, here in the play store search for “Auto Move to SD Card”, the app developer is GoNext, you can also click on this link to download the app from play store &#8211; <a href="https://play.google.com/store/apps/details?id=com.gonext.automovetosdcard">https://play.google.com/store/apps/details?id=com.gonext.automovetosdcard</a>. Install it, but don&#8217;t open it.</p>
-<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/download-auto-move-to-sdcard-app-1024x400.png" alt="download auto move to sdcard app" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/download-auto-move-to-sdcard-app-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/download-auto-move-to-sdcard-app-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/download-auto-move-to-sdcard-app-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/download-auto-move-to-sdcard-app.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
-<p>Now you will need to find out the location where your inbuilt screen recorder saves its recorded files, to do that first open your screen recorder and create a small recording, save it, and after that open your file manager.</p>
-<p>In file manager search for your screen recording, most of the time it is stored in the “<em>DCIM&gt;Screen Recorder</em>” folder of your internal storage, but if it&#8217;s not there then you will need to find it manually. Once you find the Screen Recording folder you can proceed to the next step.</p>
-<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/find-file-path-of-screen-recordings-1024x480.png" alt="find file path of screen recordings" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/find-file-path-of-screen-recordings-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/find-file-path-of-screen-recordings-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/find-file-path-of-screen-recordings-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/find-file-path-of-screen-recordings.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
-<p>Now take your sd card or a USB and insert it into your android phone, after that open the downloaded Auto Move to SD Card app.</p>
-<p>Here on the home screen click on the “<em>Start Now</em>” button and skip the tutorial that the app shows, After that click on the green “<em>Auto Transfer</em>” button.</p>
-<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/open-and-start-auto-move-to-sd-card-app-1024x480.png" alt="open and start auto move to sd card app" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/open-and-start-auto-move-to-sd-card-app-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/open-and-start-auto-move-to-sd-card-app-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/open-and-start-auto-move-to-sd-card-app-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/open-and-start-auto-move-to-sd-card-app.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
-<p>In the Auto Transfer tab you will need to choose the source folder and the destination folder, in the <em>source folder</em> you will need to select the folder where your screen recordings are stored after finishing.</p>
-<p>In my case it will be “<em>Internal Storage/DCIM/Screen Recordings</em>”, it might or might not be different for you.</p>
-<p>The <em>destination folder</em> will be the folder in the SD card or USB where you want to screen recording to go directly instead of saving in the internal storage of the phone. After selecting the folder just turn the automatic transfer “ON” by clicking on the button at the top right.</p>
-<p>															<img width="1024" height="480" src="https://netmiko.com/wp-content/uploads/2021/12/select-source-and-destination-and-turn-on-the-app-1024x480.png" alt="select source and destination and turn on the app" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/select-source-and-destination-and-turn-on-the-app-1024x480.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/select-source-and-destination-and-turn-on-the-app-300x141.png 300w, https://netmiko.com/wp-content/uploads/2021/12/select-source-and-destination-and-turn-on-the-app-768x360.png 768w, https://netmiko.com/wp-content/uploads/2021/12/select-source-and-destination-and-turn-on-the-app.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
-<p>Now every file that goes into the Screen Recording folder will be automatically transferred to the SD card or USB.</p>
-<h2>Fix Auto Move to SD card not working<br />
-</h2>
-<p>Okay so after turning on auto transfer in the app with the location selected, if it&#8217;s not working and the screen recordings are still getting saved in your internal phone storage then here are the possible reasons and fixes.</p>
-<p><b>1. Background Running &#8211; </b>This app runs in the background and moves every file created in the source folder to the destination folder, which means that if your phone doesn&#8217;t allow it to run in the background then this app will not work.</p>
-<p>To fix this, go to the app setting then select the Auto move to SD card app and then turn on “<em>Autostart</em>”, after that in Background settings <em>allow it to run in the background</em> instead of restricting it from running in the background.</p>
-<p><b>2. Turn Off Battery Saver &#8211; </b>If you have the battery saver turned on then turn it off, battery saver stops apps running in the background which means that it will prevent the Auto Move to Sd card app from running properly. </p>
-<p><b>3. Recheck Source and Destination &#8211; </b>You might wanna check the source and destination in the app, check if it is in the right place or not. Sometimes people just select a different folder and wonder why the app is not working.</p>
-<p>Make sure the source is the folder where your screen recordings get saved by default, and the destination folder is the SD Card / USB where you want the screen recording to go.</p>
-<p><b>4. Check Compatibility &#8211; </b>If you are using a very old phone, or a cheap Chinese phone, then there might be a chance that the Auto Move to SD Card <em>app is not compatible with your android phone</em>. With the recent changes in google’s policy, there are lots of features that require additional permissions to work.</p>
-<h2>Third Party Screen Recorder</h2>
-<p>If you want the third-party screen recorder that you downloaded from the play store to save the screen recordings directly to the SD card / USB instead of the internal storage of your android phone then here is how you can do that.</p>
-<p>All you need to do is first open the screen recorder, I am using Xscreen recorder so here are the steps for it, the steps will be the same for all third-party screen recorders.</p>
-<p>Go to settings, here look for “Save location, Recording location or storage location”, it will be different for different apps, now it will give you two options, you can choose to either save the Screen Recordings of that app in your internal storage or SD Card, just <em>select SD Card</em>.</p>
-<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/change-save-location-in-screen-recorder-1024x400.png" alt="change save location in screen recorder" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/change-save-location-in-screen-recorder-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/change-save-location-in-screen-recorder-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/change-save-location-in-screen-recorder-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/change-save-location-in-screen-recorder.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
-<p>All your screen recording done by that app will now get stored in the SD Card or the USB connected to your Android phone.</p>
-<h2>Manually Move Screen Recordings</h2>
-<p>Okay so here’s the easiest way to save the screen recordings to your SD card or USB, all you need to do is open your file manager, here open the folder where your screen recordings are stored.</p>
-<p>Here, inside the Screen Recordings folder <em>long press</em> and select all the videos that you want to move to SD Card / USB, after that click on the <em>move</em> option and select the location where you want to move it, in our case, it will be SD card, so just select the SD card and click on “<em>Paste</em>” to move the Screen recording from Internal Storage to SD Card.</p>
-<p>															<img width="1024" height="400" src="https://netmiko.com/wp-content/uploads/2021/12/move-screen-recording-manually-to-sd-card-1024x400.png" alt="move screen recording manually to sd card" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/12/move-screen-recording-manually-to-sd-card-1024x400.png 1024w, https://netmiko.com/wp-content/uploads/2021/12/move-screen-recording-manually-to-sd-card-300x117.png 300w, https://netmiko.com/wp-content/uploads/2021/12/move-screen-recording-manually-to-sd-card-768x300.png 768w, https://netmiko.com/wp-content/uploads/2021/12/move-screen-recording-manually-to-sd-card.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />															</p>
-<p>That&#8217;s it, it will take some time to finish if your screen recording size is very big. And that is how you can Save Screen Recording directly to a USB/SD card in Android. Just use any method that you find easier to do and does not require that much effort.</p>
-<p>If the Auto move to SD card app is not working for you then you can use any other <em>alternative apps</em> like Auto File Transfer, Move to SD Card, Link2SD, etc, all these apps will work just fine.</p>
-<p>Thanks for reading, if you are having any problems then comment below.</p>The post <a href="https://netmiko.com/save-screen-recording-to-usb-and-sdcard-directly/">How to Save Screen Recording directly to USB/SD card in Android</a> appeared first on <a href="https://netmiko.com">NETMIKO.COM</a>.]]></content:encoded>
-					
-					<wfw:commentRss>https://netmiko.com/save-screen-recording-to-usb-and-sdcard-directly/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

@@ -79,6 +79,15 @@ flexibility(document.documentElement);
 <link rel="shortlink" href="https://netmiko.com/?p=1302">
 <link rel="alternate" type="application/json+oembed" href="https://netmiko.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnetmiko.com%2Finstall-apache-spark-on-ubuntu%2F">
 <link rel="alternate" type="text/xml+oembed" href="https://netmiko.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnetmiko.com%2Finstall-apache-spark-on-ubuntu%2F&#038;format=xml">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com/">
+<meta property="og:image" content="https://netmiko.com/wp-content/uploads/2021/11/How-to-install-Apache-Spark-on-Ubuntu-20.04.png">
+<meta property="og:title" content="How to Install Apache Spark on Ubuntu 20.04">
+<meta property="og:description" content="">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Install Apache Spark on Ubuntu 20.04">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://netmiko.com/wp-content/uploads/2021/11/How-to-install-Apache-Spark-on-Ubuntu-20.04.png">
 <link rel="pingback" href="https://netmiko.com/xmlrpc.php">
 <link rel="icon" href="https://netmiko.com/wp-content/uploads/2021/09/favicon-150x150.png" sizes="32x32">
 <link rel="icon" href="https://netmiko.com/wp-content/uploads/2021/09/favicon-300x300.png" sizes="192x192">
@@ -384,7 +393,17 @@ div#comments,section.no-results.not-found{
     background-color: #000 !important;
 }
 }</style>
-		</head>
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-196633016-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-196633016-1');
+</script>
+
+</head>
 
 <body itemtype="https://schema.org/Blog" itemscope="itemscope" class="post-template-default single single-post postid-1302 single-format-standard wp-custom-logo ast-blog-single-style-1 ast-single-post ast-inherit-site-logo-transparent ast-hfb-header ast-desktop ast-separate-container ast-left-sidebar astra-3.8.4 ast-full-width-primary-header ast-normal-title-enabled">
 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0.49803921568627"></fefuncr><fefuncg type="table" tablevalues="0 0.49803921568627"></fefuncg><fefuncb type="table" tablevalues="0 0.49803921568627"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.54901960784314 0.98823529411765"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.71764705882353 0.25490196078431"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 1"></fefuncr><fefuncg type="table" tablevalues="0 0.27843137254902"></fefuncg><fefuncb type="table" tablevalues="0.5921568627451 0.27843137254902"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0 0"></fefuncr><fefuncg type="table" tablevalues="0 0.64705882352941"></fefuncg><fefuncb type="table" tablevalues="0 1"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.78039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.94901960784314"></fefuncg><fefuncb type="table" tablevalues="0.35294117647059 0.47058823529412"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.65098039215686 0.40392156862745"></fefuncr><fefuncg type="table" tablevalues="0 1"></fefuncg><fefuncb type="table" tablevalues="0.44705882352941 0.4"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><fecolormatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></fecolormatrix><fecomponenttransfer color-interpolation-filters="sRGB"><fefuncr type="table" tablevalues="0.098039215686275 1"></fefuncr><fefuncg type="table" tablevalues="0 0.66274509803922"></fefuncg><fefuncb type="table" tablevalues="0.84705882352941 0.41960784313725"></fefuncb><fefunca type="table" tablevalues="1 1"></fefunca></fecomponenttransfer><fecomposite in2="SourceGraphic" operator="in"></fecomposite></filter></defs></svg>
@@ -705,7 +724,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <h2><span id="Create_a_Directory_for_Apache_Spark">Create a Directory for Apache Spark<br>
 </span></h2>
 <p>Okay, so the first step will be to create a new directory in the home directory where we will download and Install Apache Spark.</p>
-<div class="TqMNcTqw" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="B8K4691D" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic -  First_ad - under_second_paragraph -->
 <div>
 <div id="ezoic-pub-ad-placeholder-648"> </div>
@@ -720,7 +739,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <h2><span id="Install_Java_Development_kit_JDK">Install Java Development kit (JDK)<br>
 </span></h2>
 <p>Now, to be able to run and use Apache Spark we will need Java JDK installed in our Ubuntu system. To check whether you have java installed on your Ubuntu you can run the following command in the terminal.</p>
-<div class="ksjCWiiQ" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="PxDEOlgj" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic -  second_ad - mid_content -->
 <div>
 <div id="ezoic-pub-ad-placeholder-649"> </div>
@@ -736,7 +755,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <h2><span id="Download_Apache_Spark">Download Apache Spark<br>
 </span></h2>
 <p>You can download Apache Spark through a web browser or you can download it using the terminal. I’ll show you both ways, first, I’ll show you how you can download Apache Spark using the terminal. </p>
-<div class="fEeWwh4i" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="rDRqRwQ7" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - longer_content - longer_content -->
 <div>
 <div id="ezoic-pub-ad-placeholder-652"> </div>
@@ -752,7 +771,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">apt-get install wget
 </code></pre>
 <p>After installing wget, enter the following command to install the latest version of Apache Spark, which is currently 3.2.0.</p>
-<div class="WrvvvYtz" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="YpTr37OG" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - longest_content - longest_content -->
 <div>
 <div id="ezoic-pub-ad-placeholder-653"> </div>
@@ -765,7 +784,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>You can get links for different versions from <a href="https://spark.apache.org/downloads.html">https://spark.apache.org/downloads.html</a>.</p>
 <h3><span id="Download_Apache_Spark_using_Browser">Download Apache Spark using Browser </span></h3>
 <p>If you want to download Apache spark using the web browser then just go to this link here – <a href="https://spark.apache.org/downloads.html">https://spark.apache.org/downloads.html</a>.</p>
-<div class="JoyhoB7c" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="4y734r9C" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_5 - incontent_5 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-654"> </div>
@@ -775,7 +794,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>Here select the version of Apache Spark you want to install in the first dropdown, in the second dropdown select the package type, after you select the version and package type of Apache Spark, you will get the download link in the 3rd line.</p>
 <p>															<img width="1024" height="576" src="https://netmiko.com/wp-content/uploads/2021/11/select-apache-spark-version-to-download-1024x576.png" alt="select apache spark version to download" loading="lazy" srcset="https://netmiko.com/wp-content/uploads/2021/11/select-apache-spark-version-to-download-1024x576.png 1024w, https://netmiko.com/wp-content/uploads/2021/11/select-apache-spark-version-to-download-300x169.png 300w, https://netmiko.com/wp-content/uploads/2021/11/select-apache-spark-version-to-download-768x432.png 768w, https://netmiko.com/wp-content/uploads/2021/11/select-apache-spark-version-to-download.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px">															</p>
 <p>Click on the download link, You will be redirected to another page with the download links for Apache Spark. Click on the top link to start the download. </p>
-<div class="IUVCD8Q6" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="IIc9FVIi" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_6 - incontent_6 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-655"> </div>
@@ -787,7 +806,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <p>You can also copy that link and download it from the terminal using wget.</p>
 </blockquote>
 <p>After downloading Apache Spark, right-click the downloaded file and move it to the “spark” folder that you created in the home directory.</p>
-<div class="I4vjnKti" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="v3TXBS4r" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_7 - incontent_7 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-656"> </div>
@@ -801,7 +820,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 <pre class="theme-okaidia" data-show-toolbar="yes"><code class="language-javascript">tar -xvf spark-3.2.0-bin-hadoop3.2.tgz
 </code></pre>
 <p>After you untar the tar file, you will need to set up the <em>environment variable path</em> for Apache Spark. To do that first change your working directory to home directory using the command below –</p>
-<div class="mBouyrPE" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="SrTN7A5A" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_8 - incontent_8 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-657"> </div>
@@ -817,7 +836,7 @@ function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if
 export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
 </code></pre>
 <p>Change “username” to your own username, the file name at the end will be the name of the tar file that you untar-ed. After that on the top right corner click on the save button and exit the editor.</p>
-<div class="bdO5scW1" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="9FKpeHhx" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_9 - incontent_9 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-658"> </div>
@@ -831,7 +850,7 @@ export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
 <h2><span id="Verify_the_Installation_of_Apache_Spark">Verify the Installation of Apache Spark<br>
 </span></h2>
 <p>Now, the last step in the installation of Apache Spark will be to verify whether Spark was installed correctly or not. You can do that by entering the following command in the terminal –</p>
-<div class="mEPVQnrG" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="2PfJPzei" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_10 - incontent_10 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-659"> </div>
@@ -862,7 +881,7 @@ export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
 </div></div>
 <div class="lL" style="max-width:100%;width:640px;margin:5px;"></div>
 <p>And, that is how you can install Apache Spark on Ubuntu 20.04. If you are facing any problem with the installation then comment below or contact me on Twitter. Thank you.</p>
-<div class="Ufbv3H4G" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="mDoJNiX9" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_11 - incontent_11 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-660"> </div>
@@ -878,7 +897,7 @@ export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
 <h3><span id="How_to_Fix_Apache_Spark_crashing_on_Ubuntu">How to Fix Apache Spark crashing on Ubuntu?<br>
 </span></h3>
 <p>Whenever you are running Spark on your ubuntu, make sure that there is plenty of RAM available. Allocate at least 80% of your RAM to Apache Spark for its proper working.</p>
-<div class="UgacpwcM" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
+<div class="nsTmYrMu" style="clear:both;float:left;width:100%;margin:0 0 20px 0;">
 <!-- Ezoic - incontent_12 - incontent_12 -->
 <div>
 <div id="ezoic-pub-ad-placeholder-661"> </div>
@@ -960,6 +979,10 @@ export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
 var astra = {"break_point":"921","isRtl":""};
 </script>
 <script src="https://netmiko.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=3.8.4" id="astra-theme-js-js"></script>
+<script id="fifu-image-js-js-extra">
+var fifuImageVars = {"fifu_lazy":"","fifu_woo_lbox_enabled":"1","fifu_woo_zoom":"inline","fifu_is_product":"","fifu_is_flatsome_active":"","fifu_rest_url":"https:\/\/netmiko.com\/wp-json\/","fifu_nonce":"064f72e339"};
+</script>
+<script src="https://netmiko.com/wp-content/plugins/featured-image-from-url/includes/html/js/image.js?ver=3.9.9" id="fifu-image-js-js"></script>
 <script src="https://netmiko.com/wp-content/plugins/luckywp-table-of-contents/front/assets/main.min.js?ver=2.1.4" id="lwptoc-main-js"></script>
 <script type="text/javascript" id="flying-scripts">const loadScriptsTimer=setTimeout(loadScripts,5*1000);const userInteractionEvents=["mouseover","keydown","touchstart","touchmove","wheel"];userInteractionEvents.forEach(function(event){window.addEventListener(event,triggerScriptLoader,{passive:!0})});function triggerScriptLoader(){loadScripts();clearTimeout(loadScriptsTimer);userInteractionEvents.forEach(function(event){window.removeEventListener(event,triggerScriptLoader,{passive:!0})})}
 function loadScripts(){document.querySelectorAll("script[data-type='lazy']").forEach(function(elem){elem.setAttribute("src",elem.getAttribute("data-src"))})}</script>
